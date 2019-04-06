@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>帐号登录</title>
+
+    <script th:src="@{/lib/jquery/jquery-3.3.1.min.js}"></script>
+    <link rel="stylesheet" type="text/css"  th:href="@{/lib/bootstrap/css/bootstrap.css}">
+    <script th:src="@{/js/user/login.js}"></script>
+
+    <script>
+        var num = 110;
+
+    </script>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #b8daff;
+        }
+
+
+        #login-table{
+            position: relative;
+            top: 30% ;
+            left: 40%;
+
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div id="login-table">
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <label for="login-loginName" class="col-sm-12 control-label">帐号</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="login-loginName" placeholder="请输入昵称/邮箱/电话">
+                    <span id="login-loginName-warn" style="color: red"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="login-loginPassword" class="col-sm-12 control-label">密码</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="login-loginPassword" placeholder="请输入密码">
+                    <span id="login-loginPassword-warn" style="color: red"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="login-rememberMe-select">请记住我
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button id="login-submit-btn" type="button" class="btn btn-default">登录</button>
+                    忘记密码?<a  href="">找回密码</a>
+                    <span id="login-submit-btn-warn" style="color: red"></span>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="login-success" style="display: none">
+        <div>
+            <a th:href="@{/home}">登录成功,点击跳转到主页面......</a>
+        </div>
+    </div>
+
+
+
+
+</div>
+</body>
+</html>

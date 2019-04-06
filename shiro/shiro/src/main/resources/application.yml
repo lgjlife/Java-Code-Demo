@@ -1,0 +1,64 @@
+#springboot 配置文件
+#服务器相关----------------------------------------------------------
+server:
+  port: 8080
+  servlet:
+    context-path: /shiro
+    #配置应用上下文path,默认为"/",更改后访问地址http://localhost:8080/spring/boot/xxx/xxx/xxx
+    #
+  #  context-path: /spring/boot
+
+
+#spring---------------------------------------------------------------
+spring:
+  datasource:
+    name: mysqldatasource
+    url: jdbc:mysql://localhost:3306/shiro?characterEncoding=utf-8&&useSSL=false
+    username: root
+    password: 563739007
+   # type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+  #spring-thymeleaf模板配置-------------------------------------------------
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+  #spring-redis相关配置---------------------------------------------------
+  redis:
+    #host地址
+    host: 127.0.0.1
+    #端口
+    port: 6379
+    jedis:
+      pool:
+        #最大连接数 0表示无限制
+        max-active: 8
+        #最大空闲处
+        max-idle: 100
+        #最大等待时间
+        max-wait: 1000
+        #连接池中的最小空闲连接
+        min-idle: 0
+ # mvc:
+  #  spring.mvc.static-path-pattern: /resources/**
+  #resources:
+   # static-locations: classpath:/static/**
+
+
+
+
+
+mybatis:
+  mapper-locations: com.shiro.dao.mapper.*
+
+####################  swagger  ##########################
+swagger:
+      basePackage: com.shiro.controller
+      title: Shiro 权限管理系统
+      description: 基SpringBoot的Shiro 权限管理系统
+      version: V1.0
+      contactName: lgj
+      contactUrl: https://blog.csdn.net/u011676300
+
+
+

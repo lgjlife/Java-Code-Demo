@@ -1,0 +1,14 @@
+2018-06-28 00:00:26.105 [http-nio-8081-exec-1] WARN  com.log.log.LogController Line:16 ----------------> LogController======warn
+2018-06-28 00:00:26.106 [http-nio-8081-exec-1] ERROR com.log.log.LogController Line:17 ----------------> LogController======error
+2018-06-28 00:00:30.538 [http-nio-8081-exec-4] WARN  com.log.log.LogController Line:16 ----------------> LogController======warn
+2018-06-28 00:00:30.539 [http-nio-8081-exec-4] ERROR com.log.log.LogController Line:17 ----------------> LogController======error
+2018-06-28 00:00:31.205 [http-nio-8081-exec-5] WARN  com.log.log.LogController Line:16 ----------------> LogController======warn
+2018-06-28 00:00:31.206 [http-nio-8081-exec-5] ERROR com.log.log.LogController Line:17 ----------------> LogController======error
+2018-06-28 00:00:32.193 [http-nio-8081-exec-7] WARN  com.log.log.LogController Line:16 ----------------> LogController======warn
+2018-06-28 00:00:32.193 [http-nio-8081-exec-7] ERROR com.log.log.LogController Line:17 ----------------> LogController======error
+2018-06-28 00:00:32.755 [http-nio-8081-exec-9] WARN  com.log.log.LogController Line:16 ----------------> LogController======warn
+2018-06-28 00:00:32.756 [http-nio-8081-exec-9] ERROR com.log.log.LogController Line:17 ----------------> LogController======error
+2018-06-28 00:00:33.474 [http-nio-8081-exec-1] WARN  com.log.log.LogController Line:16 ----------------> LogController======warn
+2018-06-28 00:00:33.475 [http-nio-8081-exec-1] ERROR com.log.log.LogController Line:17 ----------------> LogController======error
+2018-06-28 00:00:34.115 [http-nio-8081-exec-4] WARN  com.log.log.LogController Line:16 ----------------> LogController======warn
+2018-06-28 00:00:34.116 [http-nio-8081-exec-4] ERROR com.log.log.LogController Line:17 ----------------> LogController======error

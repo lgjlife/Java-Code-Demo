@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Shiro权限管理系统主页</title>
+
+    <script th:src="@{/lib/jquery/jquery-3.3.1.min.js}"></script>
+    <link rel="stylesheet" type="text/css"  th:href="@{/lib/bootstrap/css/bootstrap.css}">
+
+    <script th:src="@{/js/base.js}"></script>
+    <script th:src="@{/js/user/logout.js}"></script>
+
+    <script>
+        $("#home-logout").click(function () {
+            console.log("logout ....");
+        })
+    </script>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #FFF8DC;
+        }
+
+        #title{
+            position: absolute;
+            top: 5% ;
+            left: 25%;
+            font-size: 70px;
+        }
+
+        #home-current-user{
+            position: absolute;
+            top: 22% ;
+            left: 25%;
+            font-size: 25px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="home">
+        <div id="title">
+            <span>Shiro 权限管理系统</span>
+        </div>
+
+        <div id="home-current-user">
+            当前登录的用户为：<span th:text="${loginName}"></span>
+            <a href="javascript:void(0);" id = "home-logout">退出登录</a>
+        </div>
+
+
+    </div>
+
+</body>
+</html>

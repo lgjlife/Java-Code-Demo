@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="actuator" />
+        <module name="aop" />
+        <module name="config" />
+        <module name="demo" />
+        <module name="ErrorHandling" />
+        <module name="Mail" />
+        <module name="mybatis" />
+        <module name="redis" />
+        <module name="schedular" />
+        <module name="Swagger" />
+        <module name="war" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lombok" target="1.8" />
+      <module name="Redis" target="1.8" />
+      <module name="SpringBootConfig" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

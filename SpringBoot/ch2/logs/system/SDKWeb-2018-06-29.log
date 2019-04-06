@@ -1,0 +1,1396 @@
+2018-06-29 18:44:46.290 [restartedMain] INFO  com.Application Line:50 ----------------> Starting Application on lgj-Lenovo-G470 with PID 27890 (/home/lgj/aProject/SpringBootStudy/ch4/target/classes started by lgj in /home/lgj/aProject/SpringBootStudy/ch2)
+2018-06-29 18:44:46.292 [restartedMain] INFO  com.Application Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-06-29 18:44:46.343 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:590 ----------------> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@558de6e9: startup date [Fri Jun 29 18:44:46 CST 2018]; root of context hierarchy
+2018-06-29 18:44:48.620 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:91 ----------------> Tomcat initialized with port(s): 8080 (http)
+2018-06-29 18:44:48.654 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:44:48.687 [restartedMain] INFO  org.apache.catalina.core.StandardService Line:180 ----------------> Starting service [Tomcat]
+2018-06-29 18:44:48.687 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Line:180 ----------------> Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-29 18:44:48.713 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener Line:180 ----------------> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-06-29 18:44:48.881 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring embedded WebApplicationContext
+2018-06-29 18:44:48.881 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader Line:285 ----------------> Root WebApplicationContext: initialization completed in 2538 ms
+2018-06-29 18:44:49.005 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean Line:186 ----------------> Servlet dispatcherServlet mapped to [/]
+2018-06-29 18:44:49.009 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 18:44:49.010 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 18:44:49.010 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 18:44:49.010 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 18:44:49.448 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:44:49.639 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@558de6e9: startup date [Fri Jun 29 18:44:46 CST 2018]; root of context hierarchy
+2018-06-29 18:44:49.690 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-06-29 18:44:49.691 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(int)
+2018-06-29 18:44:49.699 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-06-29 18:44:49.699 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-06-29 18:44:49.700 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-06-29 18:44:49.700 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-06-29 18:44:49.700 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-06-29 18:44:49.701 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-06-29 18:44:49.701 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-06-29 18:44:49.702 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-06-29 18:44:49.702 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-06-29 18:44:49.704 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-06-29 18:44:49.704 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-06-29 18:44:49.707 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 18:44:49.707 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-29 18:44:49.731 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:44:49.731 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:44:50.163 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer Line:57 ----------------> LiveReload server is running on port 35729
+2018-06-29 18:44:50.230 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:433 ----------------> Registering beans for JMX exposure on startup
+2018-06-29 18:44:50.233 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:895 ----------------> Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-29 18:44:50.241 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:668 ----------------> Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-29 18:44:50.269 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Starting ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:44:50.283 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 ----------------> Using a shared selector for servlet write/read
+2018-06-29 18:44:50.313 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:206 ----------------> Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-29 18:44:50.320 [restartedMain] INFO  com.Application Line:59 ----------------> Started Application in 5.203 seconds (JVM running for 7.138)
+2018-06-29 18:45:54.399 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 18:45:54.399 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:494 ----------------> FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-29 18:45:54.425 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:509 ----------------> FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-06-29 18:45:54.460 [http-nio-8080-exec-1] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:28.467 [http-nio-8080-exec-3] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:32.340 [http-nio-8080-exec-5] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:33.599 [http-nio-8080-exec-7] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:34.021 [http-nio-8080-exec-9] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:34.349 [http-nio-8080-exec-1] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:34.837 [http-nio-8080-exec-3] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:35.181 [http-nio-8080-exec-5] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:35.654 [http-nio-8080-exec-7] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:36.311 [http-nio-8080-exec-9] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:37.063 [http-nio-8080-exec-1] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:37.679 [http-nio-8080-exec-3] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:38.565 [http-nio-8080-exec-5] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:39.314 [http-nio-8080-exec-7] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:46:40.325 [http-nio-8080-exec-9] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:47:46.846 [Thread-5] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:993 ----------------> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@558de6e9: startup date [Fri Jun 29 18:44:46 CST 2018]; root of context hierarchy
+2018-06-29 18:47:46.852 [Thread-5] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:451 ----------------> Unregistering JMX-exposed beans on shutdown
+2018-06-29 18:47:46.854 [Thread-5] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:183 ----------------> Unregistering JMX-exposed beans
+2018-06-29 18:47:47.348 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:47:47.392 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 32, column 1:
+    spring.mvc.view.prefix=classpath ... 
+    ^
+could not find expected ':'
+ in 'reader', line 33, column 1:
+    # 给返回的页面添加后缀名
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:48:06.857 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:48:06.870 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 35, column 1:
+    spring.mvc.view.prefix=classpath ... 
+    ^
+could not find expected ':'
+ in 'reader', line 36, column 1:
+    # 给返回的页面添加后缀名
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:585)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:133)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:48:16.304 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:48:16.320 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 36, column 1:
+    spring.mvc.view.prefix=classpath ... 
+    ^
+could not find expected ':'
+ in 'reader', line 37, column 1:
+    # 给返回的页面添加后缀名
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:585)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:133)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:48:18.735 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:48:18.752 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 36, column 1:
+    spring.mvc.view.prefix=classpath ... 
+    ^
+could not find expected ':'
+ in 'reader', line 37, column 1:
+    # 给返回的页面添加后缀名
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:585)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:133)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:48:31.190 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:48:31.204 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 38, column 1:
+    spring.mvc.view.prefix=classpath ... 
+    ^
+could not find expected ':'
+ in 'reader', line 39, column 1:
+    # 给返回的页面添加后缀名
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:585)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:133)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:48:49.645 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:48:49.670 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 38, column 1:
+    spring.mvc.view.prefix=classpath ... 
+    ^
+could not find expected ':'
+ in 'reader', line 39, column 1:
+    # 给返回的页面添加后缀名
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:585)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:133)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:48:56.085 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:48:56.097 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 37, column 1:
+    spring.mvc.view.suffix=.html
+    ^
+could not find expected ':'
+ in 'reader', line 38, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:48:59.504 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:48:59.520 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 37, column 1:
+    spring.mvc.view.suffix=.html
+    ^
+could not find expected ':'
+ in 'reader', line 38, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:49:01.935 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:49:01.963 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 38, column 1:
+    spring.mvc.view.suffix=.html
+    ^
+could not find expected ':'
+ in 'reader', line 39, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:49:14.390 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:49:14.408 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 39, column 1:
+    spring.mvc.view.suffix=.html
+    ^
+could not find expected ':'
+ in 'reader', line 40, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:49:19.824 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:49:19.851 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 39, column 1:
+    spring.mvc.view.suffix=.html
+    ^
+could not find expected ':'
+ in 'reader', line 40, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:49:22.258 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:49:22.274 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 39, column 1:
+    spring.mvc.view.suffix=.html
+    ^
+could not find expected ':'
+ in 'reader', line 40, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:49:29.689 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:49:29.730 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 39, column 1:
+    spring.mvc.view.suffix=.html
+    ^
+could not find expected ':'
+ in 'reader', line 40, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:49:36.148 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:49:36.179 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 39, column 1:
+    spring.mvc.view.suffix=.html
+    ^
+could not find expected ':'
+ in 'reader', line 40, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:49:38.592 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:49:38.609 [restartedMain] ERROR org.springframework.boot.SpringApplication Line:842 ----------------> Application run failed
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:538)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadForFileExtension(ConfigFileApplicationListener.java:497)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:465)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$null$6(ConfigFileApplicationListener.java:447)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.lambda$load$7(ConfigFileApplicationListener.java:446)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:443)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:335)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:197)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:184)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:170)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.Application.main(Application.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 40, column 1:
+    spring.mvc.view.suffix=.html
+    ^
+could not find expected ':'
+ in 'reader', line 41, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:75)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadDocuments(ConfigFileApplicationListener.java:556)
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:518)
+	... 28 common frames omitted
+2018-06-29 18:49:42.017 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:49:42.086 [restartedMain] INFO  com.Application Line:50 ----------------> Starting Application on lgj-Lenovo-G470 with PID 27890 (/home/lgj/aProject/SpringBootStudy/ch4/target/classes started by lgj in /home/lgj/aProject/SpringBootStudy/ch2)
+2018-06-29 18:49:42.086 [restartedMain] INFO  com.Application Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-06-29 18:49:42.091 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:590 ----------------> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@39b8b89d: startup date [Fri Jun 29 18:49:42 CST 2018]; root of context hierarchy
+2018-06-29 18:49:43.253 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:91 ----------------> Tomcat initialized with port(s): 8080 (http)
+2018-06-29 18:49:43.254 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:49:43.255 [restartedMain] INFO  org.apache.catalina.core.StandardService Line:180 ----------------> Starting service [Tomcat]
+2018-06-29 18:49:43.255 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Line:180 ----------------> Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-29 18:49:43.264 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring embedded WebApplicationContext
+2018-06-29 18:49:43.266 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader Line:285 ----------------> Root WebApplicationContext: initialization completed in 1175 ms
+2018-06-29 18:49:43.304 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean Line:186 ----------------> Servlet dispatcherServlet mapped to [/]
+2018-06-29 18:49:43.305 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 18:49:43.306 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 18:49:43.306 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 18:49:43.306 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 18:49:43.398 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:49:43.450 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@39b8b89d: startup date [Fri Jun 29 18:49:42 CST 2018]; root of context hierarchy
+2018-06-29 18:49:43.461 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-06-29 18:49:43.462 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(int)
+2018-06-29 18:49:43.466 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-06-29 18:49:43.466 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-06-29 18:49:43.467 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-06-29 18:49:43.467 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-06-29 18:49:43.467 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-06-29 18:49:43.468 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-06-29 18:49:43.468 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-06-29 18:49:43.469 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-06-29 18:49:43.469 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-06-29 18:49:43.470 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-06-29 18:49:43.470 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-06-29 18:49:43.473 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 18:49:43.473 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-29 18:49:43.484 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:49:43.485 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:49:43.536 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer Line:57 ----------------> LiveReload server is running on port 35729
+2018-06-29 18:49:43.556 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:433 ----------------> Registering beans for JMX exposure on startup
+2018-06-29 18:49:43.557 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:895 ----------------> Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-29 18:49:43.562 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:668 ----------------> Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-29 18:49:43.567 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Starting ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:49:43.567 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 ----------------> Using a shared selector for servlet write/read
+2018-06-29 18:49:43.570 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:206 ----------------> Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-29 18:49:43.571 [restartedMain] INFO  com.Application Line:59 ----------------> Started Application in 1.55 seconds (JVM running for 300.39)
+2018-06-29 18:49:43.575 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Line:56 ----------------> Condition evaluation unchanged
+2018-06-29 18:53:11.589 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 18:53:11.591 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:494 ----------------> FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-29 18:53:11.603 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:509 ----------------> FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2018-06-29 18:53:11.607 [http-nio-8080-exec-1] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:53:12.592 [http-nio-8080-exec-3] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:53:15.062 [Thread-44] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:993 ----------------> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@39b8b89d: startup date [Fri Jun 29 18:49:42 CST 2018]; root of context hierarchy
+2018-06-29 18:53:15.065 [Thread-44] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:451 ----------------> Unregistering JMX-exposed beans on shutdown
+2018-06-29 18:53:15.065 [Thread-44] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:183 ----------------> Unregistering JMX-exposed beans
+2018-06-29 18:53:19.778 [restartedMain] INFO  com.Application Line:50 ----------------> Starting Application on lgj-Lenovo-G470 with PID 29036 (/home/lgj/aProject/SpringBootStudy/ch4/target/classes started by lgj in /home/lgj/aProject/SpringBootStudy/ch2)
+2018-06-29 18:53:19.780 [restartedMain] INFO  com.Application Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-06-29 18:53:19.840 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:590 ----------------> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@592f85a7: startup date [Fri Jun 29 18:53:19 CST 2018]; root of context hierarchy
+2018-06-29 18:53:22.675 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:91 ----------------> Tomcat initialized with port(s): 8080 (http)
+2018-06-29 18:53:22.693 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:53:22.707 [restartedMain] INFO  org.apache.catalina.core.StandardService Line:180 ----------------> Starting service [Tomcat]
+2018-06-29 18:53:22.708 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Line:180 ----------------> Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-29 18:53:22.717 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener Line:180 ----------------> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-06-29 18:53:22.815 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring embedded WebApplicationContext
+2018-06-29 18:53:22.816 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader Line:285 ----------------> Root WebApplicationContext: initialization completed in 2976 ms
+2018-06-29 18:53:23.002 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean Line:186 ----------------> Servlet dispatcherServlet mapped to [/]
+2018-06-29 18:53:23.009 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 18:53:23.010 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 18:53:23.010 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 18:53:23.010 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 18:53:23.678 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:53:24.046 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@592f85a7: startup date [Fri Jun 29 18:53:19 CST 2018]; root of context hierarchy
+2018-06-29 18:53:24.146 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-06-29 18:53:24.154 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(int)
+2018-06-29 18:53:24.169 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-06-29 18:53:24.171 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-06-29 18:53:24.172 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-06-29 18:53:24.173 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-06-29 18:53:24.174 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-06-29 18:53:24.175 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-06-29 18:53:24.177 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-06-29 18:53:24.179 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-06-29 18:53:24.181 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-06-29 18:53:24.184 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-06-29 18:53:24.185 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-06-29 18:53:24.193 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 18:53:24.198 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-29 18:53:24.293 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:53:24.293 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:53:24.772 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer Line:57 ----------------> LiveReload server is running on port 35729
+2018-06-29 18:53:24.840 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:433 ----------------> Registering beans for JMX exposure on startup
+2018-06-29 18:53:24.842 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:895 ----------------> Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-29 18:53:24.849 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:668 ----------------> Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-29 18:53:24.864 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Starting ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:53:24.870 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 ----------------> Using a shared selector for servlet write/read
+2018-06-29 18:53:24.886 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:206 ----------------> Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-29 18:53:24.895 [restartedMain] INFO  com.Application Line:59 ----------------> Started Application in 5.837 seconds (JVM running for 7.169)
+2018-06-29 18:53:43.711 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 18:53:43.712 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:494 ----------------> FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-29 18:53:43.727 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:509 ----------------> FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-06-29 18:53:43.755 [http-nio-8080-exec-1] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:53:47.357 [http-nio-8080-exec-5] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:53:48.433 [http-nio-8080-exec-3] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:53:49.324 [http-nio-8080-exec-8] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:53:49.984 [http-nio-8080-exec-9] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:53:50.652 [http-nio-8080-exec-1] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:54:03.200 [Thread-8] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:993 ----------------> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@592f85a7: startup date [Fri Jun 29 18:53:19 CST 2018]; root of context hierarchy
+2018-06-29 18:54:03.206 [Thread-8] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:451 ----------------> Unregistering JMX-exposed beans on shutdown
+2018-06-29 18:54:03.207 [Thread-8] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:183 ----------------> Unregistering JMX-exposed beans
+2018-06-29 18:54:12.348 [restartedMain] INFO  com.Application Line:50 ----------------> Starting Application on lgj-Lenovo-G470 with PID 29348 (/home/lgj/aProject/SpringBootStudy/ch4/target/classes started by lgj in /home/lgj/aProject/SpringBootStudy/ch2)
+2018-06-29 18:54:12.352 [restartedMain] INFO  com.Application Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-06-29 18:54:12.466 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:590 ----------------> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@535e9332: startup date [Fri Jun 29 18:54:12 CST 2018]; root of context hierarchy
+2018-06-29 18:54:16.821 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:91 ----------------> Tomcat initialized with port(s): 8080 (http)
+2018-06-29 18:54:16.862 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:54:16.893 [restartedMain] INFO  org.apache.catalina.core.StandardService Line:180 ----------------> Starting service [Tomcat]
+2018-06-29 18:54:16.894 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Line:180 ----------------> Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-29 18:54:16.907 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener Line:180 ----------------> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-06-29 18:54:17.090 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring embedded WebApplicationContext
+2018-06-29 18:54:17.091 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader Line:285 ----------------> Root WebApplicationContext: initialization completed in 4626 ms
+2018-06-29 18:54:17.300 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean Line:186 ----------------> Servlet dispatcherServlet mapped to [/]
+2018-06-29 18:54:17.310 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 18:54:17.311 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 18:54:17.312 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 18:54:17.312 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 18:54:17.754 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:54:17.938 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@535e9332: startup date [Fri Jun 29 18:54:12 CST 2018]; root of context hierarchy
+2018-06-29 18:54:17.984 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-06-29 18:54:17.985 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(int)
+2018-06-29 18:54:17.993 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-06-29 18:54:17.994 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-06-29 18:54:17.994 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-06-29 18:54:17.995 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-06-29 18:54:17.995 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-06-29 18:54:17.995 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-06-29 18:54:17.996 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-06-29 18:54:17.996 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-06-29 18:54:17.997 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-06-29 18:54:17.998 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-06-29 18:54:17.998 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-06-29 18:54:18.002 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 18:54:18.003 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-29 18:54:18.050 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:54:18.050 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:54:18.308 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer Line:57 ----------------> LiveReload server is running on port 35729
+2018-06-29 18:54:18.339 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:433 ----------------> Registering beans for JMX exposure on startup
+2018-06-29 18:54:18.341 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:895 ----------------> Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-29 18:54:18.347 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:668 ----------------> Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-29 18:54:18.359 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Starting ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:54:18.364 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 ----------------> Using a shared selector for servlet write/read
+2018-06-29 18:54:18.376 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:206 ----------------> Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-29 18:54:18.382 [restartedMain] INFO  com.Application Line:59 ----------------> Started Application in 7.016 seconds (JVM running for 8.319)
+2018-06-29 18:54:23.850 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 18:54:23.850 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:494 ----------------> FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-29 18:54:23.865 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:509 ----------------> FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-06-29 18:54:23.887 [http-nio-8080-exec-1] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:55:53.864 [Thread-5] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:993 ----------------> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@535e9332: startup date [Fri Jun 29 18:54:12 CST 2018]; root of context hierarchy
+2018-06-29 18:55:53.907 [Thread-5] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:451 ----------------> Unregistering JMX-exposed beans on shutdown
+2018-06-29 18:55:53.908 [Thread-5] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:183 ----------------> Unregistering JMX-exposed beans
+2018-06-29 18:55:54.353 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 18:55:54.477 [restartedMain] INFO  com.Application Line:50 ----------------> Starting Application on lgj-Lenovo-G470 with PID 29348 (/home/lgj/aProject/SpringBootStudy/ch4/target/classes started by lgj in /home/lgj/aProject/SpringBootStudy/ch2)
+2018-06-29 18:55:54.477 [restartedMain] INFO  com.Application Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-06-29 18:55:54.480 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:590 ----------------> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4cfc565b: startup date [Fri Jun 29 18:55:54 CST 2018]; root of context hierarchy
+2018-06-29 18:55:56.466 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:91 ----------------> Tomcat initialized with port(s): 8080 (http)
+2018-06-29 18:55:56.468 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:55:56.469 [restartedMain] INFO  org.apache.catalina.core.StandardService Line:180 ----------------> Starting service [Tomcat]
+2018-06-29 18:55:56.469 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Line:180 ----------------> Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-29 18:55:56.507 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring embedded WebApplicationContext
+2018-06-29 18:55:56.508 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader Line:285 ----------------> Root WebApplicationContext: initialization completed in 2028 ms
+2018-06-29 18:55:56.548 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean Line:186 ----------------> Servlet dispatcherServlet mapped to [/]
+2018-06-29 18:55:56.549 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 18:55:56.549 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 18:55:56.550 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 18:55:56.550 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 18:55:56.644 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:55:56.714 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4cfc565b: startup date [Fri Jun 29 18:55:54 CST 2018]; root of context hierarchy
+2018-06-29 18:55:56.768 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 18:55:56.769 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-29 18:55:56.783 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:55:56.783 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:55:56.837 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer Line:57 ----------------> LiveReload server is running on port 35729
+2018-06-29 18:55:56.857 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:433 ----------------> Registering beans for JMX exposure on startup
+2018-06-29 18:55:56.858 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:895 ----------------> Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-29 18:55:56.861 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:668 ----------------> Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-29 18:55:56.873 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Starting ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:55:56.873 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 ----------------> Using a shared selector for servlet write/read
+2018-06-29 18:55:56.876 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:206 ----------------> Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-29 18:55:56.877 [restartedMain] INFO  com.Application Line:59 ----------------> Started Application in 2.469 seconds (JVM running for 106.815)
+2018-06-29 18:55:56.881 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Line:56 ----------------> Condition evaluation unchanged
+2018-06-29 18:56:00.939 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 18:56:00.940 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:494 ----------------> FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-29 18:56:00.946 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:509 ----------------> FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2018-06-29 18:57:01.054 [Thread-14] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:993 ----------------> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4cfc565b: startup date [Fri Jun 29 18:55:54 CST 2018]; root of context hierarchy
+2018-06-29 18:57:01.058 [Thread-14] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:451 ----------------> Unregistering JMX-exposed beans on shutdown
+2018-06-29 18:57:01.059 [Thread-14] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:183 ----------------> Unregistering JMX-exposed beans
+2018-06-29 18:57:10.499 [restartedMain] INFO  com.Application Line:50 ----------------> Starting Application on lgj-Lenovo-G470 with PID 29869 (/home/lgj/aProject/SpringBootStudy/ch4/target/classes started by lgj in /home/lgj/aProject/SpringBootStudy/ch2)
+2018-06-29 18:57:10.501 [restartedMain] INFO  com.Application Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-06-29 18:57:10.616 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:590 ----------------> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64e744cd: startup date [Fri Jun 29 18:57:10 CST 2018]; root of context hierarchy
+2018-06-29 18:57:13.228 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:91 ----------------> Tomcat initialized with port(s): 8080 (http)
+2018-06-29 18:57:13.244 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:57:13.278 [restartedMain] INFO  org.apache.catalina.core.StandardService Line:180 ----------------> Starting service [Tomcat]
+2018-06-29 18:57:13.278 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Line:180 ----------------> Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-29 18:57:13.301 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener Line:180 ----------------> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-06-29 18:57:13.452 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring embedded WebApplicationContext
+2018-06-29 18:57:13.452 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader Line:285 ----------------> Root WebApplicationContext: initialization completed in 2836 ms
+2018-06-29 18:57:13.587 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean Line:186 ----------------> Servlet dispatcherServlet mapped to [/]
+2018-06-29 18:57:13.591 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 18:57:13.592 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 18:57:13.592 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 18:57:13.592 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 18:57:14.038 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:57:14.281 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64e744cd: startup date [Fri Jun 29 18:57:10 CST 2018]; root of context hierarchy
+2018-06-29 18:57:14.382 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-06-29 18:57:14.385 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(int)
+2018-06-29 18:57:14.398 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-06-29 18:57:14.398 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-06-29 18:57:14.399 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-06-29 18:57:14.399 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-06-29 18:57:14.399 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-06-29 18:57:14.400 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-06-29 18:57:14.400 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-06-29 18:57:14.401 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-06-29 18:57:14.402 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-06-29 18:57:14.403 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-06-29 18:57:14.404 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-06-29 18:57:14.407 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 18:57:14.407 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-29 18:57:14.436 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:57:14.437 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 18:57:14.832 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer Line:57 ----------------> LiveReload server is running on port 35729
+2018-06-29 18:57:14.869 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:433 ----------------> Registering beans for JMX exposure on startup
+2018-06-29 18:57:14.870 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:895 ----------------> Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-29 18:57:14.876 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:668 ----------------> Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-29 18:57:14.890 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Starting ProtocolHandler ["http-nio-8080"]
+2018-06-29 18:57:14.907 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 ----------------> Using a shared selector for servlet write/read
+2018-06-29 18:57:14.918 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:206 ----------------> Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-29 18:57:14.923 [restartedMain] INFO  com.Application Line:59 ----------------> Started Application in 6.328 seconds (JVM running for 9.986)
+2018-06-29 18:57:56.769 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 18:57:56.769 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:494 ----------------> FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-29 18:57:56.795 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:509 ----------------> FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2018-06-29 18:57:56.824 [http-nio-8080-exec-1] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:57:59.036 [http-nio-8080-exec-3] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:58:00.937 [http-nio-8080-exec-2] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:58:01.326 [http-nio-8080-exec-5] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:58:01.548 [http-nio-8080-exec-7] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:58:01.739 [http-nio-8080-exec-9] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:58:01.906 [http-nio-8080-exec-1] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:58:02.081 [http-nio-8080-exec-2] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:58:02.243 [http-nio-8080-exec-5] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:58:02.431 [http-nio-8080-exec-7] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 18:58:02.689 [http-nio-8080-exec-9] INFO  com.controller.UserController Line:41 ----------------> 访问/mvc/method/param/func2
+2018-06-29 19:00:42.018 [Thread-5] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:993 ----------------> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64e744cd: startup date [Fri Jun 29 18:57:10 CST 2018]; root of context hierarchy
+2018-06-29 19:00:42.023 [Thread-5] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:451 ----------------> Unregistering JMX-exposed beans on shutdown
+2018-06-29 19:00:42.024 [Thread-5] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:183 ----------------> Unregistering JMX-exposed beans
+2018-06-29 19:00:42.342 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 19:00:42.415 [restartedMain] INFO  com.Application Line:50 ----------------> Starting Application on lgj-Lenovo-G470 with PID 29869 (/home/lgj/aProject/SpringBootStudy/ch4/target/classes started by lgj in /home/lgj/aProject/SpringBootStudy/ch2)
+2018-06-29 19:00:42.416 [restartedMain] INFO  com.Application Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-06-29 19:00:42.423 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:590 ----------------> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@559f0380: startup date [Fri Jun 29 19:00:42 CST 2018]; root of context hierarchy
+2018-06-29 19:00:43.439 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:91 ----------------> Tomcat initialized with port(s): 8080 (http)
+2018-06-29 19:00:43.441 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-29 19:00:43.442 [restartedMain] INFO  org.apache.catalina.core.StandardService Line:180 ----------------> Starting service [Tomcat]
+2018-06-29 19:00:43.443 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Line:180 ----------------> Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-29 19:00:43.451 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring embedded WebApplicationContext
+2018-06-29 19:00:43.452 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader Line:285 ----------------> Root WebApplicationContext: initialization completed in 1030 ms
+2018-06-29 19:00:43.481 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean Line:186 ----------------> Servlet dispatcherServlet mapped to [/]
+2018-06-29 19:00:43.482 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 19:00:43.483 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 19:00:43.483 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 19:00:43.484 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 19:00:43.603 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 19:00:43.673 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@559f0380: startup date [Fri Jun 29 19:00:42 CST 2018]; root of context hierarchy
+2018-06-29 19:00:43.688 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-06-29 19:00:43.690 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(int)
+2018-06-29 19:00:43.706 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-06-29 19:00:43.707 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-06-29 19:00:43.708 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-06-29 19:00:43.708 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-06-29 19:00:43.710 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-06-29 19:00:43.710 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-06-29 19:00:43.711 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-06-29 19:00:43.712 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-06-29 19:00:43.713 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-06-29 19:00:43.715 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-06-29 19:00:43.717 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-06-29 19:00:43.721 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 19:00:43.722 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-29 19:00:43.740 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 19:00:43.741 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 19:00:43.824 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer Line:57 ----------------> LiveReload server is running on port 35729
+2018-06-29 19:00:43.853 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:433 ----------------> Registering beans for JMX exposure on startup
+2018-06-29 19:00:43.854 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:895 ----------------> Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-29 19:00:43.860 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:668 ----------------> Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-29 19:00:43.867 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Starting ProtocolHandler ["http-nio-8080"]
+2018-06-29 19:00:43.868 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 ----------------> Using a shared selector for servlet write/read
+2018-06-29 19:00:43.875 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:206 ----------------> Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-29 19:00:43.877 [restartedMain] INFO  com.Application Line:59 ----------------> Started Application in 1.53 seconds (JVM running for 218.94)
+2018-06-29 19:00:43.882 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Line:56 ----------------> Condition evaluation unchanged
+2018-06-29 19:01:12.273 [Thread-9] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:993 ----------------> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@559f0380: startup date [Fri Jun 29 19:00:42 CST 2018]; root of context hierarchy
+2018-06-29 19:01:12.276 [Thread-9] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:451 ----------------> Unregistering JMX-exposed beans on shutdown
+2018-06-29 19:01:12.276 [Thread-9] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:183 ----------------> Unregistering JMX-exposed beans
+2018-06-29 19:01:12.572 [restartedMain] INFO  com.Application Line:20 ----------------> 执行主线程
+2018-06-29 19:01:12.684 [restartedMain] INFO  com.Application Line:50 ----------------> Starting Application on lgj-Lenovo-G470 with PID 29869 (/home/lgj/aProject/SpringBootStudy/ch4/target/classes started by lgj in /home/lgj/aProject/SpringBootStudy/ch2)
+2018-06-29 19:01:12.685 [restartedMain] INFO  com.Application Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-06-29 19:01:12.690 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:590 ----------------> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@25dd53b3: startup date [Fri Jun 29 19:01:12 CST 2018]; root of context hierarchy
+2018-06-29 19:01:13.681 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:91 ----------------> Tomcat initialized with port(s): 8080 (http)
+2018-06-29 19:01:13.682 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-29 19:01:13.683 [restartedMain] INFO  org.apache.catalina.core.StandardService Line:180 ----------------> Starting service [Tomcat]
+2018-06-29 19:01:13.683 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Line:180 ----------------> Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-29 19:01:13.694 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring embedded WebApplicationContext
+2018-06-29 19:01:13.696 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader Line:285 ----------------> Root WebApplicationContext: initialization completed in 1006 ms
+2018-06-29 19:01:13.735 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean Line:186 ----------------> Servlet dispatcherServlet mapped to [/]
+2018-06-29 19:01:13.737 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 19:01:13.737 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 19:01:13.737 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 19:01:13.737 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean Line:245 ----------------> Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 19:01:13.828 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 19:01:13.907 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@25dd53b3: startup date [Fri Jun 29 19:01:12 CST 2018]; root of context hierarchy
+2018-06-29 19:01:13.932 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-06-29 19:01:13.933 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-06-29 19:01:13.934 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-06-29 19:01:13.934 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-06-29 19:01:13.938 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-06-29 19:01:13.939 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-06-29 19:01:13.939 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-06-29 19:01:13.940 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-06-29 19:01:13.941 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-06-29 19:01:13.942 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-06-29 19:01:13.942 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-06-29 19:01:13.947 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 19:01:13.947 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-29 19:01:13.960 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 19:01:13.961 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 19:01:14.065 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer Line:57 ----------------> LiveReload server is running on port 35729
+2018-06-29 19:01:14.104 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:433 ----------------> Registering beans for JMX exposure on startup
+2018-06-29 19:01:14.105 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:895 ----------------> Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-06-29 19:01:14.113 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:668 ----------------> Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-06-29 19:01:14.121 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 ----------------> Starting ProtocolHandler ["http-nio-8080"]
+2018-06-29 19:01:14.121 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 ----------------> Using a shared selector for servlet write/read
+2018-06-29 19:01:14.126 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer Line:206 ----------------> Tomcat started on port(s): 8080 (http) with context path ''
+2018-06-29 19:01:14.127 [restartedMain] INFO  com.Application Line:59 ----------------> Started Application in 1.545 seconds (JVM running for 249.19)
+2018-06-29 19:01:14.131 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Line:56 ----------------> Condition evaluation unchanged
+2018-06-29 19:01:21.576 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 ----------------> Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-29 19:01:21.577 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:494 ----------------> FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-29 19:01:21.584 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:509 ----------------> FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+2018-06-30 01:05:07.241 [Thread-20] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Line:993 ----------------> Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@25dd53b3: startup date [Fri Jun 29 19:01:12 CST 2018]; root of context hierarchy
+2018-06-30 01:05:08.075 [Thread-20] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:451 ----------------> Unregistering JMX-exposed beans on shutdown
+2018-06-30 01:05:08.080 [Thread-20] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter Line:183 ----------------> Unregistering JMX-exposed beans

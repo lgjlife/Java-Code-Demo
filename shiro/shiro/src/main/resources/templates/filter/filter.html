@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Shiro权限管理系统主页</title>
+
+    <script th:src="@{/lib/jquery/jquery-3.3.1.min.js}"></script>
+    <link rel="stylesheet" type="text/css"  th:href="@{/lib/bootstrap/css/bootstrap.css}">
+
+    <script th:src="@{/js/base.js}"></script>
+
+    <script>
+        $("#home-logout").click(function () {
+            console.log("logout ....");
+        })
+    </script>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #FFF8DC;
+        }
+
+        #filter{
+            position: absolute;
+            top: 22% ;
+            left: 25%;
+            font-size: 25px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="filter">
+        <a th:href="@{/filter/anon}" style="display: block">anon</a>
+        <a th:href="@{/filter/authc}" style="display: block">authc</a>
+        <a th:href="@{/filter/roles}" style="display: block">roles</a>
+        <a th:href="@{/filter/perms}" style="display: block">perms</a>
+        <a th:href="@{/filter/rest}" style="display: block">rest</a>
+        <a th:href="@{/filter/port}" style="display: block">port</a>
+        </br>
+        <a th:href="@{/perms/requiresAuthentication/1}" style="display: block">RequiresAuthentication</a>
+        <a th:href="@{/perms/requiresGuest/2}" style="display: block">RequiresGuest</a>
+        <a th:href="@{/perms/requiresPermissions/3}" style="display: block">RequiresPermissions</a>
+        <a th:href="@{/perms/requiresRoles/4}" style="display: block">RequiresRoles</a>
+        <a th:href="@{/perms/requiresUser/5}" style="display: block">RequiresUser</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1033 @@
+2018-07-05 01:04:56.161 [main] INFO  com.ch11.controller.HelloControllerTest Line:50 ----------------> Starting HelloControllerTest on lgj-Lenovo-G470 with PID 4176 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch11)
+2018-07-05 01:04:56.167 [main] INFO  com.ch11.controller.HelloControllerTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 01:04:56.290 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ea4d397: startup date [Thu Jul 05 01:04:56 CST 2018]; root of context hierarchy
+2018-07-05 01:05:01.750 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 01:05:04.407 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d093eed3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 01:05:10.412 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/hello]}" onto public java.lang.String com.ch11.controller.HelloController.hello() throws java.lang.Exception
+2018-07-05 01:05:10.428 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func4]}" onto public java.lang.String com.controller.MvcMethodParamController.func4(java.lang.String)
+2018-07-05 01:05:10.430 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-07-05 01:05:10.431 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func3]}" onto public org.springframework.web.servlet.ModelAndView com.controller.MvcMethodParamController.func3(org.springframework.ui.Model)
+2018-07-05 01:05:10.432 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func1(int)
+2018-07-05 01:05:10.433 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func5]}" onto public java.lang.String com.controller.MvcMethodParamController.func5(com.controller.Student)
+2018-07-05 01:05:10.434 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func6]}" onto public java.lang.String com.controller.MvcMethodParamController.func6(java.util.List<org.springframework.web.multipart.MultipartFile>)
+2018-07-05 01:05:10.435 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func7],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func7(java.lang.String)
+2018-07-05 01:05:10.448 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-07-05 01:05:10.449 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-07-05 01:05:10.450 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-07-05 01:05:10.451 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-07-05 01:05:10.453 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-07-05 01:05:10.454 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-07-05 01:05:10.455 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-07-05 01:05:10.456 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-07-05 01:05:10.457 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-07-05 01:05:10.458 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/]}" onto public java.lang.String com.controller.RootController.root()
+2018-07-05 01:05:10.460 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-07-05 01:05:10.462 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-07-05 01:05:10.473 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-05 01:05:10.476 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-05 01:05:10.478 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-05 01:05:10.488 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-05 01:05:10.489 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 01:05:12.860 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-07-05 01:05:15.760 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 01:05:19.062 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7ea4d397: startup date [Thu Jul 05 01:04:56 CST 2018]; root of context hierarchy
+2018-07-05 01:05:19.663 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 01:05:19.664 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 01:05:25.215 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext Line:438 ----------------> Initializing Spring FrameworkServlet ''
+2018-07-05 01:05:25.216 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet Line:494 ----------------> FrameworkServlet '': initialization started
+2018-07-05 01:05:25.301 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet Line:509 ----------------> FrameworkServlet '': initialization completed in 85 ms
+2018-07-05 01:05:25.445 [main] INFO  o.s.context.support.DefaultLifecycleProcessor Line:351 ----------------> Starting beans in phase 2147483647
+2018-07-05 01:05:25.446 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2018-07-05 01:05:25.498 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2018-07-05 01:05:25.571 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2018-07-05 01:05:25.995 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 01:05:26.000 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 01:05:26.003 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 01:05:26.006 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 01:05:26.009 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 01:05:26.013 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 01:05:26.016 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 01:05:26.019 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 01:05:26.042 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func1UsingGET_1
+2018-07-05 01:05:26.058 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func2UsingGET_1
+2018-07-05 01:05:26.082 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingGET_1
+2018-07-05 01:05:26.084 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingHEAD_1
+2018-07-05 01:05:26.086 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPOST_1
+2018-07-05 01:05:26.088 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPUT_1
+2018-07-05 01:05:26.090 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPATCH_1
+2018-07-05 01:05:26.093 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingDELETE_1
+2018-07-05 01:05:26.095 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingOPTIONS_1
+2018-07-05 01:05:26.097 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingTRACE_1
+2018-07-05 01:05:26.101 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func4UsingGET_1
+2018-07-05 01:05:26.104 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func5UsingPOST_1
+2018-07-05 01:05:26.114 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func6UsingDELETE_1
+2018-07-05 01:05:26.343 [main] INFO  com.ch11.controller.HelloControllerTest Line:59 ----------------> Started HelloControllerTest in 32.226 seconds (JVM running for 36.938)
+2018-07-05 01:05:26.702 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext Line:438 ----------------> Initializing Spring FrameworkServlet ''
+2018-07-05 01:05:26.702 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet Line:494 ----------------> FrameworkServlet '': initialization started
+2018-07-05 01:05:26.708 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet Line:509 ----------------> FrameworkServlet '': initialization completed in 6 ms
+2018-07-05 01:05:26.802 [main] INFO  com.ch11.controller.HelloController Line:27 ----------------> 访问hello
+2018-07-05 01:05:26.878 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext Line:993 ----------------> Closing org.springframework.web.context.support.GenericWebApplicationContext@7ea4d397: startup date [Thu Jul 05 01:04:56 CST 2018]; root of context hierarchy
+2018-07-05 01:05:26.888 [Thread-3] INFO  o.s.context.support.DefaultLifecycleProcessor Line:366 ----------------> Stopping beans in phase 2147483647
+2018-07-05 02:41:36.710 [main] INFO  com.ch11.controller.HelloControllerTest Line:50 ----------------> Starting HelloControllerTest on lgj-Lenovo-G470 with PID 7781 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch11)
+2018-07-05 02:41:36.715 [main] INFO  com.ch11.controller.HelloControllerTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 02:41:36.789 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8dfe921: startup date [Thu Jul 05 02:41:36 CST 2018]; root of context hierarchy
+2018-07-05 02:41:44.426 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 02:41:47.131 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7794f390] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 02:41:54.829 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/hello/{id}]}" onto public java.lang.String com.ch11.controller.HelloController.hello(java.lang.Integer) throws java.lang.Exception
+2018-07-05 02:41:54.833 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public java.lang.String com.ch11.errhandle.HttpErrorHandle.error(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 02:41:54.842 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func1(int)
+2018-07-05 02:41:54.844 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-07-05 02:41:54.845 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func3]}" onto public org.springframework.web.servlet.ModelAndView com.controller.MvcMethodParamController.func3(org.springframework.ui.Model)
+2018-07-05 02:41:54.846 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func4]}" onto public java.lang.String com.controller.MvcMethodParamController.func4(java.lang.String)
+2018-07-05 02:41:54.847 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func5]}" onto public java.lang.String com.controller.MvcMethodParamController.func5(com.controller.Student)
+2018-07-05 02:41:54.849 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func6]}" onto public java.lang.String com.controller.MvcMethodParamController.func6(java.util.List<org.springframework.web.multipart.MultipartFile>)
+2018-07-05 02:41:54.850 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func7],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func7(java.lang.String)
+2018-07-05 02:41:54.865 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-07-05 02:41:54.867 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-07-05 02:41:54.867 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-07-05 02:41:54.869 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-07-05 02:41:54.870 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-07-05 02:41:54.872 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-07-05 02:41:54.873 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-07-05 02:41:54.880 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-07-05 02:41:54.881 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-07-05 02:41:54.885 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/]}" onto public java.lang.String com.controller.RootController.root()
+2018-07-05 02:41:54.888 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-07-05 02:41:54.889 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-07-05 02:41:54.898 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-05 02:41:54.900 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-05 02:41:54.902 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-05 02:41:57.437 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-07-05 02:41:59.598 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 02:42:03.724 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8dfe921: startup date [Thu Jul 05 02:41:36 CST 2018]; root of context hierarchy
+2018-07-05 02:42:04.952 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 02:42:04.953 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 02:42:05.002 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Line:288 ----------------> Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-05 02:42:16.189 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext Line:438 ----------------> Initializing Spring FrameworkServlet ''
+2018-07-05 02:42:16.189 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet Line:494 ----------------> FrameworkServlet '': initialization started
+2018-07-05 02:42:16.258 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet Line:509 ----------------> FrameworkServlet '': initialization completed in 68 ms
+2018-07-05 02:42:16.412 [main] INFO  o.s.context.support.DefaultLifecycleProcessor Line:351 ----------------> Starting beans in phase 2147483647
+2018-07-05 02:42:16.413 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2018-07-05 02:42:16.469 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2018-07-05 02:42:16.534 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2018-07-05 02:42:16.998 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 02:42:17.001 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 02:42:17.005 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 02:42:17.008 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 02:42:17.011 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 02:42:17.014 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 02:42:17.018 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 02:42:17.021 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 02:42:17.050 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func1UsingGET_1
+2018-07-05 02:42:17.069 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func2UsingGET_1
+2018-07-05 02:42:17.085 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingGET_1
+2018-07-05 02:42:17.088 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingHEAD_1
+2018-07-05 02:42:17.090 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPOST_1
+2018-07-05 02:42:17.092 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPUT_1
+2018-07-05 02:42:17.095 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPATCH_1
+2018-07-05 02:42:17.098 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingDELETE_1
+2018-07-05 02:42:17.100 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingOPTIONS_1
+2018-07-05 02:42:17.102 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingTRACE_1
+2018-07-05 02:42:17.106 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func4UsingGET_1
+2018-07-05 02:42:17.109 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func5UsingPOST_1
+2018-07-05 02:42:17.112 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func6UsingDELETE_1
+2018-07-05 02:42:17.380 [main] INFO  com.ch11.controller.HelloControllerTest Line:59 ----------------> Started HelloControllerTest in 43.417 seconds (JVM running for 50.643)
+2018-07-05 02:42:18.451 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext Line:438 ----------------> Initializing Spring FrameworkServlet ''
+2018-07-05 02:42:18.451 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet Line:494 ----------------> FrameworkServlet '': initialization started
+2018-07-05 02:42:18.457 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet Line:509 ----------------> FrameworkServlet '': initialization completed in 6 ms
+2018-07-05 02:42:18.572 [main] INFO  com.ch11.controller.HelloController Line:30 ----------------> 访问hello id = 0
+2018-07-05 02:42:18.574 [main] INFO  com.ch11.errhandle.GlobalExceptionHandler Line:37 ----------------> 进入Exception异常拦截
+2018-07-05 02:42:18.775 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext Line:993 ----------------> Closing org.springframework.web.context.support.GenericWebApplicationContext@8dfe921: startup date [Thu Jul 05 02:41:36 CST 2018]; root of context hierarchy
+2018-07-05 02:42:18.778 [Thread-3] INFO  o.s.context.support.DefaultLifecycleProcessor Line:366 ----------------> Stopping beans in phase 2147483647
+2018-07-05 15:47:15.439 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 20581 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 15:47:15.511 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 15:47:15.666 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3ecedf21: startup date [Thu Jul 05 15:47:15 CST 2018]; root of context hierarchy
+2018-07-05 15:47:24.076 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 15:47:27.477 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc640a7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 15:47:29.600 [main] WARN  o.s.w.context.support.GenericWebApplicationContext Line:558 ----------------> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schedulerServiceImpl': Unsatisfied dependency expressed through field 'schedulerMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-07-05 15:47:29.674 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener Line:101 ----------------> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-07-05 15:47:29.987 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter Line:42 ----------------> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field schedulerMapper in com.ch12.serviceImpl.SchedulerServiceImpl required a bean of type 'com.ch12.dao.mapper.SchedulerMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ch12.dao.mapper.SchedulerMapper' in your configuration.
+
+2018-07-05 15:47:30.006 [main] ERROR o.springframework.test.context.TestContextManager Line:250 ----------------> Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@41d426b5] to prepare test instance [com.ch12.serviceImpl.SchedulerServiceImplTest@7a725c89]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schedulerServiceImpl': Unsatisfied dependency expressed through field 'schedulerMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 42 common frames omitted
+2018-07-05 15:47:30.290 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 20581 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 15:47:30.296 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 15:47:30.309 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@62e507c6: startup date [Thu Jul 05 15:47:30 CST 2018]; root of context hierarchy
+2018-07-05 15:47:32.445 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 15:47:33.064 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc640a7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 15:47:33.652 [main] WARN  o.s.w.context.support.GenericWebApplicationContext Line:558 ----------------> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schedulerServiceImpl': Unsatisfied dependency expressed through field 'schedulerMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-07-05 15:47:33.660 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener Line:101 ----------------> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-07-05 15:47:33.788 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter Line:42 ----------------> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field schedulerMapper in com.ch12.serviceImpl.SchedulerServiceImpl required a bean of type 'com.ch12.dao.mapper.SchedulerMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ch12.dao.mapper.SchedulerMapper' in your configuration.
+
+2018-07-05 15:47:33.789 [main] ERROR o.springframework.test.context.TestContextManager Line:250 ----------------> Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@41d426b5] to prepare test instance [com.ch12.serviceImpl.SchedulerServiceImplTest@747db396]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schedulerServiceImpl': Unsatisfied dependency expressed through field 'schedulerMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 42 common frames omitted
+2018-07-05 15:47:33.962 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 20581 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 15:47:33.963 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 15:47:33.982 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5f3c97c9: startup date [Thu Jul 05 15:47:33 CST 2018]; root of context hierarchy
+2018-07-05 15:47:35.722 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 15:47:36.442 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc640a7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 15:47:37.003 [main] WARN  o.s.w.context.support.GenericWebApplicationContext Line:558 ----------------> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schedulerServiceImpl': Unsatisfied dependency expressed through field 'schedulerMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-07-05 15:47:37.006 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener Line:101 ----------------> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-07-05 15:47:37.087 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter Line:42 ----------------> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field schedulerMapper in com.ch12.serviceImpl.SchedulerServiceImpl required a bean of type 'com.ch12.dao.mapper.SchedulerMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ch12.dao.mapper.SchedulerMapper' in your configuration.
+
+2018-07-05 15:47:37.089 [main] ERROR o.springframework.test.context.TestContextManager Line:250 ----------------> Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@41d426b5] to prepare test instance [com.ch12.serviceImpl.SchedulerServiceImplTest@345da1a3]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schedulerServiceImpl': Unsatisfied dependency expressed through field 'schedulerMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 42 common frames omitted
+2018-07-05 15:47:37.178 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 20581 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 15:47:37.179 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 15:47:37.185 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@244f95d2: startup date [Thu Jul 05 15:47:37 CST 2018]; root of context hierarchy
+2018-07-05 15:47:39.471 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 15:47:40.269 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc640a7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 15:47:41.208 [main] WARN  o.s.w.context.support.GenericWebApplicationContext Line:558 ----------------> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schedulerServiceImpl': Unsatisfied dependency expressed through field 'schedulerMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-07-05 15:47:41.217 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener Line:101 ----------------> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-07-05 15:47:41.379 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter Line:42 ----------------> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field schedulerMapper in com.ch12.serviceImpl.SchedulerServiceImpl required a bean of type 'com.ch12.dao.mapper.SchedulerMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ch12.dao.mapper.SchedulerMapper' in your configuration.
+
+2018-07-05 15:47:41.382 [main] ERROR o.springframework.test.context.TestContextManager Line:250 ----------------> Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@41d426b5] to prepare test instance [com.ch12.serviceImpl.SchedulerServiceImplTest@4d04ff6b]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schedulerServiceImpl': Unsatisfied dependency expressed through field 'schedulerMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:580)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ch12.dao.mapper.SchedulerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 42 common frames omitted
+2018-07-05 15:49:15.226 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 20685 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 15:49:15.231 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 15:49:15.653 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@73386d72: startup date [Thu Jul 05 15:49:15 CST 2018]; root of context hierarchy
+2018-07-05 15:49:20.488 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 15:49:23.309 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$260a55b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 15:49:32.670 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/hello/{id}]}" onto public java.lang.String com.ch11.controller.HelloController.hello(java.lang.Integer) throws java.lang.Exception
+2018-07-05 15:49:32.676 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public java.lang.String com.ch11.errhandle.HttpErrorHandle.error(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 15:49:32.688 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func4]}" onto public java.lang.String com.controller.MvcMethodParamController.func4(java.lang.String)
+2018-07-05 15:49:32.690 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-07-05 15:49:32.692 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func3]}" onto public org.springframework.web.servlet.ModelAndView com.controller.MvcMethodParamController.func3(org.springframework.ui.Model)
+2018-07-05 15:49:32.694 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func1(int)
+2018-07-05 15:49:32.696 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func5]}" onto public java.lang.String com.controller.MvcMethodParamController.func5(com.controller.Student)
+2018-07-05 15:49:32.698 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func6]}" onto public java.lang.String com.controller.MvcMethodParamController.func6(java.util.List<org.springframework.web.multipart.MultipartFile>)
+2018-07-05 15:49:32.700 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func7],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func7(java.lang.String)
+2018-07-05 15:49:32.721 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-07-05 15:49:32.722 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-07-05 15:49:32.724 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-07-05 15:49:32.726 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-07-05 15:49:32.728 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-07-05 15:49:32.730 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-07-05 15:49:32.731 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-07-05 15:49:32.732 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-07-05 15:49:32.734 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-07-05 15:49:32.735 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/]}" onto public java.lang.String com.controller.RootController.root()
+2018-07-05 15:49:32.739 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-07-05 15:49:32.743 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-07-05 15:49:32.772 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-05 15:49:32.779 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-05 15:49:32.780 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-05 15:49:35.725 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-07-05 15:49:37.894 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 15:49:41.311 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@73386d72: startup date [Thu Jul 05 15:49:15 CST 2018]; root of context hierarchy
+2018-07-05 15:49:41.979 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 15:49:41.980 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 15:49:42.061 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Line:288 ----------------> Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-05 15:49:46.393 [main] INFO  o.s.context.support.DefaultLifecycleProcessor Line:351 ----------------> Starting beans in phase 2147483647
+2018-07-05 15:49:46.394 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2018-07-05 15:49:46.514 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2018-07-05 15:49:46.627 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2018-07-05 15:49:47.130 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:49:47.134 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:49:47.138 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:49:47.141 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:49:47.145 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:49:47.149 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:49:47.152 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:49:47.155 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:49:47.264 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func1UsingGET_1
+2018-07-05 15:49:47.281 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func2UsingGET_1
+2018-07-05 15:49:47.298 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingGET_1
+2018-07-05 15:49:47.300 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingHEAD_1
+2018-07-05 15:49:47.302 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPOST_1
+2018-07-05 15:49:47.305 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPUT_1
+2018-07-05 15:49:47.307 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPATCH_1
+2018-07-05 15:49:47.309 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingDELETE_1
+2018-07-05 15:49:47.311 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingOPTIONS_1
+2018-07-05 15:49:47.314 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingTRACE_1
+2018-07-05 15:49:47.317 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func4UsingGET_1
+2018-07-05 15:49:47.320 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func5UsingPOST_1
+2018-07-05 15:49:47.323 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func6UsingDELETE_1
+2018-07-05 15:49:47.505 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:59 ----------------> Started SchedulerServiceImplTest in 34.553 seconds (JVM running for 42.211)
+2018-07-05 15:49:48.126 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:110 ----------------> mysqldatasource - Starting...
+2018-07-05 15:49:50.396 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:123 ----------------> mysqldatasource - Start completed.
+2018-07-05 15:49:50.552 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader Line:316 ----------------> Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-07-05 15:49:50.745 [main] INFO  o.s.jdbc.support.SQLErrorCodesFactory Line:128 ----------------> SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-07-05 15:49:51.093 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext Line:993 ----------------> Closing org.springframework.web.context.support.GenericWebApplicationContext@73386d72: startup date [Thu Jul 05 15:49:15 CST 2018]; root of context hierarchy
+2018-07-05 15:49:51.100 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor Line:366 ----------------> Stopping beans in phase 2147483647
+2018-07-05 15:49:51.140 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:381 ----------------> mysqldatasource - Shutdown initiated...
+2018-07-05 15:49:51.692 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:383 ----------------> mysqldatasource - Shutdown completed.
+2018-07-05 15:52:09.515 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 20859 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 15:52:09.521 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 15:52:09.620 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3ecedf21: startup date [Thu Jul 05 15:52:09 CST 2018]; root of context hierarchy
+2018-07-05 15:52:14.402 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 15:52:17.373 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d36d512a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 15:52:23.605 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/hello/{id}]}" onto public java.lang.String com.ch11.controller.HelloController.hello(java.lang.Integer) throws java.lang.Exception
+2018-07-05 15:52:23.608 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public java.lang.String com.ch11.errhandle.HttpErrorHandle.error(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 15:52:23.615 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func4]}" onto public java.lang.String com.controller.MvcMethodParamController.func4(java.lang.String)
+2018-07-05 15:52:23.616 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-07-05 15:52:23.617 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func3]}" onto public org.springframework.web.servlet.ModelAndView com.controller.MvcMethodParamController.func3(org.springframework.ui.Model)
+2018-07-05 15:52:23.618 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func1(int)
+2018-07-05 15:52:23.618 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func5]}" onto public java.lang.String com.controller.MvcMethodParamController.func5(com.controller.Student)
+2018-07-05 15:52:23.619 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func6]}" onto public java.lang.String com.controller.MvcMethodParamController.func6(java.util.List<org.springframework.web.multipart.MultipartFile>)
+2018-07-05 15:52:23.620 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func7],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func7(java.lang.String)
+2018-07-05 15:52:23.630 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-07-05 15:52:23.631 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-07-05 15:52:23.632 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-07-05 15:52:23.633 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-07-05 15:52:23.634 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-07-05 15:52:23.635 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-07-05 15:52:23.636 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-07-05 15:52:23.638 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-07-05 15:52:23.639 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-07-05 15:52:23.641 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/]}" onto public java.lang.String com.controller.RootController.root()
+2018-07-05 15:52:23.643 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-07-05 15:52:23.644 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-07-05 15:52:23.653 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-05 15:52:23.655 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-05 15:52:23.656 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-05 15:52:26.009 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-07-05 15:52:28.428 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 15:52:31.797 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3ecedf21: startup date [Thu Jul 05 15:52:09 CST 2018]; root of context hierarchy
+2018-07-05 15:52:32.451 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 15:52:32.452 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 15:52:32.529 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Line:288 ----------------> Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-05 15:52:36.389 [main] INFO  o.s.context.support.DefaultLifecycleProcessor Line:351 ----------------> Starting beans in phase 2147483647
+2018-07-05 15:52:36.391 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2018-07-05 15:52:36.423 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2018-07-05 15:52:36.486 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2018-07-05 15:52:36.836 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:52:36.842 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:52:36.846 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:52:36.849 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:52:36.853 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:52:36.856 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:52:36.859 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:52:36.864 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 15:52:36.886 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func1UsingGET_1
+2018-07-05 15:52:36.903 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func2UsingGET_1
+2018-07-05 15:52:36.921 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingGET_1
+2018-07-05 15:52:36.923 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingHEAD_1
+2018-07-05 15:52:36.925 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPOST_1
+2018-07-05 15:52:36.928 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPUT_1
+2018-07-05 15:52:36.929 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPATCH_1
+2018-07-05 15:52:36.931 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingDELETE_1
+2018-07-05 15:52:36.933 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingOPTIONS_1
+2018-07-05 15:52:36.936 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingTRACE_1
+2018-07-05 15:52:36.939 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func4UsingGET_1
+2018-07-05 15:52:36.943 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func5UsingPOST_1
+2018-07-05 15:52:36.946 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func6UsingDELETE_1
+2018-07-05 15:52:37.091 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:59 ----------------> Started SchedulerServiceImplTest in 29.721 seconds (JVM running for 35.863)
+2018-07-05 15:52:37.466 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:110 ----------------> mysqldatasource - Starting...
+2018-07-05 15:52:37.966 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:123 ----------------> mysqldatasource - Start completed.
+2018-07-05 15:52:38.052 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader Line:316 ----------------> Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-07-05 15:52:38.463 [main] INFO  o.s.jdbc.support.SQLErrorCodesFactory Line:128 ----------------> SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-07-05 15:52:38.602 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext Line:993 ----------------> Closing org.springframework.web.context.support.GenericWebApplicationContext@3ecedf21: startup date [Thu Jul 05 15:52:09 CST 2018]; root of context hierarchy
+2018-07-05 15:52:38.624 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor Line:366 ----------------> Stopping beans in phase 2147483647
+2018-07-05 15:52:38.665 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:381 ----------------> mysqldatasource - Shutdown initiated...
+2018-07-05 15:52:38.842 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:383 ----------------> mysqldatasource - Shutdown completed.
+2018-07-05 16:11:38.638 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 21510 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 16:11:38.644 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 16:11:38.766 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37ff4054: startup date [Thu Jul 05 16:11:38 CST 2018]; root of context hierarchy
+2018-07-05 16:11:43.092 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 16:11:44.825 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e24937ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 16:11:49.911 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/hello/{id}]}" onto public java.lang.String com.ch11.controller.HelloController.hello(java.lang.Integer) throws java.lang.Exception
+2018-07-05 16:11:49.915 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public java.lang.String com.ch11.errhandle.HttpErrorHandle.error(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 16:11:49.924 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func1(int)
+2018-07-05 16:11:49.925 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-07-05 16:11:49.926 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func3]}" onto public org.springframework.web.servlet.ModelAndView com.controller.MvcMethodParamController.func3(org.springframework.ui.Model)
+2018-07-05 16:11:49.928 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func4]}" onto public java.lang.String com.controller.MvcMethodParamController.func4(java.lang.String)
+2018-07-05 16:11:49.929 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func5]}" onto public java.lang.String com.controller.MvcMethodParamController.func5(com.controller.Student)
+2018-07-05 16:11:49.930 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func6]}" onto public java.lang.String com.controller.MvcMethodParamController.func6(java.util.List<org.springframework.web.multipart.MultipartFile>)
+2018-07-05 16:11:49.931 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func7],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func7(java.lang.String)
+2018-07-05 16:11:49.942 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-07-05 16:11:49.943 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-07-05 16:11:49.944 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-07-05 16:11:49.945 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-07-05 16:11:49.946 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-07-05 16:11:49.947 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-07-05 16:11:49.948 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-07-05 16:11:49.949 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-07-05 16:11:49.951 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-07-05 16:11:49.952 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/]}" onto public java.lang.String com.controller.RootController.root()
+2018-07-05 16:11:49.954 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-07-05 16:11:49.955 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-07-05 16:11:49.964 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-05 16:11:49.966 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-05 16:11:49.967 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-05 16:11:53.049 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-07-05 16:11:55.523 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:11:57.786 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@37ff4054: startup date [Thu Jul 05 16:11:38 CST 2018]; root of context hierarchy
+2018-07-05 16:11:58.111 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:11:58.111 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:11:58.152 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Line:288 ----------------> Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-05 16:12:01.852 [main] INFO  o.s.context.support.DefaultLifecycleProcessor Line:351 ----------------> Starting beans in phase 2147483647
+2018-07-05 16:12:01.853 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2018-07-05 16:12:01.883 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2018-07-05 16:12:01.917 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2018-07-05 16:12:02.307 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:12:02.310 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:12:02.313 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:12:02.316 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:12:02.319 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:12:02.322 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:12:02.324 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:12:02.327 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:12:02.348 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func1UsingGET_1
+2018-07-05 16:12:02.363 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func2UsingGET_1
+2018-07-05 16:12:02.378 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingGET_1
+2018-07-05 16:12:02.380 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingHEAD_1
+2018-07-05 16:12:02.382 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPOST_1
+2018-07-05 16:12:02.384 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPUT_1
+2018-07-05 16:12:02.385 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPATCH_1
+2018-07-05 16:12:02.387 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingDELETE_1
+2018-07-05 16:12:02.389 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingOPTIONS_1
+2018-07-05 16:12:02.392 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingTRACE_1
+2018-07-05 16:12:02.395 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func4UsingGET_1
+2018-07-05 16:12:02.398 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func5UsingPOST_1
+2018-07-05 16:12:02.401 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func6UsingDELETE_1
+2018-07-05 16:12:02.512 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:59 ----------------> Started SchedulerServiceImplTest in 25.606 seconds (JVM running for 28.112)
+2018-07-05 16:12:02.698 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:110 ----------------> mysqldatasource - Starting...
+2018-07-05 16:12:03.337 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:123 ----------------> mysqldatasource - Start completed.
+2018-07-05 16:12:03.554 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader Line:316 ----------------> Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-07-05 16:12:03.692 [main] INFO  o.s.jdbc.support.SQLErrorCodesFactory Line:128 ----------------> SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-07-05 16:12:03.750 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext Line:993 ----------------> Closing org.springframework.web.context.support.GenericWebApplicationContext@37ff4054: startup date [Thu Jul 05 16:11:38 CST 2018]; root of context hierarchy
+2018-07-05 16:12:03.759 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor Line:366 ----------------> Stopping beans in phase 2147483647
+2018-07-05 16:12:03.820 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:381 ----------------> mysqldatasource - Shutdown initiated...
+2018-07-05 16:12:03.830 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:383 ----------------> mysqldatasource - Shutdown completed.
+2018-07-05 16:17:18.137 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 21888 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 16:17:18.145 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 16:17:18.274 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@60297f36: startup date [Thu Jul 05 16:17:18 CST 2018]; root of context hierarchy
+2018-07-05 16:17:24.423 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 16:17:26.812 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ec0228e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 16:17:33.681 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/hello/{id}]}" onto public java.lang.String com.ch11.controller.HelloController.hello(java.lang.Integer) throws java.lang.Exception
+2018-07-05 16:17:33.685 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public java.lang.String com.ch11.errhandle.HttpErrorHandle.error(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 16:17:33.696 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func1(int)
+2018-07-05 16:17:33.698 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-07-05 16:17:33.699 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func3]}" onto public org.springframework.web.servlet.ModelAndView com.controller.MvcMethodParamController.func3(org.springframework.ui.Model)
+2018-07-05 16:17:33.701 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func4]}" onto public java.lang.String com.controller.MvcMethodParamController.func4(java.lang.String)
+2018-07-05 16:17:33.702 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func5]}" onto public java.lang.String com.controller.MvcMethodParamController.func5(com.controller.Student)
+2018-07-05 16:17:33.704 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func6]}" onto public java.lang.String com.controller.MvcMethodParamController.func6(java.util.List<org.springframework.web.multipart.MultipartFile>)
+2018-07-05 16:17:33.705 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func7],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func7(java.lang.String)
+2018-07-05 16:17:33.724 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-07-05 16:17:33.726 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-07-05 16:17:33.728 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-07-05 16:17:33.730 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-07-05 16:17:33.731 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-07-05 16:17:33.733 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-07-05 16:17:33.734 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-07-05 16:17:33.736 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-07-05 16:17:33.738 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-07-05 16:17:33.740 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/]}" onto public java.lang.String com.controller.RootController.root()
+2018-07-05 16:17:33.742 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-07-05 16:17:33.744 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-07-05 16:17:33.755 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-05 16:17:33.757 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-05 16:17:33.760 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-05 16:17:36.650 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-07-05 16:17:38.714 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:17:41.202 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@60297f36: startup date [Thu Jul 05 16:17:18 CST 2018]; root of context hierarchy
+2018-07-05 16:17:41.675 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:17:41.676 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:17:41.727 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Line:288 ----------------> Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-05 16:17:45.368 [main] INFO  o.s.context.support.DefaultLifecycleProcessor Line:351 ----------------> Starting beans in phase 2147483647
+2018-07-05 16:17:45.369 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2018-07-05 16:17:45.416 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2018-07-05 16:17:45.458 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2018-07-05 16:17:45.845 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:17:45.849 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:17:45.853 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:17:45.856 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:17:45.859 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:17:45.862 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:17:45.866 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:17:45.869 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:17:45.890 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func1UsingGET_1
+2018-07-05 16:17:45.905 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func2UsingGET_1
+2018-07-05 16:17:45.922 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingGET_1
+2018-07-05 16:17:45.925 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingHEAD_1
+2018-07-05 16:17:45.926 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPOST_1
+2018-07-05 16:17:45.928 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPUT_1
+2018-07-05 16:17:45.930 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPATCH_1
+2018-07-05 16:17:45.932 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingDELETE_1
+2018-07-05 16:17:45.934 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingOPTIONS_1
+2018-07-05 16:17:45.936 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingTRACE_1
+2018-07-05 16:17:45.939 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func4UsingGET_1
+2018-07-05 16:17:45.943 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func5UsingPOST_1
+2018-07-05 16:17:45.946 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func6UsingDELETE_1
+2018-07-05 16:17:46.082 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:59 ----------------> Started SchedulerServiceImplTest in 29.81 seconds (JVM running for 32.87)
+2018-07-05 16:17:46.281 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:110 ----------------> mysqldatasource - Starting...
+2018-07-05 16:17:47.040 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:123 ----------------> mysqldatasource - Start completed.
+2018-07-05 16:17:47.244 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader Line:316 ----------------> Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-07-05 16:17:47.373 [main] INFO  o.s.jdbc.support.SQLErrorCodesFactory Line:128 ----------------> SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-07-05 16:17:47.397 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext Line:993 ----------------> Closing org.springframework.web.context.support.GenericWebApplicationContext@60297f36: startup date [Thu Jul 05 16:17:18 CST 2018]; root of context hierarchy
+2018-07-05 16:17:47.401 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor Line:366 ----------------> Stopping beans in phase 2147483647
+2018-07-05 16:17:47.426 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:381 ----------------> mysqldatasource - Shutdown initiated...
+2018-07-05 16:17:47.447 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:383 ----------------> mysqldatasource - Shutdown completed.
+2018-07-05 16:19:38.246 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 22007 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 16:19:38.251 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 16:19:38.336 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@ceb4bd2: startup date [Thu Jul 05 16:19:38 CST 2018]; root of context hierarchy
+2018-07-05 16:19:41.868 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 16:19:44.023 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5d335b58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 16:19:52.041 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/hello/{id}]}" onto public java.lang.String com.ch11.controller.HelloController.hello(java.lang.Integer) throws java.lang.Exception
+2018-07-05 16:19:52.045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public java.lang.String com.ch11.errhandle.HttpErrorHandle.error(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 16:19:52.054 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func1(int)
+2018-07-05 16:19:52.055 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-07-05 16:19:52.057 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func3]}" onto public org.springframework.web.servlet.ModelAndView com.controller.MvcMethodParamController.func3(org.springframework.ui.Model)
+2018-07-05 16:19:52.058 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func4]}" onto public java.lang.String com.controller.MvcMethodParamController.func4(java.lang.String)
+2018-07-05 16:19:52.060 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func5]}" onto public java.lang.String com.controller.MvcMethodParamController.func5(com.controller.Student)
+2018-07-05 16:19:52.062 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func6]}" onto public java.lang.String com.controller.MvcMethodParamController.func6(java.util.List<org.springframework.web.multipart.MultipartFile>)
+2018-07-05 16:19:52.063 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func7],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func7(java.lang.String)
+2018-07-05 16:19:52.078 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-07-05 16:19:52.079 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-07-05 16:19:52.080 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-07-05 16:19:52.081 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-07-05 16:19:52.082 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-07-05 16:19:52.084 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-07-05 16:19:52.085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-07-05 16:19:52.088 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-07-05 16:19:52.089 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-07-05 16:19:52.090 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/]}" onto public java.lang.String com.controller.RootController.root()
+2018-07-05 16:19:52.092 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-07-05 16:19:52.093 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-07-05 16:19:52.103 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-05 16:19:52.105 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-05 16:19:52.106 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-05 16:19:54.444 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-07-05 16:19:56.184 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:19:59.524 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@ceb4bd2: startup date [Thu Jul 05 16:19:38 CST 2018]; root of context hierarchy
+2018-07-05 16:19:59.865 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:19:59.866 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:19:59.918 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Line:288 ----------------> Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-05 16:20:03.685 [main] INFO  o.s.context.support.DefaultLifecycleProcessor Line:351 ----------------> Starting beans in phase 2147483647
+2018-07-05 16:20:03.686 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2018-07-05 16:20:03.726 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2018-07-05 16:20:03.760 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2018-07-05 16:20:04.098 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:04.102 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:04.105 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:04.108 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:04.111 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:04.114 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:04.117 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:04.119 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:04.139 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func1UsingGET_1
+2018-07-05 16:20:04.157 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func2UsingGET_1
+2018-07-05 16:20:04.175 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingGET_1
+2018-07-05 16:20:04.179 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingHEAD_1
+2018-07-05 16:20:04.181 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPOST_1
+2018-07-05 16:20:04.183 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPUT_1
+2018-07-05 16:20:04.185 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPATCH_1
+2018-07-05 16:20:04.188 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingDELETE_1
+2018-07-05 16:20:04.190 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingOPTIONS_1
+2018-07-05 16:20:04.192 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingTRACE_1
+2018-07-05 16:20:04.195 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func4UsingGET_1
+2018-07-05 16:20:04.199 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func5UsingPOST_1
+2018-07-05 16:20:04.202 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func6UsingDELETE_1
+2018-07-05 16:20:04.347 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:59 ----------------> Started SchedulerServiceImplTest in 27.77 seconds (JVM running for 33.886)
+2018-07-05 16:20:04.540 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:110 ----------------> mysqldatasource - Starting...
+2018-07-05 16:20:05.057 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:123 ----------------> mysqldatasource - Start completed.
+2018-07-05 16:20:05.352 [main] INFO  com.serviceImpl.UserServiceImpl Line:47 ----------------> 插入任务-scheduler1-成功
+2018-07-05 16:20:05.365 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext Line:993 ----------------> Closing org.springframework.web.context.support.GenericWebApplicationContext@ceb4bd2: startup date [Thu Jul 05 16:19:38 CST 2018]; root of context hierarchy
+2018-07-05 16:20:05.373 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor Line:366 ----------------> Stopping beans in phase 2147483647
+2018-07-05 16:20:05.404 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:381 ----------------> mysqldatasource - Shutdown initiated...
+2018-07-05 16:20:05.432 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:383 ----------------> mysqldatasource - Shutdown completed.
+2018-07-05 16:20:34.703 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 22184 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 16:20:34.719 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 16:20:34.854 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7af707e0: startup date [Thu Jul 05 16:20:34 CST 2018]; root of context hierarchy
+2018-07-05 16:20:39.495 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 16:20:41.425 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e24937ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 16:20:46.685 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/hello/{id}]}" onto public java.lang.String com.ch11.controller.HelloController.hello(java.lang.Integer) throws java.lang.Exception
+2018-07-05 16:20:46.688 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public java.lang.String com.ch11.errhandle.HttpErrorHandle.error(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 16:20:46.698 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func1(int)
+2018-07-05 16:20:46.699 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-07-05 16:20:46.700 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func3]}" onto public org.springframework.web.servlet.ModelAndView com.controller.MvcMethodParamController.func3(org.springframework.ui.Model)
+2018-07-05 16:20:46.701 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func4]}" onto public java.lang.String com.controller.MvcMethodParamController.func4(java.lang.String)
+2018-07-05 16:20:46.702 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func5]}" onto public java.lang.String com.controller.MvcMethodParamController.func5(com.controller.Student)
+2018-07-05 16:20:46.703 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func6]}" onto public java.lang.String com.controller.MvcMethodParamController.func6(java.util.List<org.springframework.web.multipart.MultipartFile>)
+2018-07-05 16:20:46.704 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func7],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func7(java.lang.String)
+2018-07-05 16:20:46.716 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-07-05 16:20:46.717 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-07-05 16:20:46.718 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-07-05 16:20:46.719 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-07-05 16:20:46.720 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-07-05 16:20:46.721 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-07-05 16:20:46.722 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-07-05 16:20:46.724 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-07-05 16:20:46.725 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-07-05 16:20:46.726 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/]}" onto public java.lang.String com.controller.RootController.root()
+2018-07-05 16:20:46.728 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-07-05 16:20:46.729 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-07-05 16:20:46.737 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-05 16:20:46.738 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-05 16:20:46.739 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-05 16:20:48.704 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-07-05 16:20:50.538 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:20:55.361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7af707e0: startup date [Thu Jul 05 16:20:34 CST 2018]; root of context hierarchy
+2018-07-05 16:20:55.876 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:20:55.877 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:20:55.924 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Line:288 ----------------> Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-05 16:20:59.051 [main] INFO  o.s.context.support.DefaultLifecycleProcessor Line:351 ----------------> Starting beans in phase 2147483647
+2018-07-05 16:20:59.053 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2018-07-05 16:20:59.091 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2018-07-05 16:20:59.129 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2018-07-05 16:20:59.420 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:59.423 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:59.425 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:59.427 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:59.429 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:59.431 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:59.433 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:59.435 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:20:59.454 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func1UsingGET_1
+2018-07-05 16:20:59.468 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func2UsingGET_1
+2018-07-05 16:20:59.485 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingGET_1
+2018-07-05 16:20:59.487 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingHEAD_1
+2018-07-05 16:20:59.489 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPOST_1
+2018-07-05 16:20:59.492 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPUT_1
+2018-07-05 16:20:59.494 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPATCH_1
+2018-07-05 16:20:59.496 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingDELETE_1
+2018-07-05 16:20:59.498 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingOPTIONS_1
+2018-07-05 16:20:59.501 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingTRACE_1
+2018-07-05 16:20:59.504 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func4UsingGET_1
+2018-07-05 16:20:59.507 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func5UsingPOST_1
+2018-07-05 16:20:59.510 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func6UsingDELETE_1
+2018-07-05 16:20:59.634 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:59 ----------------> Started SchedulerServiceImplTest in 26.589 seconds (JVM running for 29.608)
+2018-07-05 16:20:59.839 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:110 ----------------> mysqldatasource - Starting...
+2018-07-05 16:21:00.347 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:123 ----------------> mysqldatasource - Start completed.
+2018-07-05 16:21:00.502 [main] INFO  com.serviceImpl.UserServiceImpl Line:91 ----------------> 获取的任务为：
+2018-07-05 16:21:00.503 [main] INFO  com.serviceImpl.UserServiceImpl Line:93 ----------------> Scheduler(schedulerId=1, jobName=scheduler1, jobGroud=null, jobCron=null, jobCreate=null)
+2018-07-05 16:21:00.611 [main] INFO  com.serviceImpl.UserServiceImpl Line:47 ----------------> 插入任务-scheduler1-成功
+2018-07-05 16:21:00.618 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext Line:993 ----------------> Closing org.springframework.web.context.support.GenericWebApplicationContext@7af707e0: startup date [Thu Jul 05 16:20:34 CST 2018]; root of context hierarchy
+2018-07-05 16:21:00.635 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor Line:366 ----------------> Stopping beans in phase 2147483647
+2018-07-05 16:21:00.673 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:381 ----------------> mysqldatasource - Shutdown initiated...
+2018-07-05 16:21:00.728 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:383 ----------------> mysqldatasource - Shutdown completed.
+2018-07-05 16:22:14.893 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 22300 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 16:22:14.897 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 16:22:14.980 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7af707e0: startup date [Thu Jul 05 16:22:14 CST 2018]; root of context hierarchy
+2018-07-05 16:22:18.948 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 16:22:21.906 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a6f656d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 16:22:29.100 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/hello/{id}]}" onto public java.lang.String com.ch11.controller.HelloController.hello(java.lang.Integer) throws java.lang.Exception
+2018-07-05 16:22:29.104 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public java.lang.String com.ch11.errhandle.HttpErrorHandle.error(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 16:22:29.112 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func4]}" onto public java.lang.String com.controller.MvcMethodParamController.func4(java.lang.String)
+2018-07-05 16:22:29.113 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-07-05 16:22:29.114 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func3]}" onto public org.springframework.web.servlet.ModelAndView com.controller.MvcMethodParamController.func3(org.springframework.ui.Model)
+2018-07-05 16:22:29.115 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func1(int)
+2018-07-05 16:22:29.116 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func5]}" onto public java.lang.String com.controller.MvcMethodParamController.func5(com.controller.Student)
+2018-07-05 16:22:29.117 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func6]}" onto public java.lang.String com.controller.MvcMethodParamController.func6(java.util.List<org.springframework.web.multipart.MultipartFile>)
+2018-07-05 16:22:29.119 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func7],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func7(java.lang.String)
+2018-07-05 16:22:29.131 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-07-05 16:22:29.134 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-07-05 16:22:29.136 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-07-05 16:22:29.139 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-07-05 16:22:29.144 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-07-05 16:22:29.145 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-07-05 16:22:29.147 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-07-05 16:22:29.148 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-07-05 16:22:29.149 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-07-05 16:22:29.151 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/]}" onto public java.lang.String com.controller.RootController.root()
+2018-07-05 16:22:29.153 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-07-05 16:22:29.154 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-07-05 16:22:29.162 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-05 16:22:29.164 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-05 16:22:29.165 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-05 16:22:31.257 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-07-05 16:22:33.308 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:22:36.524 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7af707e0: startup date [Thu Jul 05 16:22:14 CST 2018]; root of context hierarchy
+2018-07-05 16:22:36.983 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:22:36.984 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 16:22:37.028 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Line:288 ----------------> Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-05 16:22:40.605 [main] INFO  o.s.context.support.DefaultLifecycleProcessor Line:351 ----------------> Starting beans in phase 2147483647
+2018-07-05 16:22:40.606 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2018-07-05 16:22:40.644 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2018-07-05 16:22:40.671 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2018-07-05 16:22:40.960 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:22:40.963 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:22:40.967 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:22:40.971 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:22:40.975 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:22:40.979 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:22:40.984 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:22:40.987 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 16:22:41.011 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func1UsingGET_1
+2018-07-05 16:22:41.027 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func2UsingGET_1
+2018-07-05 16:22:41.042 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingGET_1
+2018-07-05 16:22:41.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingHEAD_1
+2018-07-05 16:22:41.045 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPOST_1
+2018-07-05 16:22:41.047 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPUT_1
+2018-07-05 16:22:41.049 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPATCH_1
+2018-07-05 16:22:41.052 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingDELETE_1
+2018-07-05 16:22:41.054 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingOPTIONS_1
+2018-07-05 16:22:41.055 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingTRACE_1
+2018-07-05 16:22:41.059 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func4UsingGET_1
+2018-07-05 16:22:41.062 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func5UsingPOST_1
+2018-07-05 16:22:41.066 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func6UsingDELETE_1
+2018-07-05 16:22:41.185 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:59 ----------------> Started SchedulerServiceImplTest in 27.825 seconds (JVM running for 30.308)
+2018-07-05 16:22:41.370 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:110 ----------------> mysqldatasource - Starting...
+2018-07-05 16:22:41.696 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:123 ----------------> mysqldatasource - Start completed.
+2018-07-05 16:22:41.829 [main] INFO  com.serviceImpl.UserServiceImpl Line:91 ----------------> 获取的任务为：
+2018-07-05 16:22:41.830 [main] INFO  com.serviceImpl.UserServiceImpl Line:93 ----------------> Scheduler(schedulerId=1, jobName=scheduler1, jobGroud=null, jobCron=null, jobCreate=null)
+2018-07-05 16:22:41.831 [main] INFO  com.serviceImpl.UserServiceImpl Line:93 ----------------> Scheduler(schedulerId=2, jobName=scheduler1, jobGroud=null, jobCron=null, jobCreate=null)
+2018-07-05 16:22:41.989 [main] INFO  com.serviceImpl.UserServiceImpl Line:47 ----------------> 插入任务-scheduler1-成功
+2018-07-05 16:22:41.996 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext Line:993 ----------------> Closing org.springframework.web.context.support.GenericWebApplicationContext@7af707e0: startup date [Thu Jul 05 16:22:14 CST 2018]; root of context hierarchy
+2018-07-05 16:22:42.005 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor Line:366 ----------------> Stopping beans in phase 2147483647
+2018-07-05 16:22:42.042 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:381 ----------------> mysqldatasource - Shutdown initiated...
+2018-07-05 16:22:42.062 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource Line:383 ----------------> mysqldatasource - Shutdown completed.
+2018-07-05 17:12:27.275 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:50 ----------------> Starting SchedulerServiceImplTest on lgj-Lenovo-G470 with PID 24946 (started by lgj in /home/lgj/aProject/SpringBootStudy/ch12)
+2018-07-05 17:12:27.418 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:659 ----------------> No active profile set, falling back to default profiles: default
+2018-07-05 17:12:27.718 [main] INFO  o.s.w.context.support.GenericWebApplicationContext Line:590 ----------------> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@73386d72: startup date [Thu Jul 05 17:12:27 CST 2018]; root of context hierarchy
+2018-07-05 17:12:36.868 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate Line:163 ----------------> Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-05 17:12:40.509 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:328 ----------------> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32ddbfe9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-05 17:12:47.704 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/hello/{id}]}" onto public java.lang.String com.ch11.controller.HelloController.hello(java.lang.Integer) throws java.lang.Exception
+2018-07-05 17:12:47.706 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/error]}" onto public java.lang.String com.ch11.errhandle.HttpErrorHandle.error(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-05 17:12:47.715 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func1/{id}],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func1(int)
+2018-07-05 17:12:47.716 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func2],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func2(org.springframework.ui.Model)
+2018-07-05 17:12:47.717 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func3]}" onto public org.springframework.web.servlet.ModelAndView com.controller.MvcMethodParamController.func3(org.springframework.ui.Model)
+2018-07-05 17:12:47.718 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func4]}" onto public java.lang.String com.controller.MvcMethodParamController.func4(java.lang.String)
+2018-07-05 17:12:47.719 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func6]}" onto public java.lang.String com.controller.MvcMethodParamController.func6(java.util.List<org.springframework.web.multipart.MultipartFile>)
+2018-07-05 17:12:47.720 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func7],methods=[GET]}" onto public java.lang.String com.controller.MvcMethodParamController.func7(java.lang.String)
+2018-07-05 17:12:47.721 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/method/param/func5]}" onto public java.lang.String com.controller.MvcMethodParamController.func5(com.controller.Student)
+2018-07-05 17:12:47.734 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func1]}" onto public java.lang.String com.controller.MvcTestController.func1()
+2018-07-05 17:12:47.736 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func2/{id}]}" onto public java.lang.String com.controller.MvcTestController.func2(int)
+2018-07-05 17:12:47.737 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func3/**]}" onto public java.lang.String com.controller.MvcTestController.func3()
+2018-07-05 17:12:47.739 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func4/get],methods=[GET]}" onto public java.lang.String com.controller.MvcTestController.func4()
+2018-07-05 17:12:47.740 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func6/delete],methods=[DELETE]}" onto public java.lang.String com.controller.MvcTestController.func6()
+2018-07-05 17:12:47.742 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func7/put],methods=[PUT]}" onto public java.lang.String com.controller.MvcTestController.func7()
+2018-07-05 17:12:47.743 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func5/post],methods=[POST]}" onto public java.lang.String com.controller.MvcTestController.func5()
+2018-07-05 17:12:47.745 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func8],consumes=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func8()
+2018-07-05 17:12:47.746 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/mvc/func9],produces=[application/json]}" onto public java.lang.String com.controller.MvcTestController.func9()
+2018-07-05 17:12:47.747 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/]}" onto public java.lang.String com.controller.RootController.root()
+2018-07-05 17:12:47.749 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/all]}" onto public java.util.List<com.dao.model.OsUser> com.controller.UserController.getUser()
+2018-07-05 17:12:47.750 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/user/test]}" onto public void com.controller.UserController.test()
+2018-07-05 17:12:47.759 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-07-05 17:12:47.760 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-07-05 17:12:47.761 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping Line:547 ----------------> Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-07-05 17:12:48.938 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:110 ----------------> mysqldatasource - Starting...
+2018-07-05 17:12:50.483 [main] INFO  com.zaxxer.hikari.HikariDataSource Line:123 ----------------> mysqldatasource - Start completed.
+2018-07-05 17:12:50.793 [main] INFO  org.quartz.impl.StdSchedulerFactory Line:1208 ----------------> Using default implementation for ThreadExecutor
+2018-07-05 17:12:50.845 [main] INFO  org.quartz.core.SchedulerSignalerImpl Line:61 ----------------> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-07-05 17:12:50.846 [main] INFO  org.quartz.core.QuartzScheduler Line:229 ----------------> Quartz Scheduler v.2.3.0 created.
+2018-07-05 17:12:50.849 [main] INFO  org.quartz.simpl.RAMJobStore Line:155 ----------------> RAMJobStore initialized.
+2018-07-05 17:12:50.855 [main] INFO  org.quartz.core.QuartzScheduler Line:294 ----------------> Scheduler meta-data: Quartz Scheduler (v2.3.0) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-07-05 17:12:50.856 [main] INFO  org.quartz.impl.StdSchedulerFactory Line:1362 ----------------> Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+2018-07-05 17:12:50.857 [main] INFO  org.quartz.impl.StdSchedulerFactory Line:1366 ----------------> Quartz scheduler version: 2.3.0
+2018-07-05 17:12:50.860 [main] INFO  org.quartz.core.QuartzScheduler Line:2287 ----------------> JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6185f1ec
+2018-07-05 17:12:52.597 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping Line:69 ----------------> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-07-05 17:12:54.206 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 17:12:56.802 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter Line:574 ----------------> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@73386d72: startup date [Thu Jul 05 17:12:27 CST 2018]; root of context hierarchy
+2018-07-05 17:12:57.267 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 17:12:57.268 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping Line:373 ----------------> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-05 17:12:57.319 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Line:288 ----------------> Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-05 17:13:05.652 [main] INFO  o.s.context.support.DefaultLifecycleProcessor Line:351 ----------------> Starting beans in phase 2147483647
+2018-07-05 17:13:05.653 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:160 ----------------> Context refreshed
+2018-07-05 17:13:05.698 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper Line:163 ----------------> Found 1 custom documentation plugin(s)
+2018-07-05 17:13:05.818 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner Line:41 ----------------> Scanning for api listing references
+2018-07-05 17:13:06.603 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 17:13:06.607 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 17:13:06.610 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 17:13:06.613 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 17:13:06.616 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 17:13:06.619 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 17:13:06.622 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 17:13:06.627 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader Line:92 ----------------> Trying to infer dataType java.util.List<org.springframework.web.multipart.MultipartFile>
+2018-07-05 17:13:06.651 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func1UsingGET_1
+2018-07-05 17:13:06.669 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func2UsingGET_1
+2018-07-05 17:13:06.700 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingGET_1
+2018-07-05 17:13:06.703 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingHEAD_1
+2018-07-05 17:13:06.706 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPOST_1
+2018-07-05 17:13:06.709 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPUT_1
+2018-07-05 17:13:06.711 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingPATCH_1
+2018-07-05 17:13:06.714 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingDELETE_1
+2018-07-05 17:13:06.717 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingOPTIONS_1
+2018-07-05 17:13:06.719 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func3UsingTRACE_1
+2018-07-05 17:13:06.723 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func4UsingGET_1
+2018-07-05 17:13:06.726 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func5UsingPOST_1
+2018-07-05 17:13:06.730 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator Line:40 ----------------> Generating unique operation named: func6UsingDELETE_1
+2018-07-05 17:13:06.837 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean Line:705 ----------------> Will start Quartz Scheduler [scheduler] in 1 seconds
+2018-07-05 17:13:07.000 [main] INFO  com.ch12.serviceImpl.SchedulerServiceImplTest Line:59 ----------------> Started SchedulerServiceImplTest in 44.146 seconds (JVM running for 48.027)
+2018-07-05 17:13:07.838 [Quartz Scheduler [scheduler]] INFO  o.s.scheduling.quartz.SchedulerFactoryBean Line:721 ----------------> Starting Quartz Scheduler now, after delay of 1 seconds
+2018-07-05 17:13:07.840 [Quartz Scheduler [scheduler]] INFO  org.quartz.core.QuartzScheduler Line:547 ----------------> Scheduler scheduler_$_NON_CLUSTERED started.
+2018-07-05 17:13:09.259 [main] INFO  com.serviceImpl.UserServiceImpl Line:91 ----------------> 获取的任务为：
+2018-07-05 17:13:09.260 [main] INFO  com.serviceImpl.UserServiceImpl Line:93 ----------------> Scheduler(schedulerId=1, jobName=scheduler1, jobGroud=null, jobCron=null, jobCreate=null)
+2018-07-05 17:13:09.261 [main] INFO  com.serviceImpl.UserServiceImpl Line:93 ----------------> Scheduler(schedulerId=2, jobName=scheduler1, jobGroud=null, jobCron=null, jobCreate=null)
+2018-07-05 17:13:09.261 [main] INFO  com.serviceImpl.UserServiceImpl Line:93 ----------------> Scheduler(schedulerId=3, jobName=scheduler1, jobGroud=null, jobCron=null, jobCreate=null)
+2018-07-05 17:13:09.754 [main] INFO  com.serviceImpl.UserServiceImpl Line:47 ----------------> 插入任务-scheduler1-成功
+2018-07-05 17:13:09.772 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext Line:993 ----------------> Closing org.springframework.web.context.support.GenericWebApplicationContext@73386d72: startup date [Thu Jul 05 17:12:27 CST 2018]; root of context hierarchy
+2018-07-05 17:13:09.778 [Thread-3] INFO  o.s.context.support.DefaultLifecycleProcessor Line:366 ----------------> Stopping beans in phase 2147483647
+2018-07-05 17:13:09.780 [Thread-3] INFO  org.quartz.core.QuartzScheduler Line:585 ----------------> Scheduler scheduler_$_NON_CLUSTERED paused.
+2018-07-05 17:13:09.800 [Thread-3] INFO  o.s.scheduling.quartz.SchedulerFactoryBean Line:824 ----------------> Shutting down Quartz Scheduler
+2018-07-05 17:13:09.801 [Thread-3] INFO  org.quartz.core.QuartzScheduler Line:666 ----------------> Scheduler scheduler_$_NON_CLUSTERED shutting down.
+2018-07-05 17:13:09.801 [Thread-3] INFO  org.quartz.core.QuartzScheduler Line:585 ----------------> Scheduler scheduler_$_NON_CLUSTERED paused.
+2018-07-05 17:13:09.802 [Thread-3] INFO  org.quartz.core.QuartzScheduler Line:740 ----------------> Scheduler scheduler_$_NON_CLUSTERED shutdown complete.
+2018-07-05 17:13:09.807 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource Line:381 ----------------> mysqldatasource - Shutdown initiated...
+2018-07-05 17:13:09.821 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource Line:383 ----------------> mysqldatasource - Shutdown completed.

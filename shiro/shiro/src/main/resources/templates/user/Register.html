@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>帐号注册</title>
+
+    <script th:src="@{/lib/jquery/jquery-3.3.1.min.js}"></script>
+    <link rel="stylesheet" type="text/css"  th:href="@{/lib/bootstrap/css/bootstrap.css}">
+
+
+    <script th:src="@{/js/user/register.js}"></script>
+
+    <script>
+        var num = 110;
+
+    </script>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #b8daff;
+        }
+
+
+        #register-table{
+            position: relative;
+            top: 30% ;
+            left: 40%;
+
+        }
+        #register-success{
+            position: relative;
+            top: 20% ;
+            left: 30%;
+
+        }
+
+        #register-success a{
+            font-size: 40px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div id="register-table">
+        <div class="form-group">
+            <label for="register-registerName" class="col-sm-2 control-label">注册帐号</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="register-registerName" placeholder="请输入昵称/邮箱/电话">
+                <span id="register-registerName-warn" style="color: red"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="register-password" class="col-sm-2 control-label">注册密码</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="register-password" placeholder="请输入密码">
+                <span id="register-password-warn" style="color: red"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button id="register-submit-btn" class="btn btn-default" disabled="true">注册</button>
+                <span id="register-submit-btn-warn" style="color: red"></span>
+            </div>
+        </div>
+    </div>
+    <div id="register-success" style="display: none">
+        <div>
+            <a th:href="@{/user/login/into}">注册成功,点击跳转到登录页面......</a>
+        </div>
+        <div>
+            <a th:href="@{/user/login/into}">返回注册页面......</a>
+        </div>
+    </div>
+</body>
+</html>
