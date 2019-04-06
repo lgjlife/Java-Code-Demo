@@ -5,6 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/rocketmq/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,7 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java-base" />
+        <module name="kafka" />
+        <module name="rabbitmq" />
+        <module name="rocketmq" />
+        <module name="utils" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kafka" options="-parameters" />
+      <module name="rabbitmq" options="-parameters" />
+      <module name="rocketmq" options="-parameters" />
+      <module name="utils" options="-parameters" />
+    </option>
   </component>
 </project>
