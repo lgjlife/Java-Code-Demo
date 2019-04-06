@@ -1,0 +1,30 @@
+server:
+  port: 7001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+
+
+spring:
+  application:
+    name: security-service
+  #spring-thymeleaf模板配置-------------------------------------------------
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+logging:
+  level:
+      org.springframework.security: debug

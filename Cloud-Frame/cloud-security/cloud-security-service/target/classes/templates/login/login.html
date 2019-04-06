@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+    <head>
+        <title>登录页面</title>
+
+        <!-- jquery  bootstrap-->
+        <script th:src="@{/jquery/jquery-3.3.1.js}"></script>
+        <link rel="stylesheet" type="text/css"  th:href="@{/bootstrap/bootstrap.css}">
+        <script th:src="@{/bootstrap/bootstrap.js}"></script>
+
+        <!-- 自定义 -->
+        <link rel="stylesheet" type="text/css"  th:href="@{/css/login/login.css}">
+       <!-- <script th:src="@{/js/menu.js}"></script>-->
+
+    </head>
+
+    <body onload='document.f.username.focus();'>
+        <h3>Login with Username and Password</h3>
+        <div id="login">
+            <form id="login-form" name='f' action='/login' method='POST'>
+                <table>
+                    <tr>
+                        <td>用户名:</td>
+                        <td><input type='text' name='username' value=''></td>
+                    </tr>
+                    <tr>
+                        <td>密码:</td>
+                        <td><input type='password' name='password'/></td>
+                    </tr>
+                    <tr>
+                        <td colspan='2'>
+                            <input name="submit" type="submit" value="登录"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+
+    </body>
+
+</html>
