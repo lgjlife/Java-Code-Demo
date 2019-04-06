@@ -8,10 +8,10 @@
 
 
 ## Spring 工具类
-* [Spring 工具类]()
+* [Spring 工具类](https://github.com/lgjlife/Java-Code-Demo/tree/master/spring-utils)
 ## 消息中间件
-* [Kafka]()
-* [RabbitMQ]()
-* [RocketMQ]()
+* [Kafka](https://github.com/lgjlife/Java-Code-Demo/tree/master/mq/kafka)
+* [RabbitMQ](https://github.com/lgjlife/Java-Code-Demo/tree/master/mq/rabbitmq)
+* [RocketMQ](https://github.com/lgjlife/Java-Code-Demo/tree/master/mq/rocketmq)
 
 

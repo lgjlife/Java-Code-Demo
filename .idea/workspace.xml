@@ -2,163 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52084754-6f62-45cd-9868-213e30ba5b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mq/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_alibaba_fastjson_1_2_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_alibaba_fastjson_1_2_56.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_caucho_hessian_4_0_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_utils_serialization_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__io_netty_netty_all_4_1_33_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_2_0_20_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__io_protostuff_protostuff_api_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__io_protostuff_protostuff_collectionschema_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__io_protostuff_protostuff_core_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__io_protostuff_protostuff_runtime_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_kafka_connect_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_kafka_connect_json_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_logging_4_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_lz4_lz4_java_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/mq.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/drawio.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/KafkaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/AdminClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerCfg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ProducerClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/count/KafkaCountUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/kafka/src/test/java/com/mq/kafka/KafkaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/src/main/java/com/mq/rabbitmq/RabbitmqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/src/main/java/com/mq/rabbitmq/config/ExchangeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/src/main/java/com/mq/rabbitmq/config/RabbitmqConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/src/main/java/com/mq/rabbitmq/config/RabbitmqProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/src/main/java/com/mq/rabbitmq/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rabbitmq/src/test/java/com/mq/rabbitmq/RabbitmqApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/src/main/java/com/mq/rocketmq/RocketmqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/src/main/java/com/mq/rocketmq/consumer/MqConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/src/main/java/com/mq/rocketmq/producer/MqProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq/rocketmq/src/test/java/com/mq/rocketmq/RocketmqApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/file/desc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/file/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/java/com/spring/utils/UtilsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/java/com/spring/utils/core/AnnotationUtilsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/java/com/spring/utils/util/AntPathMatcherUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/java/com/spring/utils/util/AssertUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/java/com/spring/utils/util/DigestUtilsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/java/com/spring/utils/util/FileCopyUtilsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/java/com/spring/utils/util/SerializationUtilsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/java/com/spring/utils/util/StopWatchUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/java/com/spring/utils/util/StringUtilsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/java/com/spring/utils/web/CookieGeneratorUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-utils/src/test/java/com/spring/utils/UtilsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/READMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/READMe.md" afterDir="false" />
     </list>
@@ -278,8 +121,8 @@
         <entry file="file://$PROJECT_DIR$/READMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="170">
+                <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
               </first_editor>
               <second_editor />
             </state>
@@ -470,25 +313,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554535596009</updated>
-      <workItem from="1554535598973" duration="7145000" />
+      <workItem from="1554535598973" duration="7899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7145000" />
+    <option name="totallyTimeSpent" value="7899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1366" height="770" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
       <window_info id="simpleUML" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33073324" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33073324" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" />
@@ -637,8 +479,8 @@
     <entry file="file://$PROJECT_DIR$/READMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
           </first_editor>
           <second_editor />
         </state>
