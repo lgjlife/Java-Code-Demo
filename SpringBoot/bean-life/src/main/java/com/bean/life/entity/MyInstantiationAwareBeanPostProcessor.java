@@ -19,20 +19,10 @@ public class MyInstantiationAwareBeanPostProcessor extends
     }
 
     @Override
-    public Class<?> predictBeanType(Class<?> beanClass, String beanName) {
-        if(beanName.equals("user")){
-            System.out.println("MyInstantiationAwareBeanPostProcessor predictBeanType: " + beanName);
-        }
-
-     //
-        return super.predictBeanType(beanClass, beanName);
-    }
-
-    @Override
     public Constructor<?>[] determineCandidateConstructors(Class<?> beanClass, String beanName) throws BeansException {
 
         if(beanName.equals("user")){
-            System.out.println("MyInstantiationAwareBeanPostProcessor determineCandidateConstructors: " + beanName);
+            System.out.println("MyInstantiationAwareBeanPostProcessor接口： determineCandidateConstructors: " + beanName);
         }
 
         return super.determineCandidateConstructors(beanClass, beanName);
@@ -41,7 +31,7 @@ public class MyInstantiationAwareBeanPostProcessor extends
     @Override
     public Object getEarlyBeanReference(Object bean, String beanName) throws BeansException {
         if(beanName.equals("user")){
-            System.out.println("MyInstantiationAwareBeanPostProcessor getEarlyBeanReference: " + beanName);
+            System.out.println("MyInstantiationAwareBeanPostProcessor接口： getEarlyBeanReference: " + beanName);
         }
 
         return super.getEarlyBeanReference(bean, beanName);
@@ -50,7 +40,7 @@ public class MyInstantiationAwareBeanPostProcessor extends
     @Override
     public Object postProcessBeforeInstantiation(Class<?> beanClass, String beanName) throws BeansException {
         if(beanName.equals("user")){
-            System.out.println("MyInstantiationAwareBeanPostProcessor postProcessBeforeInstantiation: " + beanName);
+            System.out.println("MyInstantiationAwareBeanPostProcessor接口： postProcessBeforeInstantiation: " + beanName);
         }
 
         return super.postProcessBeforeInstantiation(beanClass, beanName);
@@ -59,7 +49,7 @@ public class MyInstantiationAwareBeanPostProcessor extends
     @Override
     public boolean postProcessAfterInstantiation(Object bean, String beanName) throws BeansException {
         if(beanName.equals("user")){
-            System.out.println("MyInstantiationAwareBeanPostProcessor postProcessAfterInstantiation : " + beanName);
+            System.out.println("MyInstantiationAwareBeanPostProcessor接口： postProcessAfterInstantiation : " + beanName);
         }
 
         return super.postProcessAfterInstantiation(bean, beanName);
@@ -69,7 +59,7 @@ public class MyInstantiationAwareBeanPostProcessor extends
     public PropertyValues postProcessPropertyValues(PropertyValues pvs, PropertyDescriptor[] pds, Object bean, String beanName) throws BeansException {
 
         if(beanName.equals("user")){
-            System.out.println("MyInstantiationAwareBeanPostProcessor  postProcessPropertyValues: " + beanName);
+            System.out.println("MyInstantiationAwareBeanPostProcessor接口：  postProcessPropertyValues: " + beanName);
         }
         return super.postProcessPropertyValues(pvs, pds, bean, beanName);
     }
@@ -77,7 +67,7 @@ public class MyInstantiationAwareBeanPostProcessor extends
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         if(beanName.equals("user")){
-            System.out.println("MyInstantiationAwareBeanPostProcessor postProcessBeforeInitialization: " + beanName);
+            System.out.println("MyInstantiationAwareBeanPostProcessor接口： postProcessBeforeInitialization: " + beanName);
         }
 
         return super.postProcessBeforeInitialization(bean, beanName);
@@ -86,7 +76,7 @@ public class MyInstantiationAwareBeanPostProcessor extends
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         if(beanName.equals("user")){
-            System.out.println("MyInstantiationAwareBeanPostProcessor  postProcessAfterInitialization: " + beanName);
+            System.out.println("MyInstantiationAwareBeanPostProcessor接口：  postProcessAfterInitialization: " + beanName);
         }
 
         return super.postProcessAfterInitialization(bean, beanName);

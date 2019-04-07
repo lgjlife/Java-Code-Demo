@@ -14,4 +14,6 @@
 * [RabbitMQ](https://github.com/lgjlife/Java-Code-Demo/tree/master/mq/rabbitmq)
 * [RocketMQ](https://github.com/lgjlife/Java-Code-Demo/tree/master/mq/rocketmq)
 
+## Spring 
 
+* [Bean生命周期](https://github.com/lgjlife/Java-Code-Demo/tree/master/SpringBoot/bean-life) / [博客总结](https://www.cnblogs.com/lgjlife/p/10664320.html)

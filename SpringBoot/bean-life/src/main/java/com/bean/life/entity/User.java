@@ -13,8 +13,6 @@ public class User implements BeanFactoryAware
     , BeanNameAware
     , InitializingBean
     , DisposableBean
-
-
 {
 
 
@@ -44,7 +42,7 @@ public class User implements BeanFactoryAware
     */
     @Override
     public void setBeanName(String s) {
-        System.out.println("BeanNameAware  setBeanName = " + s);
+        System.out.println("BeanNameAware接口：  setBeanName = " + s);
     }
 
     /**
@@ -58,7 +56,7 @@ public class User implements BeanFactoryAware
     */
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("InitializingBean  afterPropertiesSet");
+        System.out.println("InitializingBean接口：  afterPropertiesSet");
     }
 
 
@@ -73,9 +71,11 @@ public class User implements BeanFactoryAware
     */
     @Override
     public void destroy() throws Exception {
-        System.out.println("DisposableBean  destroy");
+        System.out.println("DisposableBean接口：  destroy");
 
     }
+
+
 
     @PostConstruct
     public  void init(){
