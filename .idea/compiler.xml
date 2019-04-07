@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bean-life" />
         <module name="Java-base" />
         <module name="kafka" />
         <module name="rabbitmq" />
@@ -16,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bean-life" options="-parameters" />
       <module name="kafka" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />
       <module name="rocketmq" options="-parameters" />

@@ -16,6 +16,7 @@ public class RocketmqApplication {
         MqProducer mqProducer = new MqProducer();
         mqProducer.createProducer();
 
+      //  BeanFactory
 
         //同步方式发送
        // mqProducer.syncSendData("同步数据：123456789");
