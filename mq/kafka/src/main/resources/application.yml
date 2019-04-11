@@ -1,3 +1,6 @@
 logging:
   level:
     org.apache.kafka:  error
+
+server:
+  port: 8751

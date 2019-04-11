@@ -19,7 +19,10 @@ public class RocketmqApplication {
       //  BeanFactory
 
         //同步方式发送
-       // mqProducer.syncSendData("同步数据：123456789");
+        for(int i = 0; i< 30; i++){
+            mqProducer.syncSendData("同步数据：123456789");
+        }
+        // mqProducer.syncSendData("同步数据：123456789");
         //异步方式发送
      //   mqProducer.asyncSendData("异步数据：123456789");
 
@@ -28,7 +31,7 @@ public class RocketmqApplication {
 
 
         //
-        mqProducer.scheduledSendData("定时数据：123456789");
+      //  mqProducer.scheduledSendData("定时数据：123456789");
     }
 
 }

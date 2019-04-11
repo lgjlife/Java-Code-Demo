@@ -3568,7 +3568,7 @@
                                                     resolve(maxDepth, deferred, Thrower, special)
                                                 );
 
-                                                // Normal processors (resolve) also hook into progress
+                                                // Normal processors (resolve) also runtime into progress
                                             } else {
 
                                                 // ...and disregard older resolution values
@@ -3637,7 +3637,7 @@
                                     process();
                                 } else {
 
-                                    // Call an optional hook to record the stack, in case of exception
+                                    // Call an optional runtime to record the stack, in case of exception
                                     // since it's otherwise lost when execution goes async
                                     if (jQuery.Deferred.getStackHook) {
                                         process.stackTrace = jQuery.Deferred.getStackHook();
@@ -5150,7 +5150,7 @@
 
             event.delegateTarget = this;
 
-            // Call the preDispatch hook for the mapped type, and let it bail if desired
+            // Call the preDispatch runtime for the mapped type, and let it bail if desired
             if (special.preDispatch && special.preDispatch.call(this, event) === false) {
                 return;
             }
@@ -5187,7 +5187,7 @@
                 }
             }
 
-            // Call the postDispatch hook for the mapped type
+            // Call the postDispatch runtime for the mapped type
             if (special.postDispatch) {
                 special.postDispatch.call(this, event);
             }
@@ -6201,7 +6201,7 @@
 
     function addGetHookIf(conditionFn, hookFn) {
 
-        // Define the hook, we'll check on the first run if it's really needed.
+        // Define the runtime, we'll check on the first run if it's really needed.
         return {
             get: function () {
                 if (conditionFn()) {
@@ -6454,7 +6454,7 @@
                 name = finalPropName(origName);
             }
 
-            // Gets hook for the prefixed version, then unprefixed version
+            // Gets runtime for the prefixed version, then unprefixed version
             hooks = jQuery.cssHooks[name] || jQuery.cssHooks[origName];
 
             // Check if we're setting a value
@@ -6484,7 +6484,7 @@
                     style[name] = "inherit";
                 }
 
-                // If a hook was provided, use that value, otherwise just set the specified value
+                // If a runtime was provided, use that value, otherwise just set the specified value
                 if (!hooks || !("set" in hooks) ||
                     (value = hooks.set(elem, value, extra)) !== undefined) {
 
@@ -6497,7 +6497,7 @@
 
             } else {
 
-                // If a hook was provided get the non-computed value from there
+                // If a runtime was provided get the non-computed value from there
                 if (hooks && "get" in hooks &&
                     (ret = hooks.get(elem, false, extra)) !== undefined) {
 
@@ -6524,7 +6524,7 @@
             // Try prefixed name followed by the unprefixed name
             hooks = jQuery.cssHooks[name] || jQuery.cssHooks[origName];
 
-            // If a hook was provided get the computed value from there
+            // If a runtime was provided get the computed value from there
             if (hooks && "get" in hooks) {
                 val = hooks.get(elem, true, extra);
             }
@@ -6750,7 +6750,7 @@
             },
             set: function (tween) {
 
-                // Use step hook for back compat.
+                // Use step runtime for back compat.
                 // Use cssHook if its there.
                 // Use .style if available and use plain properties where available.
                 if (jQuery.fx.step[tween.prop]) {
@@ -7537,7 +7537,7 @@
             }
 
             // Attribute hooks are determined by the lowercase version
-            // Grab necessary hook if one is defined
+            // Grab necessary runtime if one is defined
             if (nType !== 1 || !jQuery.isXMLDoc(elem)) {
                 hooks = jQuery.attrHooks[name.toLowerCase()] ||
                     (jQuery.expr.match.bool.test(name) ? boolHook : undefined);

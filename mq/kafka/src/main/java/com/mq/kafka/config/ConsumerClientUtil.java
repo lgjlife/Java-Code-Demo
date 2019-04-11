@@ -1,6 +1,11 @@
 package com.mq.kafka.config;
 
 import com.mq.kafka.count.KafkaCountUtil;
+import com.mq.kafka.pojo.User;
+import com.mq.kafka.serialize.HessianDeSerialize;
+import com.utils.serialization.AbstractSerialize;
+import com.utils.serialization.HessianSerializeUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -10,13 +15,15 @@ import java.util.Collection;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicInteger;
 
+
+@Slf4j
 public class ConsumerClientUtil {
 
 
     private AtomicInteger  recCount = new AtomicInteger(0);
     private KafkaConsumer kafkaConsumer;
     private static String BROKER_LISTS = "localhost:9092,localhost:9093";
-
+    private AbstractSerialize serialize = HessianSerializeUtil.getSingleton();
 
 
    /* public static void main(String args[]){
@@ -66,6 +73,7 @@ public class ConsumerClientUtil {
                     System.out.println("+++++++++++++");
                     System.out.println("onPartitionsRevoked : " + value );
 
+
                 });
 
             }
@@ -85,18 +93,23 @@ public class ConsumerClientUtil {
             public void run() {
                 while (true) {
                    // System.out.println("消费者拉取数据");
-                    ConsumerRecords<String, String> records = kafkaConsumer.poll(100);
+                    ConsumerRecords<String, User> records = kafkaConsumer.poll(100);
                     int recordsCount =0;
 
-                    for (ConsumerRecord<String, String> record : records){
+                    for (ConsumerRecord<String, User> record : records){
                         //System.out.printf("offset = %d, key = %s, value = %s",record.offset(), record.key(), record.value());
                         recordsCount++;
                         int count = KafkaCountUtil.incAndGetRecCount();
-                        System.out.println(Thread.currentThread().getName() + "  "+  count + ",接收到的数据：" + record);
+                        User user = record.value();
+
+                        log.info(Thread.currentThread().getName() + "  "+  count + ",接收到的数据：" + user.getName());
+
+
+                        //User user = record.value();
                       //  System.out.println();
                     }
                     if(recordsCount !=  0)
-                    System.out.println("recordsCount = " + recordsCount);
+                        log.info("recordsCount = " + recordsCount);
                 }
             }
         }.start();
@@ -122,7 +135,7 @@ public class ConsumerClientUtil {
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG ,"earliest");
         //反序列化方式
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
-        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
+        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, HessianDeSerialize.class.getName());
 
         return props;
     }
