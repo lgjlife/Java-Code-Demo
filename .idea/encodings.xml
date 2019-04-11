@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/mq/kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq/rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq/rocketmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/zk/downKnown" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/zk/downKnown/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/zk/downKnown/server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-utils" charset="UTF-8" />
   </component>
 </project>
