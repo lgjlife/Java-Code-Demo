@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 @Slf4j
 @Component
-@Service(version = "1.0.0",timeout = 10000,weight = 50,loadbalance = "leastactive")
+@Service(version = "1.0.0",timeout = 10000,weight = 50,loadbalance = "random")
 public class RemoteUserServiceImpl implements RemoteUserService {
 
     AtomicInteger count = new AtomicInteger(0);
@@ -18,8 +18,10 @@ public class RemoteUserServiceImpl implements RemoteUserService {
     public String sayHello(String name) {
 
         int c = count.incrementAndGet();
-        log.info("访问sayHello " + name + "  调用次数 = " + c);
-        return "Hello " + name + " ,I am provider - 1";
+        String  str = "RemoteUserServiceImpl:" + c + "-" + "请求参数:" + name;
+
+        log.info(str);
+        return str;
     }
 
     @Override

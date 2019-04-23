@@ -8,24 +8,48 @@
         <outputRelativeToContentRoot value="true" />
         <module name="bean-life" />
         <module name="client" />
+        <module name="demo" />
+        <module name="dubbo-admin-backend" />
+        <module name="dubbo-admin-frontend" />
+        <module name="dubbo-common" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
+        <module name="dubbo-provider1" />
+        <module name="dubbo-provider2" />
         <module name="Java-base" />
         <module name="kafka" />
         <module name="rabbitmq" />
         <module name="rocketmq" />
         <module name="server" />
+        <module name="spring-test" />
         <module name="utils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbitmq-receiver" target="1.8" />
+      <module name="rabbitmq-sender" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bean-life" options="-parameters" />
       <module name="client" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="downKnown" options="-parameters" />
+      <module name="dubbo-admin-backend" options="-parameters" />
+      <module name="dubbo-admin-frontend" options="-parameters" />
+      <module name="dubbo-common" options="-parameters" />
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="dubbo-provider1" options="-parameters" />
+      <module name="dubbo-provider2" options="-parameters" />
       <module name="kafka" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />
+      <module name="rabbitmq-receiver" options="-parameters" />
+      <module name="rabbitmq-sender" options="-parameters" />
       <module name="rocketmq" options="-parameters" />
       <module name="server" options="-parameters" />
+      <module name="spring-test" options="-parameters" />
       <module name="utils" options="-parameters" />
     </option>
   </component>

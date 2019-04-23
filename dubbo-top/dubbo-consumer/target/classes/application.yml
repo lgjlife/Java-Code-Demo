@@ -1,0 +1,8 @@
+server:
+  port: 8181
+spring:
+  application:
+    name: dubbo-consumer
+  dubbo:
+    registry: zookeeper://127.0.0.1:2181
+

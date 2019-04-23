@@ -20,7 +20,7 @@ public class RemoteUserController {
     AtomicInteger count = new AtomicInteger(0);
 
     //random   RoundRobin
-    @Reference(version = "1.0.0",check = true, loadbalance = "leastactive" ,cluster = "broadcast")
+    @Reference(version = "1.0.0",check = true, loadbalance = "random" ,cluster = "broadcast")
     private RemoteUserService remoteUserService;
 
 
@@ -31,8 +31,8 @@ public class RemoteUserController {
 
         int c = count.incrementAndGet();
         log.info( "调用次数 = " + c);
-        System.out.println(remoteUserService);
-        String result=remoteUserService.sayHello(name + " count = " + c);
+        String result=remoteUserService.sayHello( c+"");
+        log.info("result = " + result);
         return result;
     }
 

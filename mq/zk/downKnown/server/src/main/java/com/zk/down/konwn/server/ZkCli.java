@@ -8,10 +8,13 @@ import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.ZooDefs;
+import org.apache.zookeeper.data.Stat;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.util.Date;
+import java.util.List;
+import java.util.Random;
 
 @Slf4j
 @Component
@@ -20,7 +23,7 @@ public class ZkCli {
 
     private  CuratorFramework client;
 
-    private  String rootPath = "/servers/";
+    private  String rootPath = "/servers";
 
     public void connect() {
         //拒绝策略
@@ -37,10 +40,17 @@ public class ZkCli {
 
         try{
             String result = client.create().creatingParentsIfNeeded()
-                    .withMode(CreateMode.EPHEMERAL_SEQUENTIAL)
+                    .withMode(CreateMode.EPHEMERAL)
                     .withACL(ZooDefs.Ids.OPEN_ACL_UNSAFE)
-                    .forPath(rootPath+server,new Date().toString().getBytes());
+                    .forPath(rootPath + "/aaa/" +server,new Date().toString().getBytes());
             log.info("创建结果 = " + result);
+           /* client.setData().forPath(rootPath,"aaaa".getBytes());
+            for(int i = 0; i< 10; i++){
+              Stat res =  client.setData().forPath(rootPath,(i+server).getBytes());
+               // log.info("创建结果 = " + res.toString());
+            }*/
+
+
 
         }
         catch(Exception ex){
@@ -50,12 +60,44 @@ public class ZkCli {
 
     }
 
+    public void create2(String server){
+        String rootPath1 =  "/rootPath1";
+        String path = rootPath1 + "/" +server;
+
+        try{
+
+            if(client.checkExists().forPath(path)== null){
+                log.debug("path[{}]不存在，创建节点",path);
+                String result = client.create().creatingParentsIfNeeded()
+                        .forPath(path);
+                log.info("创建结果 = " + result);
+            }
+
+            Stat res =  client.setData().forPath(path,("aaaa-" + new Random().nextInt(1000)).getBytes());
+            log.info("创建结果 = " + res.toString());
+
+            List<String> paths = client.getChildren().forPath(rootPath1);
+            paths.forEach((v)->{
+                        log.debug("path = " + v);
+                    }
+                    );
+
+        }
+        catch(Exception ex){
+            log.error(ex.getMessage());
+        }
+
+
+    }
+
+
+
     @PostConstruct
     public void init(){
         log.info("ZkCli  init");
         this.connect();
         this.create("server-1");
-
+        this.create2("server-5/sub1/"+ new Random().nextInt(100));
     }
 
 }

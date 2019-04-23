@@ -31,7 +31,16 @@ public class Client {
 
        // timeTest(100000);
 
-        createProxytimeTest(10000);
+        Subject javassistProxySubject =  null;
+        try{
+            javassistProxySubject  = (Subject) new JavassistProxy().getProxy(Subject.class);
+            javassistProxySubject.doSomething("A");
+        }
+        catch(Exception ex){
+            ex.printStackTrace();
+        }
+
+      //  createProxytimeTest(10000);
     }
 
 

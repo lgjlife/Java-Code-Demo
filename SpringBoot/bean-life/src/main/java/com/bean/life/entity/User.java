@@ -2,6 +2,8 @@ package com.bean.life.entity;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -13,6 +15,7 @@ public class User implements BeanFactoryAware
     , BeanNameAware
     , InitializingBean
     , DisposableBean
+    ,  ApplicationContextAware
 {
 
 
@@ -85,5 +88,10 @@ public class User implements BeanFactoryAware
     @PreDestroy
     public  void destory(){
         System.out.println("PreDestroy");
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        System.out.println("ApplicationContextAware setApplicationContext");
     }
 }

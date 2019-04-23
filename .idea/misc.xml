@@ -9,7 +9,16 @@
         <option value="$PROJECT_DIR$/mq/kafka/pom.xml" />
         <option value="$PROJECT_DIR$/mq/rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/mq/rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-top/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot/ch3/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot/spring-test/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/dubbo-top/rabbitmq-receiver/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-top/rabbitmq-sender/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

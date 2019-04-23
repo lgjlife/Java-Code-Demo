@@ -5,7 +5,7 @@ public class SubjectImpl  implements  Subject {
 
 
     public String doSomething(String var) {
-      //  System.out.println("do doSomething : " + var);
+        System.out.println("do doSomething : " + var);
         return "proxy:" + var;
     }
 
