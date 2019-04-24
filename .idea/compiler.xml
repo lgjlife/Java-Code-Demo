@@ -8,9 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="bean-life" />
         <module name="client" />
+        <module name="common" />
+        <module name="consumer" />
         <module name="demo" />
         <module name="dubbo-admin-backend" />
         <module name="dubbo-admin-frontend" />
+        <module name="dubbo-admin-server" />
         <module name="dubbo-common" />
         <module name="dubbo-consumer" />
         <module name="dubbo-provider" />
@@ -18,6 +21,9 @@
         <module name="dubbo-provider2" />
         <module name="Java-base" />
         <module name="kafka" />
+        <module name="provider" />
+        <module name="provider (1)" />
+        <module name="provider (2)" />
         <module name="rabbitmq" />
         <module name="rocketmq" />
         <module name="server" />
@@ -34,6 +40,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bean-life" options="-parameters" />
       <module name="client" options="-parameters" />
+      <module name="consumer" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="downKnown" options="-parameters" />
       <module name="dubbo-admin-backend" options="-parameters" />
@@ -44,6 +51,9 @@
       <module name="dubbo-provider1" options="-parameters" />
       <module name="dubbo-provider2" options="-parameters" />
       <module name="kafka" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="provider (1)" options="-parameters" />
+      <module name="provider (2)" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />
       <module name="rabbitmq-receiver" options="-parameters" />
       <module name="rabbitmq-sender" options="-parameters" />

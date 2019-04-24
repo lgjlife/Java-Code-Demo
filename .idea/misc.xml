@@ -12,6 +12,12 @@
         <option value="$PROJECT_DIR$/dubbo-top/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot/ch3/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot/spring-test/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/incubator-dubbo-admin-develop/dubbo-admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider1/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

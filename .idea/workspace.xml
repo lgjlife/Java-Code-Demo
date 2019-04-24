@@ -6,35 +6,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/entity/SubjectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/entity/SubjectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/proxy/JavassistProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/proxy/JavassistProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/entity/SubjectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/entity/SubjectImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JavassistProxy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JavassistProxy$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JavassistProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JavassistProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot/bean-life/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/bean-life/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot/bean-life/src/main/java/com/bean/life/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/bean-life/src/main/java/com/bean/life/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot/bean-life/target/classes/com/bean/life/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/bean-life/target/classes/com/bean/life/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/dubbo-consumer/src/main/java/com/dubbo/frame/consumer/controller/RemoteUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-top/dubbo-consumer/src/main/java/com/dubbo/frame/consumer/controller/RemoteUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/dubbo-provider1/src/main/java/com/dubbo/frame/provider1/serviceImpl/RemoteUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-top/dubbo-provider1/src/main/java/com/dubbo/frame/provider1/serviceImpl/RemoteUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/dubbo-provider2/src/main/java/com/dubbo/frame/provider/serviceImpl/RemoteUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-top/dubbo-provider2/src/main/java/com/dubbo/frame/provider/serviceImpl/RemoteUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-receiver/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-receiver/src/main/java/com/dubbo/frame/rabbitmq/receiver/RabbitMqReceiverApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-receiver/src/main/java/com/dubbo/frame/rabbitmq/receiver/service/ReceiverService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-receiver/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-sender/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-sender/src/main/java/com/dubbo/frame/rabbitmq/sender/RabbitMqSenderApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-sender/src/main/java/com/dubbo/frame/rabbitmq/sender/config/rabbitmq/ExchangeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-sender/src/main/java/com/dubbo/frame/rabbitmq/sender/config/rabbitmq/QueueConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-sender/src/main/java/com/dubbo/frame/rabbitmq/sender/config/rabbitmq/SenderUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-sender/src/main/java/com/dubbo/frame/rabbitmq/sender/controller/AmqpController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-sender/src/main/java/com/dubbo/frame/rabbitmq/sender/service/SenderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-top/rabbitmq-sender/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/zk/downKnown/server/src/main/java/com/zk/down/konwn/server/ZkCli.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/zk/downKnown/server/src/main/java/com/zk/down/konwn/server/ZkCli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/zk/downKnown/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq/zk/downKnown/server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/zk/downKnown/server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq/zk/downKnown/server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/zk/downKnown/server/target/classes/com/zk/down/konwn/server/ZkCli.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq/zk/downKnown/server/target/classes/com/zk/down/konwn/server/ZkCli.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,6 +31,12 @@
     <ignored path="$PROJECT_DIR$/dubbo-top/dubbo-provider1/target/" />
     <ignored path="$PROJECT_DIR$/SpringBoot/ch3/target/" />
     <ignored path="$PROJECT_DIR$/SpringBoot/spring-test/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo/dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo/dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo/dubbo-common/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo/incubator-dubbo-admin-develop/dubbo-admin-server/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo/dubbo-provider1/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo/dubbo-provider2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,104 +52,98 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/test/java/com/spring/test/controller/UserDemoControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/java/com/dubbo/provider2/impl/PersonServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/MockitoAnnotations.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/Mockito.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-              <folding>
-                <element signature="e#2857#2858#0" expanded="true" />
-                <element signature="e#2915#2916#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/Mock.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.1.4.RELEASE/spring-boot-starter-test-2.1.4.RELEASE.pom">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/main/java/com/spring/test/service/UserDemoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/test/java/com/spring/test/service/UserDemoServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+            <state relative-caret-position="373">
+              <caret line="89" selection-start-line="89" selection-end-line="92" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/InjectMocks.class">
+        <entry file="file://$PROJECT_DIR$/mq/zk/downKnown/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/main/java/com/spring/test/dao/UserDemoMapper.java">
+        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/java/com/dubbo/provider2/Provider2Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="68">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.1/dubbo-2.7.1.jar!/org/apache/dubbo/config/spring/context/annotation/EnableDubbo.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.1/dubbo-2.7.1.jar!/com/alibaba/dubbo/config/spring/context/annotation/EnableDubbo.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider/src/main/java/com/dubbo/provider/impl/PersonServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider1/src/main/java/com/dubbo/provider1/impl/PersonServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-common/src/main/java/com/common/pojo/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -191,6 +162,9 @@
     <findStrings>
       <find>InterruptedException</find>
       <find>processPropertyPlaceHolders</find>
+      <find>clu</find>
+      <find>th</find>
+      <find>threa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -199,34 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SpringBoot/bean-life/src/main/java/com/bean/life/entity/MyBeanFactoryPostProcessor.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/bean-life/src/main/java/com/bean/life/entity/MyInstantiationAwareBeanPostProcessor.java" />
-        <option value="$PROJECT_DIR$/READMe.md" />
-        <option value="$PROJECT_DIR$/SpringBoot/ch1/src/main/java/com/example/demo/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/ch1/src/main/java/com/example/demo/Home.java" />
-        <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/thread/ThreadCreate.java" />
-        <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/thread/ThreadStop.java" />
-        <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/hook/Hook.java" />
-        <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/runtime/Hook.java" />
-        <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/runtime/Exec.java" />
-        <option value="$PROJECT_DIR$/mq/rocketmq/src/main/java/com/mq/rocketmq/RocketmqApplication.java" />
-        <option value="$PROJECT_DIR$/mq/kafka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/KafkaApplication.java" />
-        <option value="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/pojo/User.java" />
-        <option value="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/serialize/HessianSerialize.java" />
-        <option value="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ProducerClientUtil.java" />
-        <option value="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/serialize/HessianDeSerialize.java" />
-        <option value="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerClientUtil.java" />
-        <option value="$PROJECT_DIR$/mq/kafka/pom.xml" />
-        <option value="$PROJECT_DIR$/mq/zk/downKnown/src/main/java/com/zk/down/konwn/Server1Application.java" />
-        <option value="$PROJECT_DIR$/mq/zk/downKnown/pom.xml" />
-        <option value="$PROJECT_DIR$/mq/zk/downKnown/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mq/zk/downKnown/src/main/java/com/zk/down/konwn/ZkCli.java" />
-        <option value="$PROJECT_DIR$/mq/zk/downKnown/client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mq/zk/downKnown/client/src/main/java/com/zk/down/konwn/server/ZkCli.java" />
-        <option value="$PROJECT_DIR$/mq/zk/downKnown/client/src/main/java/com/zk/down/konwn/server/ZkListener.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/ch9/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/dubbo-top/dubbo-provider/src/main/java/com/dubbo/frame/provider/serviceImpl/RemoteUserServiceImpl1111.java" />
         <option value="$PROJECT_DIR$/mq/zk/downKnown/server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/dubbo-top/dubbo-consumer/src/main/java/com/dubbo/frame/consumer/controller/RemoteUserController.java" />
         <option value="$PROJECT_DIR$/dubbo-top/dubbo-provider1/src/main/java/com/dubbo/frame/provider1/serviceImpl/RemoteUserServiceImpl.java" />
@@ -250,6 +196,34 @@
         <option value="$PROJECT_DIR$/SpringBoot/spring-test/src/main/java/com/spring/test/dao/UserDemoMapper.java" />
         <option value="$PROJECT_DIR$/SpringBoot/spring-test/src/main/java/com/spring/test/service/UserDemoService.java" />
         <option value="$PROJECT_DIR$/SpringBoot/spring-test/src/test/java/com/spring/test/service/UserDemoServiceTest.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-common/src/main/java/com/common/pojo/Person.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-common/src/main/java/com/common/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider/src/main/resources/dubbo-provider.properties" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/resources/dubbo-consumer.properties" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider/src/main/java/com/dubbo/provider/config/ProviderConfiguration.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/java/com/dubbo/consumer/config/ConsumerConfiguration.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/resources/application.yml" />
+        <option value="$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-spring-boot-starter/2.7.0/dubbo-spring-boot-starter-2.7.0.pom" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/java/com/dubbo/consumer/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider/src/main/java/com/dubbo/provider/ProviderApplication.java" />
+        <option value="$PROJECT_DIR$/dubbo/incubator-dubbo-admin-develop/dubbo-admin-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider1/src/main/java/com/dubbo/provider1/Provider1Application.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-consumer/src/test/java/com/dubbo/consumer/service/DemoServiceTest.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/java/com/dubbo/consumer/service/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/java/com/dubbo/provider1/impl/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/java/com/dubbo/provider２/impl/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider/src/main/java/com/dubbo/provider/impl/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider1/src/main/java/com/dubbo/provider1/impl/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/java/com/dubbo/provider2/Provider2Application.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/java/com/dubbo/provider2/impl/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo/dubbo-provider2/pom.xml" />
       </list>
     </option>
   </component>
@@ -265,12 +239,21 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dubbo-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="dubbo-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-provider2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-provider2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -286,10 +269,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1524" />
-    <option name="y" value="221" />
-    <option name="width" value="1356" />
-    <option name="height" value="576" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -299,6 +282,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -310,123 +294,106 @@
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -434,52 +401,534 @@
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-test" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="provider1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="provider1" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="incubator-dubbo-admin-develop" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-admin-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="zk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+              <item name="zk" type="462c0819:PsiDirectoryNode" />
+              <item name="downKnown" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="dubbo-2.7.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
@@ -793,7 +1242,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -805,7 +1253,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringBoot" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -816,11 +1265,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.dubbo.consumer.service" />
       <recent name="com.spring.test.service" />
       <recent name="com.spring.test.controller" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dubbo" />
+      <recent name="$PROJECT_DIR$/dubbo/dubbo-provider/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mq/zk/downKnown/client/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mq/zk/downKnown/server/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bean.life.entity" />
@@ -828,12 +1285,9 @@
       <recent name="com.dubbo.frame.provider.serviceImpl" />
       <recent name="com.zk.down.konwn.server" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mq/zk/downKnown/client/src/main/resources" />
-      <recent name="$PROJECT_DIR$/mq/zk/downKnown/server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/mq/zk/downKnown/client/src/main/java" />
-      <recent name="$PROJECT_DIR$/mq/zk/downKnown/server/src/main/java" />
-      <recent name="$PROJECT_DIR$/SpringBoot/bean-life" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/resources/spring" />
+      <recent name="$PROJECT_DIR$/dubbo/dubbo-provider/src/main/resources/spring" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -862,63 +1316,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDemoServiceTest.list">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.code.base.reflect.Client" />
-      <module name="Java-base" />
+  <component name="RunManager" selected="Spring Boot.Provider2Application">
+    <configuration name="DemoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.code.base.reflect.*" />
+          <option name="PATTERN" value="com.dubbo.consumer.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.dubbo.consumer.service" />
+      <option name="MAIN_CLASS_NAME" value="com.dubbo.consumer.service.DemoServiceTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDemoControllerTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
+    <configuration name="DemoServiceTest.findPersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.test.controller.*" />
+          <option name="PATTERN" value="com.dubbo.consumer.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring.test.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.test.controller.UserDemoControllerTest" />
-      <option name="METHOD_NAME" value="list" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDemoControllerTest.list1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.test.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spring.test.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.test.controller.UserDemoControllerTest" />
-      <option name="METHOD_NAME" value="list1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDemoServiceTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.test.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spring.test.service" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.test.service.UserDemoServiceTest" />
-      <option name="METHOD_NAME" value="list" />
+      <option name="PACKAGE_NAME" value="com.dubbo.consumer.service" />
+      <option name="MAIN_CLASS_NAME" value="com.dubbo.consumer.service.DemoServiceTest" />
+      <option name="METHOD_NAME" value="findPersion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -931,15 +1354,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanLifeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="bean-life" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bean.life.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bean.life.BeanLifeApplication" />
+    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dubbo.consumer.ConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -947,6 +1364,19 @@
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dubbo-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dubbo.frame.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboAdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-admin-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.dubbo.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.apache.dubbo.admin.DubboAdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -961,6 +1391,39 @@
     <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="kafka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mq.kafka.KafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="provider (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dubbo.provider1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dubbo.provider1.Provider1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="provider (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dubbo.provider2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dubbo.provider2.Provider2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dubbo.provider.ProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -995,11 +1458,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDemoServiceTest.list" />
-        <item itemvalue="JUnit.UserDemoControllerTest.list1" />
-        <item itemvalue="JUnit.UserDemoControllerTest.list" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Spring Boot.BeanLifeApplication" />
+        <item itemvalue="JUnit.DemoServiceTest" />
+        <item itemvalue="Spring Boot.Provider2Application" />
+        <item itemvalue="Spring Boot.Provider1Application" />
+        <item itemvalue="Spring Boot.DubboAdminApplication (1)" />
+        <item itemvalue="JUnit.DemoServiceTest.findPersion" />
       </list>
     </recent_temporary>
   </component>
@@ -1029,60 +1492,68 @@
       <workItem from="1555123551323" duration="4160000" />
       <workItem from="1555145219821" duration="5153000" />
       <workItem from="1555212979704" duration="6278000" />
-      <workItem from="1556003585374" duration="5136000" />
+      <workItem from="1556003585374" duration="5831000" />
+      <workItem from="1556029712702" duration="10560000" />
+      <workItem from="1556069203592" duration="2888000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDemoControllerTest_list - 2019.04.23 at 15h 41m 44s.xml">
-      <configuration name="UserDemoControllerTest.list" configurationId="JUnit" />
+    <history-entry file="DemoServiceTest_findPersion - 2019.04.23 at 23h 08m 48s.xml">
+      <configuration name="DemoServiceTest.findPersion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemoControllerTest_list1 - 2019.04.23 at 15h 51m 30s.xml">
-      <configuration name="UserDemoControllerTest.list1" configurationId="JUnit" />
+    <history-entry file="DemoServiceTest - 2019.04.23 at 23h 51m 32s.xml">
+      <configuration name="DemoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemoControllerTest_list1 - 2019.04.23 at 15h 53m 43s.xml">
-      <configuration name="UserDemoControllerTest.list1" configurationId="JUnit" />
+    <history-entry file="DemoServiceTest - 2019.04.23 at 23h 52m 53s.xml">
+      <configuration name="DemoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemoControllerTest_list1 - 2019.04.23 at 16h 00m 36s.xml">
-      <configuration name="UserDemoControllerTest.list1" configurationId="JUnit" />
+    <history-entry file="DemoServiceTest_findPersion - 2019.04.24 at 00h 31m 04s.xml">
+      <configuration name="DemoServiceTest.findPersion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemoServiceTest_list - 2019.04.23 at 16h 36m 54s.xml">
-      <configuration name="UserDemoServiceTest.list" configurationId="JUnit" />
+    <history-entry file="DemoServiceTest - 2019.04.24 at 00h 33m 21s.xml">
+      <configuration name="DemoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemoServiceTest_list - 2019.04.23 at 16h 41m 08s.xml">
-      <configuration name="UserDemoServiceTest.list" configurationId="JUnit" />
+    <history-entry file="DemoServiceTest - 2019.04.24 at 00h 34m 42s.xml">
+      <configuration name="DemoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemoServiceTest_list - 2019.04.23 at 16h 41m 41s.xml">
-      <configuration name="UserDemoServiceTest.list" configurationId="JUnit" />
+    <history-entry file="DemoServiceTest - 2019.04.24 at 00h 35m 17s.xml">
+      <configuration name="DemoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemoServiceTest_list - 2019.04.23 at 16h 42m 33s.xml">
-      <configuration name="UserDemoServiceTest.list" configurationId="JUnit" />
+    <history-entry file="DemoServiceTest - 2019.04.24 at 00h 38m 49s.xml">
+      <configuration name="DemoServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoServiceTest - 2019.04.24 at 09h 49m 35s.xml">
+      <configuration name="DemoServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoServiceTest - 2019.04.24 at 10h 12m 08s.xml">
+      <configuration name="DemoServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81592000" />
+    <option name="totallyTimeSpent" value="95735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-2" width="1366" height="770" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7721519" visible="true" weight="0.36742425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7721519" visible="true" weight="0.2733813" />
       <window_info id="Structure" order="1" sideWeight="0.22551928" side_tool="true" weight="0.2901515" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.16" side_tool="true" weight="0.27121213" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="simpleUML" order="5" weight="0.33370227" />
-      <window_info id="ZooKeeper" order="6" sideWeight="0.84" weight="0.7194245" />
+      <window_info id="ZooKeeper" order="6" sideWeight="0.84" weight="0.71997786" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3073323" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18466523" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.09828393" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32761312" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32721382" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2537797" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.38660908" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" order="12" />
@@ -1094,7 +1565,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.20254566" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.38793582" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.41173217" />
       <window_info anchor="right" id="PlantUML" order="4" weight="0.32954547" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -1155,382 +1626,343 @@
     <option name="enabled" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpringBoot/bean-life/src/main/java/com/bean/life/entity/BeanLifeService.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-top/dubbo-consumer/src/main/java/com/dubbo/frame/consumer/controller/RemoteUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/bean-life/src/main/java/com/bean/life/entity/BeanLifeConfiguraation.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.1/dubbo-2.7.1.jar!/org/apache/dubbo/config/ReferenceConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/spring/boot/dubbo-spring-boot-starter/2.0.0/dubbo-spring-boot-starter-2.0.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/bean-life/src/main/java/com/bean/life/entity/Demo.java">
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider/src/main/java/com/dubbo/provider/config/ProviderConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-top/dubbo-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/bean-life/src/main/java/com/bean/life/entity/Demo1.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-spring-boot-autoconfigure-compatible/2.7.0/dubbo-spring-boot-autoconfigure-compatible-2.7.0.jar!/META-INF/spring-configuration-metadata.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/bean-life/src/main/java/com/bean/life/entity/BeanLifeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/bean-life/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/bean-life/src/main/java/com/bean/life/entity/MyBeanFactoryPostProcessor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/context/ContextIdApplicationContextInitializer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/README.md">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+          <folding>
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#2343#2344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-top/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-spring-boot-autoconfigure/2.7.0/dubbo-spring-boot-autoconfigure-2.7.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-spring-boot-starter/2.7.0/dubbo-spring-boot-starter-2.7.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-spring-boot-starter/2.7.0/dubbo-spring-boot-starter-2.7.0.jar!/META-INF/maven/org.apache.dubbo/dubbo-spring-boot-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/ir/annotations/Reference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/incubator-dubbo-admin-develop/dubbo-admin-server/src/main/resources/application-test.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/incubator-dubbo-admin-develop/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-297" />
+          <first_editor relative-caret-position="-34">
+            <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperProxyFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="30" column="123" selection-start-line="30" selection-start-column="112" selection-end-line="30" selection-end-column="123" />
+    <entry file="file://$PROJECT_DIR$/dubbo/incubator-dubbo-admin-develop/README_ZH.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-354" />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="593" column="16" selection-start-line="593" selection-start-column="16" selection-end-line="593" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="129" column="44" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/annotation/MapperScannerRegistrar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/batch/MyBatisBatchItemWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/config/MapperScannerBeanDefinitionParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/SqlSessionHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="4" selection-start-line="13" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/SqlSessionTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/annotation/MapperScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/mapper/ClassPathMapperScanner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/mapper/MapperFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/config/NamespaceHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/proxy/JdkInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider1/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/proxy/JavassistProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/thread/ThreadCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javassist/javassist/3.11.0.GA/javassist-3.11.0.GA.jar!/javassist/util/proxy/ProxyFactory.class">
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider1/src/main/java/com/dubbo/provider1/Provider1Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/entity/SubjectImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/lang/InstantiationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="166" column="38" selection-start-line="166" selection-start-column="38" selection-end-line="166" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/main/java/com/spring/test/dao/UserDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.6.RELEASE/spring-test-5.1.6.RELEASE.jar!/org/springframework/test/context/web/WebAppConfiguration.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/annotation/Service.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/main/java/com/spring/test/TestApplication.java">
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/java/com/dubbo/consumer/config/ConsumerConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer/src/test/java/com/dubbo/consumer/ConsumerApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer/src/test/java/com/dubbo/consumer/service/DemoServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="391">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.1.4.RELEASE/spring-boot-test-2.1.4.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test-autoconfigure/2.1.4.RELEASE/spring-boot-test-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/test/autoconfigure/web/servlet/AutoConfigureMockMvc.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.6.RELEASE/spring-test-5.1.6.RELEASE.jar!/org/springframework/test/web/servlet/ResultActions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/main/java/com/spring/test/controller/UserDemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/InjectMocks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.1.4.RELEASE/spring-boot-starter-test-2.1.4.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider1/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider/src/main/java/com/dubbo/provider/ProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/Mock.class">
+    <entry file="file://$PROJECT_DIR$/dubbo/incubator-dubbo-admin-develop/dubbo-admin-ui/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/Mockito.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+        <state relative-caret-position="-572">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
-            <element signature="e#2857#2858#0" expanded="true" />
-            <element signature="e#2915#2916#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar!/org/mockito/MockitoAnnotations.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/config/annotation/Reference.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="34">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/main/java/com/spring/test/dao/UserDemoMapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.0/dubbo-2.7.0.jar!/org/apache/dubbo/config/annotation/Service.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/boot/dubbo-spring-boot-starter/0.2.1.RELEASE/dubbo-spring-boot-starter-0.2.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/boot/dubbo-spring-boot-starter/0.2.0/dubbo-spring-boot-starter-0.2.0.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.0-SNAPSHOT/dubbo-2.7.0-SNAPSHOT.jar!/com/alibaba/dubbo/config/annotation/Reference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/incubator-dubbo-admin-develop/dubbo-admin-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.0/dubbo-2.7.0.jar!/org/apache/dubbo/config/annotation/Reference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/java/com/dubbo/consumer/service/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/main/java/com/spring/test/service/UserDemoService.java">
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/java/com/dubbo/consumer/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider/src/main/java/com/dubbo/provider/impl/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.1/dubbo-2.7.1.jar!/com/alibaba/dubbo/config/spring/context/annotation/EnableDubbo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.1/dubbo-2.7.1.jar!/org/apache/dubbo/config/spring/context/annotation/EnableDubbo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider1/src/main/java/com/dubbo/provider1/impl/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-common/src/main/java/com/common/pojo/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/zk/downKnown/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/java/com/dubbo/provider2/impl/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/java/com/dubbo/provider2/Provider2Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/test/java/com/spring/test/controller/UserDemoControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/spring-test/src/test/java/com/spring/test/service/UserDemoServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="373">
+          <caret line="89" selection-start-line="89" selection-end-line="92" selection-end-column="21" />
         </state>
       </provider>
     </entry>
