@@ -1,8 +1,8 @@
 server:
-  port: 8481
+  port: 8483
 spring:
   application:
-    name: dubbo-provider1
+    name: dubbo-provider3
 
 
 logging:
@@ -10,9 +10,9 @@ logging:
     com.dubbo: debug
 dubbo:
   application:
-    name: dubbo-provider1
+    name: dubbo-provider3
   registry:
     address: zookeeper://127.0.0.1:2181
   protocol:
     name: dubbo
-    port: 20881
+    port: 20883

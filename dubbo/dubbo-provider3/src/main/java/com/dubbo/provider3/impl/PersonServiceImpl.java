@@ -1,4 +1,4 @@
-package com.dubbo.provider1.impl;
+package com.dubbo.provider3.impl;
 
 import com.common.pojo.Person;
 import com.common.service.PersonService;
@@ -20,7 +20,7 @@ public class PersonServiceImpl implements PersonService {
         log.debug("findPerson　{}",name);
         Person person = new Person();
         person.setAge(18);
-        person.setName(name+" provider-1");
+        person.setName(name+" provider-3");
 
 
         return person;

@@ -1,5 +1,5 @@
 server:
-  port: 8485
+  port: 8482
 spring:
   application:
     name: dubbo-provider2
@@ -13,6 +13,11 @@ dubbo:
     name: dubbo-provider2
   registry:
     address: zookeeper://127.0.0.1:2181
+    id: 1
+
+
   protocol:
     name: dubbo
-    port: 20883
+    port: 20882
+  provider:
+    warmup:

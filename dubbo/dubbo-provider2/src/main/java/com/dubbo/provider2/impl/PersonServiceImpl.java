@@ -6,14 +6,16 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.stereotype.Component;
 
+import javax.validation.constraints.NotNull;
 
 
 @Slf4j
 @Component
-@Service
+@Service(weight = 5)
 public class PersonServiceImpl implements PersonService {
 
 
+    @NotNull
     @Override
     public Person findPerson(String name) {
 

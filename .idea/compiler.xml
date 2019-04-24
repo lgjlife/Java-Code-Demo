@@ -10,6 +10,7 @@
         <module name="client" />
         <module name="common" />
         <module name="consumer" />
+        <module name="consumer (1)" />
         <module name="demo" />
         <module name="dubbo-admin-backend" />
         <module name="dubbo-admin-frontend" />
@@ -28,6 +29,7 @@
         <module name="rocketmq" />
         <module name="server" />
         <module name="spring-test" />
+        <module name="Springboot-properties" />
         <module name="utils" />
       </profile>
     </annotationProcessing>
@@ -38,9 +40,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Springboot-properties" options="-parameters" />
       <module name="bean-life" options="-parameters" />
       <module name="client" options="-parameters" />
       <module name="consumer" options="-parameters" />
+      <module name="consumer (1)" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="downKnown" options="-parameters" />
       <module name="dubbo-admin-backend" options="-parameters" />
