@@ -17,3 +17,5 @@
 ## Spring 
 
 * [Bean生命周期](https://github.com/lgjlife/Java-Code-Demo/tree/master/SpringBoot/bean-life) / [博客总结](https://www.cnblogs.com/lgjlife/p/10664320.html)
+* [Spring测试-Mock](https://github.com/lgjlife/Java-Code-Demo/tree/master/SpringBoot/spring-test)
+* [将yml配置文件中的配置注入到JavaBean](https://github.com/lgjlife/Java-Code-Demo/tree/master/SpringBoot/Springboot-properties) /[博客总结](https://www.cnblogs.com/lgjlife/p/10762893.html)

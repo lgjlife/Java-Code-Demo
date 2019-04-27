@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/SpringBoot/bean-life" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot/ch3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot/spring-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot/springboot-transaction" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-top" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-top/dubbo-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-top/dubbo-admin/dubbo-admin-backend" charset="UTF-8" />
@@ -16,8 +17,6 @@
     <file url="file://$PROJECT_DIR$/dubbo-top/dubbo-provider2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo/dubbo-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo/dubbo-consumer1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo/dubbo-provider" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo/dubbo-provider1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo/dubbo-provider1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo/dubbo-provider2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo/dubbo-provider3" charset="UTF-8" />

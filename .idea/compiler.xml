@@ -30,6 +30,7 @@
         <module name="server" />
         <module name="spring-test" />
         <module name="Springboot-properties" />
+        <module name="springboot-transaction" />
         <module name="utils" />
       </profile>
     </annotationProcessing>
@@ -64,6 +65,7 @@
       <module name="rocketmq" options="-parameters" />
       <module name="server" options="-parameters" />
       <module name="spring-test" options="-parameters" />
+      <module name="springboot-transaction" options="-parameters" />
       <module name="utils" options="-parameters" />
     </option>
   </component>

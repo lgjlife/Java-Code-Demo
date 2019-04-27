@@ -1,9 +1,6 @@
 package com.mq.rabbitmq.config;
 
-import com.rabbitmq.client.Channel;
-import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
-import com.rabbitmq.client.MessageProperties;
+import com.rabbitmq.client.*;
 import com.utils.serialization.AbstractSerialize;
 import com.utils.serialization.ProtostuffSerializeUtil;
 import lombok.Data;
@@ -39,7 +36,7 @@ public class RabbitmqProducer {
         factory.setPassword("lgj");
         factory.setHost(HOST);
         factory.setPort(PORT);
-
+        factory.setVirtualHost("/blog");
 
         try{
             Connection connection = factory.newConnection();
@@ -61,13 +58,24 @@ public class RabbitmqProducer {
 
         try{
             channel = connection.createChannel();
-            //channel.exchangeDeclare(EXCHANGE_NAME,ExchangeType.DIRECT_TYPE,true,false,null);
-            // channel.queueDeclare(QUEUE_NAME,true,false,false,null);
+           AMQP.Exchange.DeclareOk declareOk = channel.exchangeDeclare(EXCHANGE_NAME,ExchangeType.DIRECT_TYPE,true,false,null);
+            AMQP.Queue.DeclareOk queueOk =  channel.queueDeclare(QUEUE_NAME,true,false,false,null);
+           // System.out.println("declareOk =  " + declareOk.toString());
+           // System.out.println("queueOk =  " + queueOk.toString());
+            /**
+             declareOk =  #method<exchange.declare-ok>()
+             queueOk =  #method<queue.declare-ok>(queue=my-queue, message-count=0, consumer-count=0)
+            */
+            channel.confirmSelect();
+
             //绑定queue和exchange
             channel.queueBind(QUEUE_NAME,EXCHANGE_NAME,ROUTING_KEY);
             //根据路由键发布消息
             byte[] sendData = serialize.serialize(msg);
             channel.basicPublish(EXCHANGE_NAME,ROUTING_KEY, MessageProperties.PERSISTENT_TEXT_PLAIN,sendData);
+            if(channel.waitForConfirms()){
+                System.out.println("消息发送成功");
+            }
 
         }
         catch(Exception ex){

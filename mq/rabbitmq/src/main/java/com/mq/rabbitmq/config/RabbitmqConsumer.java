@@ -31,6 +31,7 @@ public class RabbitmqConsumer {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setUsername("lgj");
         factory.setPassword("lgj");
+        factory.setVirtualHost("/blog");
 
         try{
             Connection connection = factory.newConnection(addresses);
@@ -61,7 +62,7 @@ public class RabbitmqConsumer {
 
                 User obj = serialize.deserialize(body,User.class);
 
-                System.out.println(obj.toString());
+                System.out.println("接收到的数据：" +obj.toString());
 
                 channel.basicAck(envelope.getDeliveryTag(),false);
             }
