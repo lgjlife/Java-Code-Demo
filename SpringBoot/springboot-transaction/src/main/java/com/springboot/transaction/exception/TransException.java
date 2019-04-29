@@ -1,4 +1,4 @@
-package com.springboot.transaction;
+package com.springboot.transaction.exception;
 
 public class TransException extends  RuntimeException {
     public TransException(String message) {

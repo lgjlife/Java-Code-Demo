@@ -16,7 +16,4 @@ server:
 logging:
   level:
     org.apache.ibatis: debug
-    com:
-      springboot:
-        transaction:
-          mapper: debug
+    com.springboot.transaction.mapper: error

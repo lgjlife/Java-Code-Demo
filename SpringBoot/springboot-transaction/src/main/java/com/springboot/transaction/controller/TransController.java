@@ -1,7 +1,7 @@
 package com.springboot.transaction.controller;
 
 
-import com.springboot.transaction.service.required.TransServiceRequiredA;
+import com.springboot.transaction.service.trans.ServiceA;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,27 +13,24 @@ public class TransController {
 
 
     @Autowired
-    TransServiceRequiredA transServiceRequiredA;
+    private ServiceA serviceA;
 
-    @GetMapping("/required1")
-    public void required1(){
-        transServiceRequiredA.func1();
+    @GetMapping("/type1")
+    public void type1(){
+
+        serviceA.func1();
+    }
+    @GetMapping("/type2")
+    public void type2(){
+        serviceA.func2();
+    }
+    @GetMapping("/type3")
+    public void type3(){
+        serviceA.func3();
     }
 
-    @GetMapping("/required2")
-    public void required2(){
-        transServiceRequiredA.func2();
-    }
 
-    @GetMapping("/required3")
-    public void required3(){
-        transServiceRequiredA.func3();
-    }
 
-    @GetMapping("/required4")
-    public void required4(){
-        transServiceRequiredA.func4();
-    }
 
 
 

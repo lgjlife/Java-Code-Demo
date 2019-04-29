@@ -27,7 +27,8 @@ public class RemoteUserController {
 
     @RequestMapping(value="/dubbo/say/{name}")
     public String sayHello(@PathVariable("name") String name){
-
+       /* CompletableFuture future;
+        future.whenComplete();*/
 
         int c = count.incrementAndGet();
         log.info( "调用次数 = " + c);
