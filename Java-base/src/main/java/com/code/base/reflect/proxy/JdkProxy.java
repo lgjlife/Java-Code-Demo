@@ -16,7 +16,6 @@ public class JdkProxy {
                 this.target.getClass().getInterfaces(),
                 this.handler);
         return  object;
-
     }
 
 
