@@ -16,6 +16,13 @@ public class SingletonTest {
             }.start();
         }*/
 
+       try{
+
+           System.out.println();
+       }
+       catch(Exception ex){
+
+       }
 
         test2();
 
