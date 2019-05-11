@@ -3,11 +3,67 @@
   <component name="ChangeListManager">
     <list default="true" id="52084754-6f62-45cd-9868-213e30ba5b9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/src/main/java/com/code/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/src/main/java/com/code/singleton/SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/target/classes/META-INF/BenchmarkList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/META-INF/CompilerHints" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/target/classes/META-INF/CompilerHints" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/SingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/SingletonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/dubbo-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/jvm/JvmDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/entity/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/entity/SubjectImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/CglibProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JavassistProxy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JavassistProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JdkInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JdkProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Exec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Hook$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Hook$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Hook$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Hook$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Hook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/string/JmhString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/MyThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/MyThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/MyThread3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/NoVisibilly$ReaderThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/NoVisibilly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/StopThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/ThreadCreate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/ThreadStop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo1$Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo1$DemoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/TaskService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/TaskServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CyclicBarrierDemo$TashThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CyclicBarrierDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/FutureDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/FutureDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/atomic/AtomicBoolean/AtomicBooleanDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/atomic/AtomicIntegerFieldUpdater/AtomicIntegerFieldUpdaterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/atomic/AtomicReference/AtomicReferenceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/excutorException/ExcutorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/excutorException/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/excutorException/TraceExecutorService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/excutorException/TraceExecutorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/unsafe/UnsafeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/jmh/JmhDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/lambda/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/lambda/LambdaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/lambda/Predicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/serialized/JdkSerialize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton4$Singleton4Holder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton5$Singleto5Enum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/SingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/Springboot-properties/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/Springboot-properties/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/PropertiesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/PropertiesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/KafkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/KafkaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerClientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ProducerClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ProducerClientUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,19 +149,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo1.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/type/AnnotationMetadata.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/lambda/LambdaDemo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/config/AutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="136">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/DeferredImportSelectorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,69 +179,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer1/src/main/resources/spring/dubbo-consumer.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider1/pom.xml">
+        <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/NullImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="37" />
+            <state relative-caret-position="323">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/java/com/dubbo/provider2/Provider2Application.java">
+        <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/EnableImport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="20" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider1/src/main/java/com/dubbo/provider1/impl/PersonServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider1/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider1/src/main/java/com/dubbo/provider1/Provider1Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo/dubbo-provider2/src/main/java/com/dubbo/provider2/impl/PersonServiceImpl.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/file/MapperByteBufferDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/Import.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/PropertiesApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/config/OtherProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/config/AllConfigurationProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -187,6 +253,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -199,6 +266,8 @@
       <find>th</find>
       <find>threa</find>
       <find>completedFuture</find>
+      <find>timeout</find>
+      <find>time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,17 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/service/TransService.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/service/TransServiceB.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/service/required/TransServiceB.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/TransException.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/service/required/TransServiceRequiredB.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/service/TransHandler.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/service/UserBuilder.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/service/required/TransServiceRequiredA.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/service/TransServiceA.java" />
         <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/exception/TransException.java" />
         <option value="$PROJECT_DIR$/SpringBoot/springboot-transaction/src/main/java/com/springboot/transaction/controller/TransController.java" />
@@ -236,7 +294,6 @@
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/excutorException/TraceExecutorService.java" />
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/excutorException/ExcutorException.java" />
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/reflect/proxy/JdkProxy.java" />
-        <option value="$PROJECT_DIR$/Java-base/pom.xml" />
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/jmh/JmhDemo.java" />
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/atomic/AtomicBoolean/AtomicBooleanDemo.java" />
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/unsafe/UnsafeDemo.java" />
@@ -258,6 +315,18 @@
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo1.java" />
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/lambda/Lambda.java" />
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/lambda/LambdaDemo.java" />
+        <option value="$PROJECT_DIR$/Java-base/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ProducerClientUtil.java" />
+        <option value="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/KafkaApplication.java" />
+        <option value="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerClientUtil.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/ImportBeanDefinitionRegistrarImpl.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/Springboot-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/DeferredImportSelectorImpl.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/PropertiesApplication.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/NullImpl.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/ImportSelectorImpl.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/EnableImport.java" />
+        <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/file/MapperByteBufferDemo.java" />
       </list>
     </option>
   </component>
@@ -325,6 +394,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaCode" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Java-base" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,263 +470,27 @@
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="CompletableFuture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: com.google.guava:guava:20.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="resources.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.google.guava:guava:20.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="guava-20.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="resources.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.7.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.7.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo:2.7.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-2.7.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo:2.7.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-autoconfigure-compatible:2.7.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-autoconfigure-compatible:2.7.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-spring-boot-autoconfigure-compatible-2.7.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-autoconfigure-compatible:2.7.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-spring-boot-autoconfigure-compatible-2.7.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-autoconfigure-compatible:2.7.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-spring-boot-autoconfigure-compatible-2.7.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-starter:2.7.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-starter:2.7.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-spring-boot-starter-2.7.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-starter:2.7.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-spring-boot-starter-2.7.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.dubbo:dubbo-spring-boot-starter:2.7.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="dubbo-spring-boot-starter-2.7.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="maven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjdk.jmh:jmh-core:1.20" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjdk.jmh:jmh-core:1.20" type="70bed36:NamedLibraryElementNode" />
-              <item name="jmh-core-1.20.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjdk.jmh:jmh-core:1.20" type="70bed36:NamedLibraryElementNode" />
-              <item name="jmh-core-1.20.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.openjdk.jmh:jmh-core:1.20" type="70bed36:NamedLibraryElementNode" />
-              <item name="jmh-core-1.20.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="openjdk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:2.0.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:2.0.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-2.0.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:2.0.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-2.0.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:2.0.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-2.0.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-tx:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-tx:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-tx-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-tx:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-tx-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-tx:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-tx-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -662,14 +506,14 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringBoot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -701,11 +545,7 @@
   </component>
   <component name="RestServicesNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="Found 97 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -721,7 +561,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaDemo">
+  <component name="RunManager" selected="Spring Boot.PropertiesApplication">
     <configuration name="CompletableFutureDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.code.base.util.concurrent.CompletableFuture.CompletableFutureDemo1" />
       <module name="Java-base" />
@@ -924,6 +764,7 @@
       <item itemvalue="Application.JvmDemo" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.CompletableFutureDemo1" />
+      <item itemvalue="Application.LambdaDemo" />
       <item itemvalue="Maven.tranc-mybatis" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.BeanLifeApplication" />
@@ -941,7 +782,6 @@
       <item itemvalue="Spring Boot.TransactionApplication" />
       <item itemvalue="Spring Boot.UtilsApplication" />
       <item itemvalue="Spring Boot.Provider1Application" />
-      <item itemvalue="Application.LambdaDemo" />
     </list>
     <recent_temporary>
       <list>
@@ -996,6 +836,13 @@
       <workItem from="1557067964875" duration="664000" />
       <workItem from="1557076038819" duration="2033000" />
       <workItem from="1557080845388" duration="376000" />
+      <workItem from="1557211466216" duration="1200000" />
+      <workItem from="1557306508999" duration="3916000" />
+      <workItem from="1557461914735" duration="5906000" />
+      <workItem from="1557511590597" duration="659000" />
+      <workItem from="1557515209015" duration="732000" />
+      <workItem from="1557540055450" duration="1596000" />
+      <workItem from="1557545911086" duration="160000" />
     </task>
     <servers />
   </component>
@@ -1032,27 +879,27 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190340000" />
+    <option name="totallyTimeSpent" value="204509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83477324" visible="true" weight="0.40896514" />
-      <window_info id="Structure" order="1" sideWeight="0.16522679" side_tool="true" visible="true" weight="0.40896514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6814255" visible="true" weight="0.28112894" />
+      <window_info id="Structure" order="1" sideWeight="0.31857452" side_tool="true" visible="true" weight="0.28112894" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.16" side_tool="true" weight="0.27121213" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="simpleUML" order="5" weight="0.33370227" />
-      <window_info id="ZooKeeper" order="6" sideWeight="0.84" weight="0.71997786" />
+      <window_info id="simpleUML" order="5" sideWeight="0.49918166" weight="0.33333334" />
+      <window_info id="ZooKeeper" order="6" sideWeight="0.83306056" weight="0.7325758" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" weight="0.20410368" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3488121" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" weight="0.4827214" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4038877" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32721382" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.325054" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.41468683" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -1082,12 +929,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerClientUtil.java</url>
-          <line>104</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mq/zk/downKnown/src/main/java/com/zk/down/konwn/ZkCli.java</url>
           <line>41</line>
@@ -1184,6 +1025,12 @@
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerClientUtil.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1195,234 +1042,6 @@
     <option name="enabled" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/atomic/AtomicBoolean/AtomicBooleanDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="100" column="51" lean-forward="true" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/unsafe/UnsafeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="12" selection-end-line="26" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicIntegerArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="84" column="51" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicReferenceFieldUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3230">
-          <caret line="232" column="20" selection-start-line="232" selection-start-column="20" selection-end-line="232" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2261">
-          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4335">
-          <caret line="288" column="33" selection-start-line="288" selection-start-column="33" selection-end-line="288" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5219">
-          <caret line="350" column="61" selection-start-line="350" selection-start-column="61" selection-end-line="350" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4148">
-          <caret line="303" column="7" selection-start-line="303" selection-start-column="7" selection-end-line="303" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/atomic/AtomicIntegerFieldUpdater/AtomicIntegerFieldUpdaterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/atomic/AtomicReference/AtomicReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq/zk/downKnown/client/src/main/java/com/zk/down/konwn/server/ZkListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/singleton/Singleton2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/singleton/Singleton3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/singleton/Singleton4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/singleton/Singleton1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/singleton/Singleton5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="e#501#502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/string/JmhString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/jvm/JvmDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/lambda/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/singleton/SingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/serialized/JdkSerialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/jmh/JmhDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/lambda/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo/dubbo-consumer/src/main/java/com/dubbo/consumer/service/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-top/dubbo-consumer/src/main/java/com/dubbo/frame/consumer/controller/RemoteUserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">
@@ -1487,17 +1106,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/util/concurrent/CompletableFuture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35088">
           <caret line="2137" column="32" selection-start-line="2137" selection-start-column="32" selection-end-line="2137" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1555,11 +1174,236 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/lambda/LambdaDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/io/Files.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1156">
+          <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/annotations/Beta.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/cache/CacheBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/collect/BiMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/collect/Table.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/collect/Tables.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/KafkaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ProducerClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.1/kafka-clients-2.1.1.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8194">
+          <caret line="555" column="26" selection-start-line="555" selection-start-column="19" selection-end-line="555" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.1/kafka-clients-2.1.1.jar!/org/apache/kafka/clients/producer/ProducerConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.1/kafka-clients-2.1.1.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/ImportBeanDefinitionRegistrarImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="92" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/ImportSelectorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/type/AnnotationMetadata.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/config/AutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/DeferredImportSelectorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/NullImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/Import.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/PropertiesApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/config/OtherProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/config/AllConfigurationProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/Springboot-properties/src/main/java/com/boot/properties/importclz/EnableImport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/file/MapperByteBufferDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
         </state>
       </provider>
     </entry>

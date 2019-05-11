@@ -1,8 +1,6 @@
 package com.mq.kafka.config;
 
 import com.mq.kafka.count.KafkaCountUtil;
-import com.mq.kafka.pojo.User;
-import com.mq.kafka.serialize.HessianDeSerialize;
 import com.utils.serialization.AbstractSerialize;
 import com.utils.serialization.HessianSerializeUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -93,16 +91,17 @@ public class ConsumerClientUtil {
             public void run() {
                 while (true) {
                    // System.out.println("消费者拉取数据");
-                    ConsumerRecords<String, User> records = kafkaConsumer.poll(100);
+                    ConsumerRecords<String, String> records = kafkaConsumer.poll(100);
                     int recordsCount =0;
 
-                    for (ConsumerRecord<String, User> record : records){
+                    for (ConsumerRecord<String, String> record : records){
                         //System.out.printf("offset = %d, key = %s, value = %s",record.offset(), record.key(), record.value());
                         recordsCount++;
                         int count = KafkaCountUtil.incAndGetRecCount();
-                        User user = record.value();
+                      //  User user = record.value();
+                        log.info("records " + records);
 
-                        log.info(Thread.currentThread().getName() + "  "+  count + ",接收到的数据：" + user.getName());
+                        log.info(Thread.currentThread().getName() + "  "+  count + ",接收到的数据：" + record.value());
 
 
                         //User user = record.value();
@@ -135,7 +134,7 @@ public class ConsumerClientUtil {
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG ,"earliest");
         //反序列化方式
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
-        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, HessianDeSerialize.class.getName());
+        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
 
         return props;
     }
