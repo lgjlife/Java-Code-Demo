@@ -64,19 +64,19 @@ public class MqProducer {
     */
     public SendResult syncSendData(String send){
         Message msg = new Message(topic,tags,send.getBytes());
-        SendResult result = null;
+        SendResult sendResult = null;
         try{
 
-            log.debug("同步方式发送数据....");
-            result = producer.send(msg);
-            log.debug("同步方式发送数据结束！");
-            log.info("SyncProducer result = {}",result);
+           // log.debug("同步方式发送数据....");
+            sendResult = producer.send(msg);
+           // log.debug("同步方式发送数据结束！");
+            log.info("SyncProducer result = {}-{}",sendResult.getMessageQueue().getQueueId(),sendResult.getQueueOffset());
         }
         catch(Exception ex){
             ex.printStackTrace();
         }
 
-        return  result;
+        return  sendResult;
     }
 
     /**
@@ -90,6 +90,7 @@ public class MqProducer {
      */
     public SendResult asyncSendData(String send){
         Message msg = new Message(topic,tags,send.getBytes());
+
         SendResult result = null;
         try{
 
@@ -98,7 +99,7 @@ public class MqProducer {
                 @Override
                 public void onSuccess(SendResult sendResult) {
                     log.debug("异步方式发送数据结束！");
-                    log.info("SyncProducer result = {}",sendResult);
+                    log.info("SyncProducer result = {}-{}",sendResult.getMessageQueue().getQueueId(),sendResult.getQueueOffset());
                 }
 
                 @Override
