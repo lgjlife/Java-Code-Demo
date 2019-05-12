@@ -31,6 +31,42 @@ public class MqConsumer {
 
     private Long startTime;
 
+    private String group = "my-group1";
+    private String serverAddress  = "localhost:9876";
+
+
+    public MqConsumer() {
+
+
+    }
+
+    public  void createPushConsumer() throws  Exception{
+
+        pushConsumer = new DefaultMQPushConsumer(group);
+        pushConsumer.setNamesrvAddr(serverAddress);
+
+    }
+
+    public void pushData(String topic,String subExpression) throws  Exception{
+
+
+        pushConsumer.subscribe(topic,subExpression);
+        pushConsumer.registerMessageListener(new MessageListenerConcurrently() {
+
+            @Override
+            public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs,
+                                                            ConsumeConcurrentlyContext context) {
+                msgs.forEach((value)->{
+
+                    log.info("接受到的消息=queue:{}-{}",value.getQueueId(),new String(value.getBody()));
+                });
+                return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
+            }
+        });
+
+        pushConsumer.start();
+    }
+
 
     public  void createConsumer(String topic){
         pushConsumer = new DefaultMQPushConsumer("my-group1");

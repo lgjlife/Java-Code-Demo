@@ -3,15 +3,24 @@ package com.mq.rocketmq;
 import com.mq.rocketmq.consumer.MqConsumer;
 import com.mq.rocketmq.producer.MqProducer;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Slf4j
 @SpringBootApplication
 public class RocketmqApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RocketmqApplication.class, args);
+
+
+        //批量发送数据
+      //  batchSender();
+        //
+        queueSelectSender();
+
+       /* SpringApplication.run(RocketmqApplication.class, args);
 
         String topic = "my-topic";
 
@@ -44,6 +53,7 @@ public class RocketmqApplication {
                 int num = 0;
                 while (true){
                     try{
+
                         mqConsumer.pullMessage(topic);
                        // Thread.sleep(2000);
                     }
@@ -53,26 +63,82 @@ public class RocketmqApplication {
                 }
             }
         }.start();
+*/
 
-       /* try{
-            Set<MessageQueue> messageQueues = mqConsumer.getConsumer().fetchSubscribeMessageQueues(topic);
+    }
 
-            log.info("messageQueues.size = "+messageQueues.size());
-            log.info("messageQueues = " + messageQueues);
+
+    public static void batchSender(){
+
+        String topic = "my-topic";
+
+        MqProducer mqProducer  =  new MqProducer();
+        mqProducer.createProducer();
+
+
+        List<String> sendDatas = new ArrayList<>();
+        for(int i = 0; i< 10; i++){
+
+            sendDatas.add("消息批量发送:"+i);
+        }
+
+        try{
+            mqProducer.batchSender(topic,sendDatas);
         }
         catch(Exception ex){
             log.error(ex.getMessage());
-        }*/
-        // mqProducer.syncSendData("同步数据：123456789");
-        //异步方式发送
-     //   mqProducer.asyncSendData("异步数据：123456789");
-
-        //单向方式发送
-        //mqProducer.asyncSendData("单向数据：123456789");
+        }
 
 
-        //
-      //  mqProducer.scheduledSendData("定时数据：123456789");
+        MqConsumer mqConsumer = new MqConsumer();
+
+        try{
+            mqConsumer.createPushConsumer();
+            mqConsumer.pushData(topic,"*");
+        }
+        catch(Exception ex){
+            log.error(ex.getMessage());
+        }
+
+
+
     }
+
+    public static void queueSelectSender(){
+
+        String topic = "my-topic";
+
+        MqProducer mqProducer  =  new MqProducer();
+        mqProducer.createProducer();
+
+
+        List<String> sendDatas = new ArrayList<>();
+        for(int i = 0; i< 10; i++){
+
+            sendDatas.add("消息批量发送:"+i);
+        }
+
+        try{
+            mqProducer.queueSelectSender(topic,sendDatas);
+        }
+        catch(Exception ex){
+            log.error(ex.getMessage());
+        }
+
+
+        MqConsumer mqConsumer = new MqConsumer();
+
+        try{
+            mqConsumer.createPushConsumer();
+            mqConsumer.pushData(topic,"*");
+        }
+        catch(Exception ex){
+            log.error(ex.getMessage());
+        }
+
+
+
+    }
+
 
 }

@@ -3,10 +3,14 @@ package com.mq.rocketmq.producer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
+import org.apache.rocketmq.client.producer.MessageQueueSelector;
 import org.apache.rocketmq.client.producer.SendCallback;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.common.message.Message;
+import org.apache.rocketmq.common.message.MessageQueue;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 
@@ -37,6 +41,7 @@ public class MqProducer {
      *
     */
     public  void createProducer(){
+
         producer = new DefaultMQProducer(group);
         producer.setNamesrvAddr(addr);
 
@@ -218,4 +223,48 @@ public class MqProducer {
     }
 
 
+    /**
+     *功能描述
+     * @author lgj
+     * @Description 消息批量发送
+     * @date 5/12/19
+    */
+    public void batchSender(String topic,List<String> sendDatas) throws Exception{
+
+        List<Message> messages =  new ArrayList<>();
+
+        for(String data:sendDatas){
+            messages.add(new Message(topic,data.getBytes()));
+        }
+
+        producer.send(messages);
+    }
+
+    /**
+     *功能描述
+     * @author lgj
+     * @Description 消息发送队列选择
+     * @date 5/12/19
+    */
+    public void queueSelectSender(String topic,List<String> sendDatas) throws Exception{
+
+        List<Message> messages =  new ArrayList<>();
+
+        for(String data:sendDatas){
+            messages.add(new Message(topic,data.getBytes()));
+        }
+
+        for(int i = 0; i< sendDatas.size(); i++){
+            producer.send(messages.get(i),new MessageQueueSelector(){
+                @Override
+                public MessageQueue select(List<MessageQueue> list, Message message, Object o) {
+
+                    log.info("o = " + o);
+                    return list.get(3);
+                }
+            },i+10);
+        }
+
+
+    }
 }
