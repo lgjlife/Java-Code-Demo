@@ -8,6 +8,7 @@ import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.TopicPartition;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
+import java.time.Duration;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Properties;
@@ -90,8 +91,8 @@ public class ConsumerClientUtil {
             @Override
             public void run() {
                 while (true) {
-                   // System.out.println("消费者拉取数据");
-                    ConsumerRecords<String, String> records = kafkaConsumer.poll(100);
+                    log.info("消费者拉取数据");
+                    ConsumerRecords<String, String> records = kafkaConsumer.poll(Duration.ofSeconds(2));
                     int recordsCount =0;
 
                     for (ConsumerRecord<String, String> record : records){

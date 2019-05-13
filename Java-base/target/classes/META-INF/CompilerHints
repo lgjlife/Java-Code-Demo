@@ -5,3 +5,5 @@ dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
 inline,com/code/base/string/JmhString.benchmark8
 inline,com/code/base/string/JmhString.benchmark9
+inline,com/code/jmh/JmhDemo.benchmark
+inline,com/code/jmh/JmhDemo.benchmark1

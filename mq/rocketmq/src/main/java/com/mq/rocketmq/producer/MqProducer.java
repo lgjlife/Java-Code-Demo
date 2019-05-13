@@ -93,18 +93,18 @@ public class MqProducer {
      * @return:
      *
      */
-    public SendResult asyncSendData(String send){
+    public SendResult asyncSendData(String topic,String send){
         Message msg = new Message(topic,tags,send.getBytes());
 
         SendResult result = null;
         try{
 
-            log.debug("异步方式发送数据....");
+           // log.debug("异步方式发送数据....");
             producer.send(msg, new SendCallback() {
                 @Override
                 public void onSuccess(SendResult sendResult) {
-                    log.debug("异步方式发送数据结束！");
-                    log.info("SyncProducer result = {}-{}",sendResult.getMessageQueue().getQueueId(),sendResult.getQueueOffset());
+                  //  log.debug("异步方式发送数据结束！");
+                  //  log.info("SyncProducer result = {}-{}",sendResult.getMessageQueue().getQueueId(),sendResult.getQueueOffset());
                 }
 
                 @Override

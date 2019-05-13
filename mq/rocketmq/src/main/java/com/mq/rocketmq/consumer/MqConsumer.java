@@ -56,6 +56,7 @@ public class MqConsumer {
             @Override
             public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs,
                                                             ConsumeConcurrentlyContext context) {
+                log.info("消息个数："+msgs.size());
                 msgs.forEach((value)->{
 
                     log.info("接受到的消息=queue:{}-{}",value.getQueueId(),new String(value.getBody()));
