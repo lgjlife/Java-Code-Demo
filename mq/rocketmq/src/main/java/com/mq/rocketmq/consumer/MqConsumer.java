@@ -11,6 +11,7 @@ import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
 import org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently;
 import org.apache.rocketmq.common.message.MessageExt;
 import org.apache.rocketmq.common.message.MessageQueue;
+import org.apache.rocketmq.common.protocol.heartbeat.MessageModel;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -44,8 +45,20 @@ public class MqConsumer {
 
         pushConsumer = new DefaultMQPushConsumer(group);
         pushConsumer.setNamesrvAddr(serverAddress);
+       
+
 
     }
+
+    public  void createPushConsumer(String group) throws  Exception{
+
+        pushConsumer = new DefaultMQPushConsumer(group);
+        pushConsumer.setNamesrvAddr(serverAddress);
+        pushConsumer.setMessageModel(MessageModel.CLUSTERING);
+
+    }
+
+
 
     public void pushData(String topic,String subExpression) throws  Exception{
 
@@ -116,6 +129,7 @@ public class MqConsumer {
         pullConsumer = new DefaultMQPullConsumer("my-group1");
         pullConsumer.setNamesrvAddr("localhost:9876");
         pullConsumer.setMaxReconsumeTimes(5);
+
         try{
 
             pullConsumer.start();
@@ -141,6 +155,24 @@ public class MqConsumer {
 
             Set<MessageQueue> messageQueues = pullConsumer.fetchSubscribeMessageQueues(topic);
             messageQueues.forEach((messageQueue)->{
+
+                try{
+
+                    long maxOffset =  pullConsumer.maxOffset(messageQueue);
+
+                    long minOffset =  pullConsumer.minOffset(messageQueue);
+
+                    long ConsumeOffset =  pullConsumer.fetchConsumeOffset(messageQueue,true);
+
+                    log.info("mq = {} ,minOffset = {}",messageQueue.getQueueId(),minOffset);
+                    log.info("mq = {} ,maxOffset = {}",messageQueue.getQueueId(),maxOffset);
+                    log.info("mq = {} ,ConsumeOffset = {}",messageQueue.getQueueId(),ConsumeOffset);
+
+
+                }
+                catch(Exception ex){
+                    log.error(ex.getMessage());
+                }
 
                 try{
 
@@ -186,6 +218,7 @@ public class MqConsumer {
 
                 long ConsumeOffset =  pullConsumer.fetchConsumeOffset(mq,true);
 
+                log.info("mq = {} ,minOffset = {}",mq.getQueueId(),minOffset);
                 log.info("mq = {} ,maxOffset = {}",mq.getQueueId(),maxOffset);
                 log.info("mq = {} ,ConsumeOffset = {}",mq.getQueueId(),ConsumeOffset);
 

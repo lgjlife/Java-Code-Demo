@@ -1,6 +1,7 @@
 logging:
   level:
     org.apache.kafka:  error
+    com: debug
 
 server:
-  port: 8751
+  port: ${random.int[8000,9000]}

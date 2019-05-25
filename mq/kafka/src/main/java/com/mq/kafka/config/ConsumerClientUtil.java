@@ -1,6 +1,5 @@
 package com.mq.kafka.config;
 
-import com.mq.kafka.count.KafkaCountUtil;
 import com.utils.serialization.AbstractSerialize;
 import com.utils.serialization.HessianSerializeUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -25,54 +24,33 @@ public class ConsumerClientUtil {
     private AbstractSerialize serialize = HessianSerializeUtil.getSingleton();
 
 
-   /* public static void main(String args[]){
-        ProducerClientUtil producerClientUtil = ProducerClientUtil.create();
-        ConsumerClientUtil consumerClientUtil = ConsumerClientUtil.create();
 
-        String topic = "topic-test";
-
-        consumerClientUtil.recData(topic);
-
-        new Thread(){
-            @Override
-            public void run() {
-                while (true)
-                {
-
-                    System.out.println("发送数据.....");
-                    int  data = new Random().nextInt(100);
-                    producerClientUtil.sendData(topic,String.valueOf(data),"data - " + data);
-                    try{
-                        Thread.sleep(300);
-                    }
-                    catch(Exception ex){
-                        ex.printStackTrace();
-                    }
-                }
-            }
-        }.start();
-    }*/
 
     public static ConsumerClientUtil  create(ConsumerCfg cfg){
 
         ConsumerClientUtil consumerClientUtil = new ConsumerClientUtil();
         KafkaConsumer  kafkaConsumer = new KafkaConsumer(initConfig(cfg));
         consumerClientUtil.kafkaConsumer = kafkaConsumer;
+
+        
         return consumerClientUtil;
     }
 
 
 
     public void   recData(String TOPIC){
+
+
+
         kafkaConsumer.subscribe(Arrays.asList(TOPIC), new ConsumerRebalanceListener() {
             @Override
             public void onPartitionsRevoked(Collection<TopicPartition> collection) {
 
                 collection.forEach((value)-> {
-                    System.out.println("+++++++++++++");
-                    System.out.println("onPartitionsRevoked : " + value );
+                    log.debug("+++执行平衡消费者之前:onPartitionsRevoked+++");
 
-
+                    log.debug("topic = {}, partition = {};",value.topic(),value.partition());
+                    kafkaConsumer.commitSync();
                 });
 
             }
@@ -80,8 +58,14 @@ public class ConsumerClientUtil {
             @Override
             public void onPartitionsAssigned(Collection<TopicPartition> collection) {
                 collection.forEach((value)-> {
-                    System.out.println("+++++++++++++");
-                    System.out.println("onPartitionsAssigned : " + value );
+                    log.debug("+++执行平衡消费者之后:onPartitionsAssigned+++");
+
+                    log.debug("topic = {}, partition = {};",value.topic(),value.partition());
+
+                    //获取消费偏移量，实现原理是向协调者发送获取请求
+                    OffsetAndMetadata offset = kafkaConsumer.committed(value);
+                    //设置本地拉取分量，下次拉取消息以这个偏移量为准
+                    kafkaConsumer.seek(value, offset.offset());
 
                 });
             }
@@ -91,25 +75,15 @@ public class ConsumerClientUtil {
             @Override
             public void run() {
                 while (true) {
-                    log.info("消费者拉取数据");
                     ConsumerRecords<String, String> records = kafkaConsumer.poll(Duration.ofSeconds(2));
-                    int recordsCount =0;
-
                     for (ConsumerRecord<String, String> record : records){
-                        //System.out.printf("offset = %d, key = %s, value = %s",record.offset(), record.key(), record.value());
-                        recordsCount++;
-                        int count = KafkaCountUtil.incAndGetRecCount();
-                      //  User user = record.value();
-                        log.info("records " + records);
 
-                        log.info(Thread.currentThread().getName() + "  "+  count + ",接收到的数据：" + record.value());
+                       log.info(Thread.currentThread().getName() + "  "+ record.value());
 
+                        log.info("result = :topic:{}; partition:{}; offset:{};",record.topic(),record.partition(),record.offset());
 
-                        //User user = record.value();
-                      //  System.out.println();
                     }
-                    if(recordsCount !=  0)
-                        log.info("recordsCount = " + recordsCount);
+
                 }
             }
         }.start();
@@ -131,8 +105,16 @@ public class ConsumerClientUtil {
         props.put(ConsumerConfig.AUTO_COMMIT_INTERVAL_MS_CONFIG, "10000");
         //设置会话响应的时间，超过这个时间kafka可以选择放弃消费或者消费下一条消息
         props.put(ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG, "30000");
-        //自动重置offset
-        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG ,"earliest");
+        //自动重置offset　latest　earliest　none
+        /**
+         earliest
+         当各分区下有已提交的offset时，从提交的offset开始消费；无提交的offset时，从头开始消费
+         latest
+         当各分区下有已提交的offset时，从提交的offset开始消费；无提交的offset时，消费新产生的该分区下的数据
+         none
+         topic各分区都存在已提交的offset时，从offset后开始消费；只要有一个分区不存在已提交的offset，则抛出异常
+        */
+        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG ,"latest");
         //反序列化方式
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());

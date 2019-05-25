@@ -30,8 +30,9 @@ public class ProducerClientUtil {
 
         kafkaProducer.send(new ProducerRecord<String, String>(TOPIC, key, data), new Callback() {
             @Override
-            public void onCompletion(RecordMetadata recordMetadata, Exception e) {
-                log.info("recordMetadata = " + recordMetadata);
+            public void onCompletion(RecordMetadata record, Exception e) {
+                //log.info("recordMetadata = " + recordMetadata);
+                log.info("topic:{}; 分区partition:[{}]; offset:{};",record.topic(),record.partition(),record.offset());
             }
         });
     }

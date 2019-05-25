@@ -12,6 +12,7 @@
         <module>Java-base</module>
         <module>SpringBoot/bean-life</module>
         <module>mq/zk/downKnown</module>
+        <module>guava</module>
     </modules>
 
 

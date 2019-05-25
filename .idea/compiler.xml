@@ -20,6 +20,7 @@
         <module name="dubbo-provider" />
         <module name="dubbo-provider1" />
         <module name="dubbo-provider2" />
+        <module name="guava" />
         <module name="Java-base" />
         <module name="kafka" />
         <module name="provider" />

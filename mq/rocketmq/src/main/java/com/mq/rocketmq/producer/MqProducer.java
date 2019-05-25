@@ -56,6 +56,22 @@ public class MqProducer {
         }
     }
 
+    public  void createProducer(String group){
+
+        producer = new DefaultMQProducer(group);
+        producer.setNamesrvAddr(addr);
+
+        //设置自动创建topic的key值
+        producer.setCreateTopicKey("AUTO_CREATE_TOPIC_KEY");
+
+        try{
+            producer.start();
+        }
+        catch(Exception ex){
+            ex.printStackTrace();
+        }
+    }
+
 
 
     /**
@@ -104,7 +120,9 @@ public class MqProducer {
                 @Override
                 public void onSuccess(SendResult sendResult) {
                   //  log.debug("异步方式发送数据结束！");
-                  //  log.info("SyncProducer result = {}-{}",sendResult.getMessageQueue().getQueueId(),sendResult.getQueueOffset());
+                    log.info("异步方式发送数据结束！"+"SyncProducer result = QueueId：{}-Offset：{}",
+                            sendResult.getMessageQueue().getQueueId(),
+                            sendResult.getQueueOffset());
                 }
 
                 @Override

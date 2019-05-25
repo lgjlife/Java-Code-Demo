@@ -19,10 +19,10 @@ public class RocketmqApplication {
 
         //批量发送数据
         // batchSender();
-          normalSender();
+        //  normalSender();
         //
        // queueSelectSender();
-        //   transactionSender();
+        transactionSender();
     //  SpringApplication.run(RocketmqApplication.class, args);
 
     }

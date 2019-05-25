@@ -1,3 +1,5 @@
 logging:
   level:
     com.mq: debug
+server:
+  port: ${random.int[8000,9000]}
