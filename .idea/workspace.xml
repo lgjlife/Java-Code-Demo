@@ -2,74 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52084754-6f62-45cd-9868-213e30ba5b9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/jvm/JvmDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/entity/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/entity/SubjectImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/CglibProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JavassistProxy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JavassistProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JdkInvocationHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/reflect/proxy/JdkProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Exec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Hook$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Hook$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Hook$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Hook$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/runtime/Hook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/string/JmhString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/MyThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/MyThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/MyThread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/NoVisibilly$ReaderThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/NoVisibilly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/StopThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/ThreadCreate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/thread/ThreadStop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/time/DurationDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo1$Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo1$DemoInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/CompletableFutureDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/TaskService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CompletableFuture/TaskServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CyclicBarrierDemo$TashThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/CyclicBarrierDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/FutureDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/FutureDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/atomic/AtomicBoolean/AtomicBooleanDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/atomic/AtomicIntegerFieldUpdater/AtomicIntegerFieldUpdaterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/atomic/AtomicReference/AtomicReferenceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/excutorException/ExcutorException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/excutorException/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/excutorException/TraceExecutorService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/excutorException/TraceExecutorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/base/util/concurrent/unsafe/UnsafeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/jmh/JmhDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/lambda/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/lambda/LambdaDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/lambda/Predicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/serialized/JdkSerialize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton4$Singleton4Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton5$Singleto5Enum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/Singleton5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-base/target/classes/com/code/singleton/SingletonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/KafkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/KafkaProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ConsumerClientUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ProducerClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/kafka/src/main/java/com/mq/kafka/config/ProducerClientUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/kafka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq/kafka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/kafka/src/test/java/com/mq/kafka/KafkaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/kafka/src/test/java/com/mq/kafka/KafkaProducerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/rocketmq/src/main/java/com/mq/rocketmq/RocketmqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/rocketmq/src/main/java/com/mq/rocketmq/RocketmqApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/rocketmq/src/main/java/com/mq/rocketmq/consumer/MqConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/rocketmq/src/main/java/com/mq/rocketmq/consumer/MqConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/rocketmq/src/main/java/com/mq/rocketmq/producer/MqProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/rocketmq/src/main/java/com/mq/rocketmq/producer/MqProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/rocketmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq/rocketmq/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/src/main/java/com/demo/guava/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/guava/src/main/java/com/demo/guava/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/demo/guava/Demo1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/guava/target/classes/com/demo/guava/Demo1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/demo/guava/Demo1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/guava/target/classes/com/demo/guava/Demo1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/demo/guava/Demo1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/guava/target/classes/com/demo/guava/Demo1$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava/target/classes/com/demo/guava/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/guava/target/classes/com/demo/guava/Demo1.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -183,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guava/src/main/java/com/demo/guava/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            <state relative-caret-position="127">
+              <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#333#865#0" expanded="true" />
@@ -201,10 +139,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/Cache.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/CacheLoader.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="130">
               <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
@@ -213,11 +169,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/CacheBuilder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="98" column="37" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="37" />
+            <state relative-caret-position="431">
+              <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
               <folding>
                 <element signature="e#3373#3374#0" expanded="true" />
                 <element signature="e#3414#3415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/LocalCache.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="936" selection-start-line="936" selection-end-line="936" />
+              <folding>
+                <element signature="e#30924#31094#0" expanded="true" />
+                <element signature="e#31093#31094#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -228,33 +197,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="27" column="17" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0.jar!/org/apache/rocketmq/client/consumer/listener/ConsumeConcurrentlyStatus.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0.jar!/org/apache/rocketmq/client/producer/SendResult.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0.jar!/org/apache/rocketmq/client/producer/SendStatus.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -299,6 +241,7 @@
       <find>Found</find>
       <find>pullCallback</find>
       <find>brokerSuspendMaxTimeMillis</find>
+      <find>load</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -307,7 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/unsafe/UnsafeDemo.java" />
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/atomic/AtomicIntegerFieldUpdater/AtomicIntegerFieldUpdaterDemo.java" />
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/base/util/concurrent/atomic/AtomicReference/AtomicReferenceDemo.java" />
         <option value="$PROJECT_DIR$/Java-base/src/main/java/com/code/singleton/Singleto5.java" />
@@ -358,6 +300,7 @@
         <option value="$PROJECT_DIR$/guava/src/main/java/com/demo/guava/pojo/pojo.java" />
         <option value="$PROJECT_DIR$/guava/src/main/java/com/demo/guava/pojo/GuavaPojo.java" />
         <option value="$PROJECT_DIR$/guava/src/main/java/com/demo/guava/Demo1.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -412,10 +355,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1366" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -431,29 +374,6 @@
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="guava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="guava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="guava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCode" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCode" type="b2602c69:ProjectViewProjectNode" />
@@ -873,7 +793,7 @@
       <workItem from="1557853644592" duration="2815000" />
       <workItem from="1557884893979" duration="1999000" />
       <workItem from="1558247700849" duration="25000" />
-      <workItem from="1558780182998" duration="2749000" />
+      <workItem from="1558780182998" duration="4868000" />
     </task>
     <servers />
   </component>
@@ -910,7 +830,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282253000" />
+    <option name="totallyTimeSpent" value="284372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -922,11 +842,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="1920" y="-2" width="1366" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5116279" visible="true" weight="0.31211954" />
-      <window_info id="Structure" order="1" sideWeight="0.4883721" side_tool="true" visible="true" weight="0.31211954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9005628" visible="true" weight="0.42727274" />
+      <window_info id="Structure" order="1" sideWeight="0.09943715" side_tool="true" visible="true" weight="0.42727274" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.16" side_tool="true" weight="0.27121213" />
       <window_info id="Web" order="4" side_tool="true" />
@@ -934,8 +854,8 @@
       <window_info id="ZooKeeper" order="6" sideWeight="0.83306056" weight="0.6126176" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.48920086" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31533477" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.16848674" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44276458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
@@ -1077,6 +997,26 @@
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/guava/src/main/java/com/demo/guava/Demo1.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/LocalCache.class</url>
+          <line>1687</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/guava/src/main/java/com/demo/guava/Demo1.java</url>
+          <line>92</line>
+          <properties method="load">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1088,27 +1028,6 @@
     <option name="enabled" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0.jar!/org/apache/rocketmq/client/producer/TransactionListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.3.0/rocketmq-client-4.3.0.jar!/org/apache/rocketmq/client/producer/TransactionMQProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java/jdk1.8.0_191/src.zip!/java/time/Duration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="220" column="26" selection-start-line="220" selection-start-column="18" selection-end-line="220" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java-base/src/main/java/com/code/base/time/DurationDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1447,24 +1366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/CacheLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/CacheBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="98" column="37" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="37" />
-          <folding>
-            <element signature="e#3373#3374#0" expanded="true" />
-            <element signature="e#3414#3415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/LoadingCache.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1472,10 +1373,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/CacheLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/Cache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/CacheBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
+          <folding>
+            <element signature="e#3373#3374#0" expanded="true" />
+            <element signature="e#3414#3415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar!/com/google/common/cache/LocalCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="936" selection-start-line="936" selection-end-line="936" />
+          <folding>
+            <element signature="e#30924#31094#0" expanded="true" />
+            <element signature="e#31093#31094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guava/src/main/java/com/demo/guava/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        <state relative-caret-position="127">
+          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#333#865#0" expanded="true" />
@@ -1485,6 +1422,13 @@
             <element signature="e#1562#1832#0" expanded="true" />
             <element signature="e#1831#1832#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

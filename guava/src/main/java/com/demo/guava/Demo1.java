@@ -13,12 +13,14 @@ public class Demo1 {
 
     private  static LoadingCache cache = createCache();
 
-    public static void main(String args[]){
+    public static void main(String args[]) throws  Exception{
 
 
 
 
         new Thread(){
+
+
 
             @Override
             public void run() {
@@ -33,7 +35,7 @@ public class Demo1 {
                     try{
 
                         Thread.sleep(2000);
-                        cache.put(count+"",pojo);
+                        cache.put("cache:"+count,pojo);
                     }
                     catch(Exception ex){
                         ex.printStackTrace();
@@ -54,15 +56,14 @@ public class Demo1 {
                    try{
 
                        Thread.sleep(2000);
-                       GuavaPojo pojo =  (GuavaPojo)cache.get(0);
+                       GuavaPojo pojo =  (GuavaPojo)cache.get("sa");
 
-                       ConcurrentMap map = cache.asMap();
+                       ConcurrentMap<String,GuavaPojo> map = cache.asMap();
                        System.out.print("len = "+map.size() + "|"  );
                        Set<Object> ids = new HashSet<>();
 
                        map.forEach((k,v)->{
-                           //System.out.print(k+",");
-                           ids.add(k);
+                           ids.add(v.getId());
                        });
 
                        System.out.print(ids);
@@ -84,12 +85,12 @@ public class Demo1 {
 
 
     public static  LoadingCache createCache(){
-        LoadingCache<Object, GuavaPojo> cache = CacheBuilder
+        LoadingCache<String, GuavaPojo> cache = CacheBuilder
                 .newBuilder()
                 .maximumSize(10)
-                .build(new CacheLoader<Object,GuavaPojo>(){
+                .build(new CacheLoader<String,GuavaPojo>(){
 
-                    public GuavaPojo load(Object s) throws Exception {
+                    public GuavaPojo load(String s) throws Exception {
 
                         System.out.println("load s =" + s);
 
