@@ -1,5 +1,0 @@
-server:
-  port: 8561
-logging:
-  level:
-    com: debug

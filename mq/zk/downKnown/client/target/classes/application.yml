@@ -1,5 +1,0 @@
-server:
-  port: 8562
-logging:
-  level:
-    com: debug
