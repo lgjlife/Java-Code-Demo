@@ -7,7 +7,7 @@ eureka:
 
 spring:
   application:
-    name: cloud-security-server-client
+    name: cloud-security-aserver-client
 security:
   oauth2:
     client:

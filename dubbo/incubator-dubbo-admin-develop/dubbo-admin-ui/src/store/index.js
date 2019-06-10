@@ -43,7 +43,7 @@ export const store = new Vuex.Store({
       commit('setArea', area)
     },
     /**
-     * Load service items from server, put results into storage.
+     * Load service items from aserver, put results into storage.
      */
     loadServiceItems ({commit}) {
       Vue.prototype.$axios.get('/services')
@@ -55,7 +55,7 @@ export const store = new Vuex.Store({
         })
     },
     /**
-     * Load application items from server, put results into storage.
+     * Load application items from aserver, put results into storage.
      */
     loadAppItems ({commit}) {
       Vue.prototype.$axios.get('/applications')

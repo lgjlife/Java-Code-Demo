@@ -21,9 +21,9 @@ import java.util.Date;
  * @create: 2018-11-17 14:59
  **/
 
-@Api("/server")
+@Api("/aserver")
 @RestController
-@RequestMapping("/server")
+@RequestMapping("/aserver")
 public class UserController {
 
     private static  final Logger log = LoggerFactory.getLogger(UserController.class);
@@ -36,8 +36,8 @@ public class UserController {
     @GetMapping("/name")
     public String queryUser(){
 
-        log.info("访问 /server/name");
-        return  "访问 /server/name , 当前时间：" + new Date().toString();
+        log.info("访问 /aserver/name");
+        return  "访问 /aserver/name , 当前时间：" + new Date().toString();
     }
 
     @ApiOperation(value="/hi",notes = "根据ID获取用户",httpMethod="GET")

@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 //@Configuration
 public class MyConfig {
 
-    @Value("${server.port}")
+    @Value("${aserver.port}")
     private String port;
 
     @Value("${spring.redis.jedis.pool.max-active}")

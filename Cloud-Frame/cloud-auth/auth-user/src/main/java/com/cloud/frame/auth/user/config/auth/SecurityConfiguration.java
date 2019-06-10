@@ -39,7 +39,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(new CustomUserService()); //server Details Service验证
+        auth.userDetailsService(new CustomUserService()); //aserver Details Service验证
 
     }
 

@@ -22,7 +22,7 @@ public class DocumentationConfig implements SwaggerResourcesProvider {
     @Override
     public List<SwaggerResource> get() {
         List resources = new ArrayList<>();
-      //  resources.add(swaggerResource("用户权限系统", "/server-api/v2/api-docs", "2.0"));
+      //  resources.add(swaggerResource("用户权限系统", "/aserver-api/v2/api-docs", "2.0"));
       //  resources.add(swaggerResource("网关中心", "/", "2.0"));
       //  resources.add(swaggerResource("用户权限服务提供系统", "/security-provider-api/v2/api-docs", "2.0"));
       //  resources.add(swaggerResource("任务调度模块", "/scheduler-quartz-api/v2/api-docs", "2.0"));

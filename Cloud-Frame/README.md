@@ -84,7 +84,7 @@
 //启动zipkin
 cd Cloud-Frame/zipkin-server
 ./zipkin-start.sh
-//访问zipkin-server
+aserver
 http://localhost:9411/
 ```
 

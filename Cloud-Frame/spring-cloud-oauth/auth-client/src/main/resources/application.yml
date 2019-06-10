@@ -36,4 +36,4 @@ zuul:
 proxy:
   auth:
     routes:
-      api: server
+      api: aserver

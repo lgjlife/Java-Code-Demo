@@ -22,7 +22,7 @@
 		</dependency>
 		<!--<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-server</artifactId>
+			<artifactId>spring-cloud-starter-aserver</artifactId>
 		</dependency>-->
 
 		<!--security -->

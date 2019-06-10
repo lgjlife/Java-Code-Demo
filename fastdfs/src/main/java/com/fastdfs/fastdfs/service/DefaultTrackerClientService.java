@@ -20,12 +20,10 @@ public class DefaultTrackerClientService {
         StorageNode storageNode = trackerClient.getStoreStorage();
         log.info("StorageNode = {}" ,storageNode);
         return storageNode;
-
     }
 
     public List<GroupState> listGroups() {
         return  trackerClient.listGroups();
     }
-
 
 }

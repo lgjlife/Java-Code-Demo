@@ -7,7 +7,7 @@ eureka:
 
 spring:
   application:
-    name: cloud-security-server
+    name: cloud-security-aserver
   boot:
     admin:
       client:

@@ -53,7 +53,7 @@ public class ZkCli {
     public void init(){
         log.info("ZkCli  init");
         this.connect();
-        this.create("server-1");
+        this.create("aserver-1");
 
     }
 

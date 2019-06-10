@@ -1,6 +1,6 @@
 spring:
   application:
-    name: rpc-server
+    name: rpc-aserver
 #zookeeper
 zookeeper:
   host: 127.0.0.1

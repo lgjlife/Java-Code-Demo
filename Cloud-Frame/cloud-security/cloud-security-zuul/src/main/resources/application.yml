@@ -35,7 +35,7 @@ zuul:
       url: http://localhost:8009/user
   # 用户模块
     user-api:
-      path: /server-api/**
+      path: /aserver-api/**
       serviceId: Auth-User
   # 用户服务提供者
     authprovider-api:
@@ -47,9 +47,9 @@ zuul:
       serviceId: scheduler-quartz
   # 服务注册中心
   # 访问注册中心，使用的是url,否则会报错
-  # com.netflix.client.ClientException: Load balancer does not have available server for client
+  # com.netflix.client.ClientException: Load balancer does not have available aserver for client
     eureka-server-api:
-      path: /eureka-server-api/**
+      path: /eureka-aserver-api/**
       url: http://localhost:8001/
 security:
   oauth2:

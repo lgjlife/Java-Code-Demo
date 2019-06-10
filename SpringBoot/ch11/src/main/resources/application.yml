@@ -48,21 +48,21 @@ spring:
   mail:
   # Default MimeMessage encoding.
     default-encoding: UTF-8
-    # SMTP server host. For instance, smtp.example.com.
+    # SMTP aserver host. For instance, smtp.example.com.
     host: smtp.sina.com
     # Session JNDI name. When set, takes precedence over other Session settings.
    # jndi-name:
-    # Login user of the SMTP server
+    # Login user of the SMTP aserver
     username: lanmeishop1@sina.com
-    # Login password of the SMTP server.
+    # Login password of the SMTP aserver.
     password: lanmei
-    # SMTP server port.
+    # SMTP aserver port.
    # port:
      # Additional JavaMail Session properties.
    # properties:
-    # Protocol used by the SMTP server.
+    # Protocol used by the SMTP aserver.
     protocol: smtp
-    # Whether to test that the mail server is available on startup.
+    # Whether to test that the mail aserver is available on startup.
    # test-connection: true
 
 

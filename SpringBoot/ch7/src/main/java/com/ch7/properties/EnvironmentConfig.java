@@ -28,7 +28,7 @@ public class EnvironmentConfig {
     public void  printServerConfig(){
         //port读取到的是-1？？？？？？？？？
         Integer port = env.getProperty("server.port",Integer.class);
-        String context_path = env.getProperty("server.servlet.context-path");
+        String context_path = env.getProperty("aserver.servlet.context-path");
         String dir = env.getProperty("user.dir");
         String home = env.getProperty("user.home");
         String javaHome = env.getProperty("JAVA_HOME");

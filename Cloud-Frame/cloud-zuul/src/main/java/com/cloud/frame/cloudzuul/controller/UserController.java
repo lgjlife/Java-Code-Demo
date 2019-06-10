@@ -20,17 +20,17 @@ import java.util.List;
  * @create: 2018-11-18 21:24
  **/
 
-@Api("/server")
+@Api("/aserver")
 @Controller
-@RequestMapping("/server")
+@RequestMapping("/aserver")
 public class UserController {
 
     @ApiOperation(value="/{id}",notes = "根据ID获取用户",httpMethod="GET")
     @RequestMapping("/{id}")
     public String  getUser(@PathVariable Integer id, Model model) {
 
-        model.addAttribute("server",new User(id,"张三",20,"中国广州"));
-        return "/server/detail";
+        model.addAttribute("aserver",new User(id,"张三",20,"中国广州"));
+        return "/aserver/detail";
     }
 
     @ApiOperation(value="/{list}",notes = "获取用户列表",httpMethod="GET")
@@ -42,6 +42,6 @@ public class UserController {
         }
 
         model.addAttribute("users", userList);
-        return "/server/list";
+        return "/aserver/list";
     }
 }

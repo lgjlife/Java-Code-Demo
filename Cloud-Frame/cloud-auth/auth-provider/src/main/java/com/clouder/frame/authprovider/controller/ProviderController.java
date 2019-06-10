@@ -17,7 +17,7 @@ import java.util.Date;
  * @See:
  * @create: 2018-11-18 01:28
  **/
-@Api("/server")
+@Api("/aserver")
 @RestController
 public class ProviderController {
 
@@ -25,7 +25,7 @@ public class ProviderController {
     private  static  final Logger log = LoggerFactory.getLogger(ProviderController.class);
 
     @ApiOperation(value="/name",notes = "根据ID获取用户",httpMethod="GET")
-    @GetMapping("/server/hi")
+    @GetMapping("/aserver/hi")
     public  String hi(){
         log.info("访问ProviderController  /hi");
         return  "hi , " + "ProviderController +  Time = " + new Date().toString();

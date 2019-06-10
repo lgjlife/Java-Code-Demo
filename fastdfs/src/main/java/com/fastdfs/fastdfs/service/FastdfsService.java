@@ -1,16 +1,18 @@
 package com.fastdfs.fastdfs.service;
 
 
+import com.fastdfs.fastdfs.fastdfs.DfsClient;
 import com.github.tobato.fastdfs.domain.fdfs.MetaData;
 import com.github.tobato.fastdfs.domain.fdfs.StorePath;
 import com.github.tobato.fastdfs.domain.fdfs.ThumbImageConfig;
 import com.github.tobato.fastdfs.domain.proto.storage.DownloadCallback;
-import com.github.tobato.fastdfs.service.FastFileStorageClient;
+import com.github.tobato.fastdfs.service.DefaultFastFileStorageClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.*;
+import java.util.HashSet;
 import java.util.Set;
 
 @Slf4j
@@ -22,9 +24,14 @@ public class FastdfsService {
 
     StorePath curStorePath;
 
+   /* @Autowired
+    DefaultFastFileStorageClient defaultFastFileStorageClient;*/
 
+
+   @Autowired
+    DfsClient dfsClient;
     @Autowired
-    private FastFileStorageClient storageClient;
+    private DefaultFastFileStorageClient storageClient;
 
     @Autowired
     private ThumbImageConfig thumbImageConfig;
@@ -33,11 +40,18 @@ public class FastdfsService {
     public String upload() throws FileNotFoundException {
         File file = new File("img/timg.jpeg");
 
+        Set<MetaData> metaDataSet = createMetaData();
+
         log.info(file.getAbsolutePath());
         // 上传并且生成缩略图
         log.info("start upload");
         StorePath storePath = this.storageClient.uploadFile(
-                new FileInputStream(file), file.length(), "jpeg", null);
+                new FileInputStream(file), file.length(), "jpeg",
+                metaDataSet);
+
+        Set<MetaData> fetchMetaData = storageClient.getMetadata(storePath.getGroup(), storePath.getPath());
+
+        log.info("MetaData = " +fetchMetaData);
         log.info("finish upload");
 
         curStorePath = storePath;
@@ -86,7 +100,9 @@ public class FastdfsService {
 
         log.info("start downloadFile");
         log.info("downloadFile:{}",curStorePath);
-        storageClient.downloadFile(curStorePath.getGroup(),curStorePath.getPath(),new DownloadCallback(){
+        dfsClient.client().downloadFile(curStorePath.getGroup(),
+                curStorePath.getPath(),
+                new DownloadCallback(){
             @Override
             public Object recv(InputStream inputStream) throws IOException {
                 log.info("end downloadFile");
@@ -99,6 +115,13 @@ public class FastdfsService {
         });
 
 
+    }
+
+    private Set<MetaData> createMetaData() {
+        Set<MetaData> metaDataSet = new HashSet<MetaData>();
+        metaDataSet.add(new MetaData("Author", "tobato"));
+        metaDataSet.add(new MetaData("CreateDate", "2016-01-05"));
+        return metaDataSet;
     }
 
 

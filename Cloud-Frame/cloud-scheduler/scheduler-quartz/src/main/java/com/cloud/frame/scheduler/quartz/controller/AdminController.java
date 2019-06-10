@@ -50,7 +50,7 @@ public class AdminController {
         }
 
         model.addAttribute("users", userList);
-        return "/server/list";
+        return "/aserver/list";
     }
 
 

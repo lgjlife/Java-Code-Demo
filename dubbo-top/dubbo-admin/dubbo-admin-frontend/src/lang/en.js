@@ -62,7 +62,7 @@ export default {
   metaData: 'MetaData',
   searchDubboService: 'Search Dubbo Services',
   serviceSearchHint: 'Service ID, org.apache.dubbo.demo.api.DemoService, * for all services',
-  ipSearchHint: 'Find all services provided by the target server on the specified IP address',
+  ipSearchHint: 'Find all services provided by the target aserver on the specified IP address',
   appSearchHint: 'Input an application name to find all services provided by one particular application, * for all',
   searchTagRule: 'Search Tag Rule by application name',
   searchBalanceRule: 'Search Balancing Rule'

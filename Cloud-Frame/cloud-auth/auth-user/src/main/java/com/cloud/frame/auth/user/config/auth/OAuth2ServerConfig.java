@@ -38,7 +38,7 @@ public class OAuth2ServerConfig extends AuthorizationServerConfigurerAdapter {
 
     /** 
      * @description: Configure the non-security features of the Authorization Server endpoints,
-     * like token store, token customizations, server approvals and grant types.
+     * like token store, token customizations, aserver approvals and grant types.
      * @param:
      * @return:
      * @author: Mr.lgj 
@@ -47,7 +47,7 @@ public class OAuth2ServerConfig extends AuthorizationServerConfigurerAdapter {
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
         super.configure(security);
-        security.realm("server-resources")//code授权添加
+        security.realm("aserver-resources")//code授权添加
                 .tokenKeyAccess("permitAll()")
                 .checkTokenAccess("isAuthenticated()")//allow check token
                 .allowFormAuthenticationForClients();
@@ -71,7 +71,7 @@ public class OAuth2ServerConfig extends AuthorizationServerConfigurerAdapter {
                 .redirectUris("http://baidu.com")
                 .authorizedGrantTypes("authorization_code","client_credentials", "password", "refresh_token")
                 .scopes("all")
-                .resourceIds("server-resource")
+                .resourceIds("aserver-resource")
                 .accessTokenValiditySeconds(1200)
                 .refreshTokenValiditySeconds(50000);
     }

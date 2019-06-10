@@ -9,7 +9,7 @@ eureka:
 
 spring:
   application:
-    name: oauth2-server
+    name: oauth2-aserver
   #redis
   redis:
       #host地址

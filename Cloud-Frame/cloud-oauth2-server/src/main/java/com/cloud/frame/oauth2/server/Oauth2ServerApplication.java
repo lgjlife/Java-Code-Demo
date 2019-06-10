@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @See:
  * @create: 2018-12-10 17:13
  **/
-@ComponentScan(basePackages = {"com.cloud.frame.common","com.cloud.frame.oauth2.server"})
+@ComponentScan(basePackages = {"com.cloud.frame.common","com.cloud.frame.oauth2.aserver"})
 @SpringBootApplication
 public class Oauth2ServerApplication {
 
