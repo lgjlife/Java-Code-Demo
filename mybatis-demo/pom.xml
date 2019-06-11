@@ -83,6 +83,7 @@
                     <configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
                     <overwrite>false</overwrite>
                     <verbose>true</verbose>
+                    <overwrite>false</overwrite>
 
                 </configuration>
             </plugin>

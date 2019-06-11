@@ -1,4 +1,4 @@
-package com.mybatis.user.dao.intercetor;
+package com.mybatis.user.intercetor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.executor.Executor;
