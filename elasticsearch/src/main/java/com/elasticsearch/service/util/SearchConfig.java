@@ -50,6 +50,8 @@ public class SearchConfig {
      */
     private String[] types;
 
+    private Boolean needHighlight = false;
+
     public static Builder builder(){
         Builder builder = new Builder();
         return builder;
@@ -73,6 +75,9 @@ public class SearchConfig {
         private String[] feilds = {"*"};
 
         private String[] types;
+
+        private Boolean needHighlight = false;
+
 
 
 
@@ -117,6 +122,11 @@ public class SearchConfig {
             return this;
         }
 
+        public Builder needHighlight(Boolean need){
+            this.needHighlight = need;
+            return  this;
+        }
+
 
         public SearchConfig build(){
             SearchConfig config = new SearchConfig();
@@ -128,7 +138,7 @@ public class SearchConfig {
             config.setHighlightField(this.highlightField);
             config.setFeilds(this.feilds);
             config.setTypes(this.types);
-
+            config.setNeedHighlight(this.needHighlight);
             return config;
         }
     }

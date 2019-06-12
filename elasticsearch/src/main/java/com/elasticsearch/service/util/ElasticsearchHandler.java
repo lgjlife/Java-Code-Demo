@@ -16,6 +16,13 @@ public class ElasticsearchHandler {
     @Autowired
     private  ElasticsearchQueryHandler queryHandler;
 
+
+    @Autowired
+    private  ElasticsearchDeleteHandler deleteHandler;
+
+    @Autowired
+    private ElasticsearchMappingHandler mappingHandler;
+
     public ElasticsearchCreateHandler create(){
         return createHandler;
     }
@@ -25,6 +32,13 @@ public class ElasticsearchHandler {
     }
 
 
+    public ElasticsearchDeleteHandler delete(){
+        return deleteHandler;
+    }
+
+    public ElasticsearchMappingHandler mapping(){
+        return mappingHandler;
+    }
 
 
 

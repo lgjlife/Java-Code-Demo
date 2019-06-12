@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Map;
 
 
 @Slf4j
@@ -40,7 +41,7 @@ public class ElaController {
     @RequestMapping("/delete")
     public void delete(){
         log.info("/ela/delete");
-
+        elaService.deleteIndex();
 
     }
 
@@ -52,6 +53,21 @@ public class ElaController {
         return elaService.query(query);
 
 
+    }
+
+    @RequestMapping("/mapping")
+    public void mapping(){
+        log.info("/ela/mapping");
+
+        elaService.mapping();
+    }
+
+
+    @RequestMapping("/get/mapping")
+    public Map getMapping(){
+        log.info("/ela/get/mapping");
+
+        return elaService.getMapping();
     }
 
 

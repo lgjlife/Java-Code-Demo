@@ -72,9 +72,17 @@ public class ElasticsearchQueryHandler {
 
         List<T> result = null;
 
-        AggregatedPage<T> resultPage  = elasticsearchTemplate.queryForPage(searchQuery,searchConfig.getClazz(),searchResultMapperHandle);
-        result= resultPage.getContent();
-        return  result;
+        if(searchConfig.getNeedHighlight()){
+            AggregatedPage<T> resultPage  = elasticsearchTemplate.queryForPage(searchQuery,searchConfig.getClazz(),searchResultMapperHandle);
+            result= resultPage.getContent();
+            return  result;
+        }
+        else {
+            return elasticsearchTemplate.queryForList(searchQuery,searchConfig.getClazz());
+        }
+
+
+
     }
 
 

@@ -16,6 +16,10 @@ public class ElasticsearchDeleteHandler {
     @Autowired
     private ElasticsearchTemplate elasticsearchTemplate;
 
+    public boolean deleteIndex(String indexName){
+        return elasticsearchTemplate.deleteIndex(indexName);
+    }
+
 
 
 

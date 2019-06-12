@@ -71,6 +71,14 @@ public class ElasticsearchCreateHandler {
         elasticsearchTemplate.bulkIndex(indexQuerys);
     }
 
+    public boolean mapping(String indexName, String type, Object mapping){
+        return elasticsearchTemplate.putMapping(indexName,type,mapping);
+    }
+
+    public <T> boolean putMapping(Class<T> clazz){
+        return elasticsearchTemplate.putMapping(clazz);
+    }
+
 
 
 }

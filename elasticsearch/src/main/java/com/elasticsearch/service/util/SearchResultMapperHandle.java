@@ -1,5 +1,6 @@
 package com.elasticsearch.service.util;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.search.SearchHit;
@@ -11,22 +12,17 @@ import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
 import org.springframework.data.elasticsearch.core.aggregation.impl.AggregatedPageImpl;
 import org.springframework.stereotype.Component;
 
-import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 /**
  *功能描述
  * @author lgj
- * @Description  处理查询结果
+ * @Description  处理查询结果,高亮字段，由于高亮字段需要添加html字符串，因此只适用于字符串类型的字段。
  * @date 5/19/19
 */
 @Component
@@ -46,37 +42,36 @@ public class SearchResultMapperHandle implements SearchResultMapper {
 
             try{
 
-                Map<String, Object> resultMap = searchHit.getSourceAsMap();
+                String searchStr = searchHit.getSourceAsString();
+                log.info("searchStr="+searchStr);
 
+                ObjectMapper objectMapper = new ObjectMapper();
+                T resultPojo = objectMapper.readValue(searchStr,aClass);
+                Map<String, Object> resultMap = searchHit.getSourceAsMap();
                 T instance =  aClass.newInstance();
+
                 Field[] fields =   aClass.getDeclaredFields();
                 Map<String, HighlightField> highlightFieldMap =  searchHit.getHighlightFields();
 
                 for(Field field:fields){
-                    field.setAccessible(true);
-                    PropertyDescriptor propertyDescriptor = new PropertyDescriptor(field.getName(),aClass);
-                    Method setMethod = propertyDescriptor.getWriteMethod();
-                    HighlightField highlightField = null ;
-                    if(( highlightField=highlightFieldMap.get(field.getName())) != null){
-                        //field　高亮字段
-                        setMethod.invoke(instance,highlightField.getFragments()[0].toString());
-                    }
-                    else {
-                        //field　不是高亮字段
-                        Object value =(Object)resultMap.get(field.getName());
-                        value =  valueTypeExchang(field,value);
-                        log.info("field = [{}--{}],value type = [{}],value =[{}] ",
-                                field.getName(),field.getType(),value.getClass(),value);
-                        setMethod.invoke(instance,value);
+                    if(highlightFieldMap.containsKey(field.getName())){
+                        if(field.getType() != String.class){
+                            break;
+                        }
+                        field.setAccessible(true);
+                        String highlightFieldValue =  Arrays.toString(highlightFieldMap.get(field.getName()).getFragments());
+                        field.set(resultPojo,highlightFieldValue);
                     }
 
                 }
-                results.add(instance);
+                results.add(resultPojo);
             }
             catch(Exception ex){
                 log.error(ex.getMessage());
                 ex.printStackTrace();
             }
+
+
         }
         //log.info("size = " + results.size() + "results:"+results);
         AggregatedPage page = new AggregatedPageImpl<T>(results);

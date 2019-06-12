@@ -2,6 +2,7 @@ package com.elasticsearch.service;
 
 
 import com.elasticsearch.dao.Admin;
+import com.elasticsearch.dao.Location;
 import com.elasticsearch.service.util.ElasticsearchHandler;
 import com.elasticsearch.service.util.SearchConfig;
 import lombok.extern.slf4j.Slf4j;
@@ -10,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 import java.util.Random;
 
 
@@ -53,6 +55,7 @@ public class ElaService {
                 .clazz(Admin.class)
                 .highlightField("name")
                 .types(types)
+                .needHighlight(true)
                 .build();
 
         List<Admin> admins = elasticsearchHandler.query().search(searchConfig);
@@ -60,6 +63,10 @@ public class ElaService {
 
 
 
+    }
+
+    public void mapping(){
+        elasticsearchHandler.create().putMapping(Admin.class);
     }
 
     private Admin admin(){
@@ -70,8 +77,25 @@ public class ElaService {
         admin.setDesc("散发的加快了发动机的该及科技概括了将");
         admin.setHeight(145);
         admin.setCreate(new Date());
+        admin.setLocation(new Location("shenzhen",1526));
         return admin;
+    }
 
+    public void deleteIndex(){
+
+        String index = "admin_index";
+       Boolean result =  elasticsearchHandler.delete().deleteIndex(index);
+
+       log.info("[{}] delete:[{}]",index,result);
+    }
+
+    public  Map getMapping(){
+        String index = "admin_index";
+        String type = "admin_type";
+        Map map =  elasticsearchHandler.mapping().getMapping(index,type);
+        log.info("map");
+
+        return map;
 
     }
 
