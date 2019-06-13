@@ -7,15 +7,23 @@ public class DemoService {
     private String name;
 
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    private void printName(){
+    public void printName(){
 
         System.out.println("print name");
     }
-    private void printName(String name){
+    public void printName(String name){
 
         System.out.println("print name:"+name);
     }
+
+
 
 }
