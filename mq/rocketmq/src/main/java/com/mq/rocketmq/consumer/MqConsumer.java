@@ -130,6 +130,7 @@ public class MqConsumer {
         pullConsumer.setNamesrvAddr("localhost:9876");
         pullConsumer.setMaxReconsumeTimes(5);
 
+
         try{
 
             pullConsumer.start();
@@ -157,6 +158,7 @@ public class MqConsumer {
             messageQueues.forEach((messageQueue)->{
 
                 try{
+
 
                     long maxOffset =  pullConsumer.maxOffset(messageQueue);
 

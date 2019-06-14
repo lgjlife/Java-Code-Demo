@@ -1,0 +1,8 @@
+
+server:
+  port: 8300
+logging:
+  level:
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/

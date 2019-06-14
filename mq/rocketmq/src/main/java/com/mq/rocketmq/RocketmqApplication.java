@@ -18,11 +18,11 @@ public class RocketmqApplication {
 
 
         //批量发送数据
-        // batchSender();
+      batchSender();
         //  normalSender();
         //
        // queueSelectSender();
-        transactionSender();
+        //     transactionSender();
     //  SpringApplication.run(RocketmqApplication.class, args);
 
     }
@@ -100,7 +100,7 @@ public class RocketmqApplication {
         List<String> sendDatas = new ArrayList<>();
         for(int i = 0; i< 10; i++){
 
-            sendDatas.add("消息批量发送:"+i);
+            sendDatas.add("消息批量发送:"+i + "   "+new Date().toString());
         }
 
         try{
@@ -147,7 +147,7 @@ public class RocketmqApplication {
         }
 
 
-        MqConsumer mqConsumer = new MqConsumer();
+       /* MqConsumer mqConsumer = new MqConsumer();
 
         try{
             mqConsumer.createPushConsumer();
@@ -155,7 +155,7 @@ public class RocketmqApplication {
         }
         catch(Exception ex){
             log.error(ex.getMessage());
-        }
+        }*/
     }
 
     /**
