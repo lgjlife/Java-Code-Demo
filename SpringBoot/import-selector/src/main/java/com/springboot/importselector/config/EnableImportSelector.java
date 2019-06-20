@@ -8,7 +8,9 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Target(ElementType.TYPE)
-@Import({MyImportSelector.class,ImportAutoconfiguration.class})
+@Import({MyImportSelector.class,ImportAutoconfiguration.class,MyImportBeanDefinitionRegistrar.class,LocationRegister.class})
 public @interface EnableImportSelector {
+
+    String value();
 
 }
