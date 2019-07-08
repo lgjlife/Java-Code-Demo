@@ -10,7 +10,7 @@ public class Singleton1 implements Serializable {
         return singleton;
     }
 
-    private Object readResolve(){
+    /*private Object readResolve(){
         return singleton;
-    }
+    }*/
 }

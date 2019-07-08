@@ -72,7 +72,7 @@ public class ResourceConfig extends ResourceServerConfigurerAdapter {
         });
         tokenServices.setRestTemplate(restTemplate);
 
-        tokenServices.setCheckTokenEndpointUrl("http://oauth2-aserver/oauth/check_token");
+        tokenServices.setCheckTokenEndpointUrl("http://oauth2-server/oauth/check_token");
 
         tokenServices.setClientId("client");
         tokenServices.setClientSecret("secret");

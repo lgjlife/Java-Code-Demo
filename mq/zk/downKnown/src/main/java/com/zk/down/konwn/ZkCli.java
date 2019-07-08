@@ -28,7 +28,7 @@ public class ZkCli {
         client = CuratorFrameworkFactory.newClient("127.0.0.1:2181",
                 retryPolicy);
         client.start();
-        log.debug("zookeeper client start....");
+      //  log.debug("zookeeper client start....");
         //  setListener(client);
     }
 
@@ -39,11 +39,11 @@ public class ZkCli {
                     .withMode(CreateMode.EPHEMERAL_SEQUENTIAL)
                     .withACL(ZooDefs.Ids.OPEN_ACL_UNSAFE)
                     .forPath(rootPath+server);
-            log.info("创建结果 = " + result);
+         //   log.info("创建结果 = " + result);
 
         }
         catch(Exception ex){
-            log.error(ex.getMessage());
+         //   log.error(ex.getMessage());
         }
 
 
@@ -51,9 +51,9 @@ public class ZkCli {
 
     @PostConstruct
     public void init(){
-        log.info("ZkCli  init");
+       // log.info("ZkCli  init");
         this.connect();
-        this.create("aserver-1");
+        this.create("server-1");
 
     }
 

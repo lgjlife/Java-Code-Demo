@@ -3,6 +3,7 @@ package com.ch6.redis.Utils;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.util.CollectionUtils;
 
+import java.nio.ByteBuffer;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -21,6 +22,7 @@ import java.util.concurrent.TimeUnit;
 public class RedisUtils {
 
     RedisTemplate<String, Object> redisTemplate;
+
 
     /**
     * @description:  构造函数

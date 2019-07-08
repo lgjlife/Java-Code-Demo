@@ -46,7 +46,7 @@ public class ZkCli {
             log.info("创建结果 = " + result);
            /* client.setData().forPath(rootPath,"aaaa".getBytes());
             for(int i = 0; i< 10; i++){
-              Stat res =  client.setData().forPath(rootPath,(i+aserver).getBytes());
+              Stat res =  client.setData().forPath(rootPath,(i+server).getBytes());
                // log.info("创建结果 = " + res.toString());
             }*/
 
@@ -96,8 +96,8 @@ public class ZkCli {
     public void init(){
         log.info("ZkCli  init");
         this.connect();
-        this.create("aserver-1");
-        this.create2("aserver-5/sub1/"+ new Random().nextInt(100));
+        this.create("server-1");
+        this.create2("server-5/sub1/"+ new Random().nextInt(100));
     }
 
 }

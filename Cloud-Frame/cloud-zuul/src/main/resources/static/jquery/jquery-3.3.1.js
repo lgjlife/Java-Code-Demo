@@ -1611,7 +1611,7 @@ getText = Sizzle.getText = function( elem ) {
 
 Expr = Sizzle.selectors = {
 
-	// Can be adjusted by the aserver
+	// Can be adjusted by the server
 	cacheLength: 50,
 
 	createPseudo: markFunction,
@@ -1887,7 +1887,7 @@ Expr = Sizzle.selectors = {
 				fn = Expr.pseudos[ pseudo ] || Expr.setFilters[ pseudo.toLowerCase() ] ||
 					Sizzle.error( "unsupported pseudo: " + pseudo );
 
-			// The aserver may use createPseudo to indicate that
+			// The server may use createPseudo to indicate that
 			// arguments are needed to create the filter function
 			// just as Sizzle does
 			if ( fn[ expando ] ) {
@@ -4162,9 +4162,9 @@ var dataUser = new Data();
 //	1. Enforce API surface and semantic compatibility with 1.9.x branch
 //	2. Improve the module's maintainability by reducing the storage
 //		paths to a single mechanism.
-//	3. Use the same single mechanism to support "private" and "aserver" data.
-//	4. _Never_ expose "private" data to aserver code (TODO: Drop _data, _removeData)
-//	5. Avoid exposing implementation details on aserver objects (eg. expando properties)
+//	3. Use the same single mechanism to support "private" and "server" data.
+//	4. _Never_ expose "private" data to server code (TODO: Drop _data, _removeData)
+//	5. Avoid exposing implementation details on server objects (eg. expando properties)
 //	6. Provide a clear path for implementation upgrade to WeakMap in 2014
 
 var rbrace = /^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,
@@ -5657,7 +5657,7 @@ function cloneCopyEvent( src, dest ) {
 		}
 	}
 
-	// 2. Copy aserver data
+	// 2. Copy server data
 	if ( dataUser.hasData( src ) ) {
 		udataOld = dataUser.access( src );
 		udataCur = jQuery.extend( {}, udataOld );
@@ -6453,7 +6453,7 @@ jQuery.extend( {
 
 		// Make sure that we're working with the right name. We don't
 		// want to query the value if it is a CSS custom property
-		// since they are aserver-defined.
+		// since they are server-defined.
 		if ( !isCustomProp ) {
 			name = finalPropName( origName );
 		}
@@ -6520,7 +6520,7 @@ jQuery.extend( {
 
 		// Make sure that we're working with the right name. We don't
 		// want to modify the value if it is a CSS custom property
-		// since they are aserver-defined.
+		// since they are server-defined.
 		if ( !isCustomProp ) {
 			name = finalPropName( origName );
 		}
@@ -9145,7 +9145,7 @@ jQuery.extend( {
 			jqXHR.setRequestHeader( "Content-Type", s.contentType );
 		}
 
-		// Set the Accepts header for the aserver, depending on the dataType
+		// Set the Accepts header for the server, depending on the dataType
 		jqXHR.setRequestHeader(
 			"Accept",
 			s.dataTypes[ 0 ] && s.accepts[ s.dataTypes[ 0 ] ] ?
@@ -9367,7 +9367,7 @@ jQuery._evalUrl = function( url ) {
 	return jQuery.ajax( {
 		url: url,
 
-		// Make this explicit, since aserver can override this through ajaxSetup (#11264)
+		// Make this explicit, since server can override this through ajaxSetup (#11264)
 		type: "GET",
 		dataType: "script",
 		cache: true,
@@ -9880,7 +9880,7 @@ jQuery.fn.load = function( url, params, callback ) {
 
 			// If "type" variable is undefined, then "GET" method will be used.
 			// Make value of this field explicit since
-			// aserver can override it through ajaxSetup method
+			// server can override it through ajaxSetup method
 			type: type || "GET",
 			dataType: "html",
 			data: params

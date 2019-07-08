@@ -32,32 +32,32 @@ public class GroupState {
     @FdfsColumn(index = 3)
     long trunkFreeMB;
     /**
-     * storage aserver count
+     * storage server count
      */
     @FdfsColumn(index = 4)
     int storageCount;
     /**
-     * storage aserver port
+     * storage server port
      */
     @FdfsColumn(index = 5)
     int storagePort;
     /**
-     * storage aserver HTTP port
+     * storage server HTTP port
      */
     @FdfsColumn(index = 6)
     int storageHttpPort;
     /**
-     * active storage aserver count
+     * active storage server count
      */
     @FdfsColumn(index = 7)
     int activeCount;
     /**
-     * current storage aserver index to upload file
+     * current storage server index to upload file
      */
     @FdfsColumn(index = 8)
     int currentWriteServer;
     /**
-     * store base path count of each storage aserver
+     * store base path count of each storage server
      */
     @FdfsColumn(index = 9)
     int storePathCount;

@@ -21,6 +21,7 @@ public class ThreadCreate {
 
 
         MyThread3 thread3 = new MyThread3();
+
         FutureTask<Integer> result = new FutureTask<Integer>(thread3);
         Thread  th1 =  new Thread(result);
         th1.start();

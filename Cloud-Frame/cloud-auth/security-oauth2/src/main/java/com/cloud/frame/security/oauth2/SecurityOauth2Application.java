@@ -14,7 +14,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @create: 2018-11-16 16:34
  **/
 
-@MapperScan(basePackages = "com.cloud.frame.security.aserver.dao.mapper")
+@MapperScan(basePackages = "com.cloud.frame.security.server.dao.mapper")
 @EnableEurekaClient
 @SpringBootApplication
 public class SecurityOauth2Application {

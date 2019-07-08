@@ -34,7 +34,7 @@ public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/user1/**").authenticated()
-                .antMatchers("/eureka-aserver-api/**").permitAll()
+                .antMatchers("/eureka-server-api/**").permitAll()
                 .antMatchers("/eureka/**").permitAll()
                 .antMatchers("/cloud-web/web/**").access("hasRole('USER')")//.authenticated()
                 .and()

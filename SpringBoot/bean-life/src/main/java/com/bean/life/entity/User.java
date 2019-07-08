@@ -16,8 +16,14 @@ public class User implements BeanFactoryAware
     , InitializingBean
     , DisposableBean
     ,  ApplicationContextAware
+
 {
 
+
+   /* public User() {
+
+        System.out.println("调用User构造函数");
+    }*/
 
     /**
      *功能描述
@@ -93,5 +99,9 @@ public class User implements BeanFactoryAware
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         System.out.println("ApplicationContextAware setApplicationContext");
+    }
+
+    public void run(){
+        System.out.println("user run........................");
     }
 }

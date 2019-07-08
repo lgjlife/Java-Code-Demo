@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Singleton3 implements Serializable {
 
-    private static Singleton3 singleton = null;
+    private static   Singleton3 singleton = null;
 
     public static Singleton3 getSingleton(){
 

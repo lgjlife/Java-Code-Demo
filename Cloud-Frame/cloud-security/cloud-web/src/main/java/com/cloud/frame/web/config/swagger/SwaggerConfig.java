@@ -39,7 +39,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 //页面标题
-                .title("Cloud-Frame RESTful API 文档 aserver")
+                .title("Cloud-Frame RESTful API 文档 server")
                 //创建人
                 .contact(new Contact("lgj-blog", "https://blog.csdn.net/u011676300", ""))
                 //版本号

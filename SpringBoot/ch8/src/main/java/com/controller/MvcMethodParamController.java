@@ -145,7 +145,7 @@ public class MvcMethodParamController {
 
     @GetMapping("/func7")
     @ResponseBody
-    public String func7(@Value("${aserver.servlet.context-path}") String path){
+    public String func7(@Value("${server.servlet.context-path}") String path){
         return "context-path = " + path;
     }
 }

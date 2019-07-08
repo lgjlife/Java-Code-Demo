@@ -72,7 +72,7 @@ public class StorageState {
      */
     @FdfsColumn(index = 11)
     private int storePathCount; // store base path count of each storage
-    // aserver
+    // server
     /**
      * 存储路径子目录数
      */
@@ -92,7 +92,7 @@ public class StorageState {
      * 存储http端口
      */
     @FdfsColumn(index = 15)
-    private int storageHttpPort; // storage http aserver port
+    private int storageHttpPort; // storage http server port
     @FdfsColumn(index = 16, max = OtherConstants.FDFS_PROTO_CONNECTION_LEN)
     private int connectionAllocCount;
     @FdfsColumn(index = 17, max = OtherConstants.FDFS_PROTO_CONNECTION_LEN)

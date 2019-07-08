@@ -17,5 +17,5 @@ eureka:
 
 spring:
   application:
-    name: cloud-admin-aserver
+    name: cloud-admin-server
 

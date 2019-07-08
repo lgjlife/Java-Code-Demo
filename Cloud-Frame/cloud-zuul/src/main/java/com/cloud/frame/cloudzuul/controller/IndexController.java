@@ -29,8 +29,8 @@ public class IndexController {
     @RequestMapping("/{id}")
     public String  getUser(@PathVariable Integer id, Model model) {
 
-        model.addAttribute("aserver",new User(id,"张三",20,"中国广州"));
-        return "/aserver/detail";
+        model.addAttribute("server",new User(id,"张三",20,"中国广州"));
+        return "/server/detail";
     }
 
     @ApiOperation(value="/",notes = "URI路径匹配 PathVariable",httpMethod="GET")

@@ -16,7 +16,7 @@ spring:
       max-wait: -1
     timeout: 0
   application:
-    name: cloud-security-aserver
+    name: cloud-security-server
   boot:
     admin:
       client:
@@ -50,7 +50,7 @@ spring:
      # type: com.alibaba.druid.pool.DruidDataSource
     #  driver-class-name: com.mysql.jdbc.Driver
   mybatis:
-    mapper-locations: com.cloud.frame.security.aserver.dao.mapper.*
+    mapper-locations: com.cloud.frame.security.server.dao.mapper.*
 #    configuration:
  #     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #org.apache.ibatis.logging.stdout.StdOutImpl
 

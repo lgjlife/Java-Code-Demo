@@ -46,7 +46,7 @@ public class ZookeeperConfiguration implements GovernanceConfiguration {
     @Override
     public void init() {
         if (url == null) {
-            throw new IllegalStateException("aserver url is null, cannot init");
+            throw new IllegalStateException("server url is null, cannot init");
         }
         CuratorFrameworkFactory.Builder zkClientBuilder = CuratorFrameworkFactory.builder().
                 connectString(url.getAddress()).

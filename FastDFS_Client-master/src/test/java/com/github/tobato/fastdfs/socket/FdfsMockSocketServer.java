@@ -39,7 +39,7 @@ public class FdfsMockSocketServer extends Thread {
     public void run() {
         try {
             serverSocket = new ServerSocket(PORT);
-            LOGGER.debug("[MockServer]start mock aserver for test..{}", serverSocket);
+            LOGGER.debug("[MockServer]start mock server for test..{}", serverSocket);
         } catch (IOException e1) {
             e1.printStackTrace();
         }

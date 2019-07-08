@@ -30,12 +30,12 @@ public class ZipkinApplication {
             }*/
 
             pwd();
-            System.out.println("-------------------cd zipkin-aserver");
+            System.out.println("-------------------cd zipkin-server");
 
 
 
 
-            process =  Runtime.getRuntime().exec(new String[] {"/bin/sh", null, "cd zipkin-aserver"});
+            process =  Runtime.getRuntime().exec(new String[] {"/bin/sh", null, "cd zipkin-server"});
             while((len = process.getInputStream().read(in)) != -1){
 
                 System.out.print(new String(in));

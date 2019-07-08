@@ -1,0 +1,5 @@
+server:
+  port: 8142
+logging:
+  level:
+    io.netty: debug
