@@ -43,7 +43,7 @@ public class RpcInvoker implements InvocationHandler, MethodInterceptor {
      * 功能描述
      *
      * @author lgj
-     * @Description cglib
+     * @Description proxy
      * @date 1/27/19
      * @param:
      * @return:

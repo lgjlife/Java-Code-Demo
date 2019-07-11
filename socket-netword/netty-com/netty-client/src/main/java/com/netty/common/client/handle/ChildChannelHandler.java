@@ -22,7 +22,7 @@ public class ChildChannelHandler extends ChannelInitializer<SocketChannel> {
 
 
         pipeline.addLast(new ClientChannelInboundHandlerAdapter());
-        pipeline.addLast(new ClientChannelOutboundHandlerAdapter());
+       // pipeline.addLast(new ClientChannelOutboundHandlerAdapter());
 
     }
 }

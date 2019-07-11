@@ -20,31 +20,17 @@ public class ServerChannelInboundHandlerAdapter extends ChannelInboundHandlerAda
 
     private AtomicInteger recCount = new AtomicInteger(0);
 
-
-    @Override
-    public void channelRegistered(ChannelHandlerContext ctx) throws Exception {
-        super.channelRegistered(ctx);
-
-        log.info("服务端channelRegistered");
-    }
-
-    @Override
-    public void channelUnregistered(ChannelHandlerContext ctx) throws Exception {
-        super.channelUnregistered(ctx);
-        log.info("服务端channelUnregistered");
-        ctx.channel().close();
-    }
-
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         super.channelActive(ctx);
-        log.info("服务端channelActive");
+        log.info("与客户端[{}]建立连接",ctx.channel().remoteAddress());
     }
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         super.channelInactive(ctx);
-        log.info("服务端channelInactive");
+        log.info("与客户端[{}]断开连接",ctx.channel().remoteAddress());
+        ctx.channel().close();
     }
 
     @Override

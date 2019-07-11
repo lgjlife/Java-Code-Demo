@@ -1,53 +1,23 @@
 package com.netty.common.client.handle;
 
 import io.netty.buffer.ByteBuf;
-import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.channel.EventLoop;
 import lombok.extern.slf4j.Slf4j;
 
 
 @Slf4j
 public class ClientChannelInboundHandlerAdapter extends ChannelInboundHandlerAdapter {
-
-    @Override
-    public void channelRegistered(ChannelHandlerContext ctx) throws Exception {
-
-        log.info("客户端 channelRegistered");
-    }
-
-    @Override
-    public void channelUnregistered(ChannelHandlerContext ctx) throws Exception {
-
-        log.info("客户端 channelUnregistered");
-
-        Channel channel = ctx.channel();
-        EventLoop eventLoop =  channel.eventLoop();
-  /*      eventLoop.scheduleAtFixedRate(new Runnable() {
-            @Override
-            public void run() {
-                log.info("客户端连接服务端[{}-{}]失败！重新连接",channel.remoteAddress());
-               // connect(host,port);
-            }
-        },0,3, TimeUnit.SECONDS);*/
-
-
-
-        super.channelUnregistered(ctx);
-
-    }
-
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-
-        log.info("客户端 channelActive");
+        log.info("与服务端[{}]建立连接",ctx.channel().remoteAddress());
+        ctx.fireChannelActive();
     }
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-
-        log.info("客户端 channelInactive");
+        log.info("与服务端[{}]断开连接",ctx.channel().remoteAddress());
+        ctx.fireChannelInactive();
     }
 
     @Override
@@ -55,6 +25,8 @@ public class ClientChannelInboundHandlerAdapter extends ChannelInboundHandlerAda
 
         log.info("客户端 channelRead");
         log.info("客户端接收服务端数据:[{}]",msg);//ToByteBufToString((ByteBuf)msg));
+
+        //ctx.fireChannelRead(msg);
     }
 
     @Override

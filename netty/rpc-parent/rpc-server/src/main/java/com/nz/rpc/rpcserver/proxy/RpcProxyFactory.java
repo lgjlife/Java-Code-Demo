@@ -20,7 +20,7 @@ public class RpcProxyFactory {
     @SuppressWarnings("unchecked")
     public <T> T createInstance(Class<T> cls, boolean isTargetClass) {
         if (isTargetClass) {
-            log.info("use cglib : " + cls.getSimpleName());
+            log.info("use proxy : " + cls.getSimpleName());
             Enhancer enhancer = new Enhancer();
             enhancer.setCallback(rpcInvoker);
             enhancer.setSuperclass(cls);

@@ -13,12 +13,12 @@ import com.code.base.reflect.proxy.JdkProxy;
  * @author lgj
  * 创建代理对象测试：执行10000次
  *  * jdk      : 92    95     83
- *  * cglib    : 355   403    305
+ *  * proxy    : 355   403    305
  *  * javassist: 11783 11707  12970
  *
  * 方法调用时间测试： 执行100000次
  * jdk      : 55 43 65 62 61 35
- * cglib    : 52 52 55 77 50 52
+ * proxy    : 52 52 55 77 50 52
  * javassist: 28 44 36 45 48 34
  *
  *

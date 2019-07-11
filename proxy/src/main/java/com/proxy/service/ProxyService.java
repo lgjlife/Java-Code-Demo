@@ -1,4 +1,4 @@
-package com.proxy.proxy.javassist.proxy;
+package com.proxy.service;
 
 public interface ProxyService {
 

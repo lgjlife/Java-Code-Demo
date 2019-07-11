@@ -17,10 +17,9 @@ public class ChildChannelHandler extends ChannelInitializer<SocketChannel> {
         pipeline.addLast(new NettyMessageDecode(1024*1024,9,
                 4,0,0));
         pipeline.addLast(new NettyMessageEncoder());
-
-
         pipeline.addLast(new ServerChannelInboundHandlerAdapter());
-        pipeline.addLast(new ServerChannelOutboundHandlerAdapter());
+
+        //pipeline.addLast(new ServerChannelOutboundHandlerAdapter());
 
     }
 }

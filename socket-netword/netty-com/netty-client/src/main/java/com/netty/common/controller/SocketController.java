@@ -33,7 +33,7 @@ public class SocketController {
     @RequestMapping("/send/obj")
     public  void sendObject(){
         meaasgeId = 0;
-        for(int i = 0; i< 50; i++) {
+        for(int i = 0; i< 1000; i++) {
             try{
                 //Thread.sleep(10);
             }

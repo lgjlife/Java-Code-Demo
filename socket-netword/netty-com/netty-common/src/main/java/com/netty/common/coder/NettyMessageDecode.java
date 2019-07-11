@@ -8,27 +8,15 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import lombok.extern.slf4j.Slf4j;
 
-import java.nio.ByteOrder;
-
 
 @Slf4j
 public class NettyMessageDecode extends LengthFieldBasedFrameDecoder {
-
-    public NettyMessageDecode(int maxFrameLength, int lengthFieldOffset, int lengthFieldLength) {
-        super(maxFrameLength, lengthFieldOffset, lengthFieldLength);
-    }
 
     public NettyMessageDecode(int maxFrameLength, int lengthFieldOffset, int lengthFieldLength, int lengthAdjustment, int initialBytesToStrip) {
         super(maxFrameLength, lengthFieldOffset, lengthFieldLength);
     }
 
-    public NettyMessageDecode(int maxFrameLength, int lengthFieldOffset, int lengthFieldLength, int lengthAdjustment, int initialBytesToStrip, boolean failFast) {
-        super(maxFrameLength, lengthFieldOffset, lengthFieldLength, lengthAdjustment, initialBytesToStrip, failFast);
-    }
 
-    public NettyMessageDecode(ByteOrder byteOrder, int maxFrameLength, int lengthFieldOffset, int lengthFieldLength, int lengthAdjustment, int initialBytesToStrip, boolean failFast) {
-        super(byteOrder, maxFrameLength, lengthFieldOffset, lengthFieldLength, lengthAdjustment, initialBytesToStrip, failFast);
-    }
 
 
     @Override
@@ -52,7 +40,7 @@ public class NettyMessageDecode extends LengthFieldBasedFrameDecoder {
                     byteBuf.readerIndex(),byteBuf.writerIndex(),byteBuf.readableBytes(),messageLength);
 
 
-           if( byteBuf.readableBytes() <= messageLength ){
+           if( byteBuf.readableBytes() < messageLength ){
 
                 log.debug("readableBytes is less then 100,return!++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++",byteBuf.readableBytes() );
                 return null;

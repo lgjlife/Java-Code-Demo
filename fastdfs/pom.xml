@@ -42,7 +42,7 @@
             <version>${fastDFS.client.version}</version>
         </dependency>-->
 
-        <!-- 反射  cglib-->
+        <!-- 反射  proxy-->
         <!-- https://mvnrepository.com/artifact/cglib/cglib -->
         <dependency>
             <groupId>cglib</groupId>
